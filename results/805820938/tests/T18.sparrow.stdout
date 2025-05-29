@@ -1,0 +1,626 @@
+func main()
+s3_stack = s3
+s4_stack = s4
+s5_stack = s5
+s6_stack = s6
+s1_stack = s1
+s2_stack = s2
+t0 = 4
+s1 = t0
+t0 = 4
+s2 = t0
+t0 = s1
+t0 = alloc(t0)
+s3 = t0
+t0 = s2
+t0 = alloc(t0)
+s4 = t0
+t0 = @A_Fib
+s5 = t0
+t1 = s4
+t0 = s5
+[t1 + 0] = t0
+t1 = s3
+t0 = s4
+[t1 + 0] = t0
+t0 = s3
+if0 t0 goto lbl_NullPtr_5
+goto lbl_GoodPtr_6
+lbl_NullPtr_5:
+error("null pointer")
+lbl_GoodPtr_6:
+t0 = s3
+t2 = t0
+t0 = t2
+if0 t0 goto lbl_NullPtr_9
+t0 = t2
+t0 = [t0 + 0]
+t3 = t0
+t0 = t3
+t0 = [t0 + 0]
+t3 = t0
+t0 = 20
+t4 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t2
+a2 = t0
+t0 = t4
+a3 = t0
+t0 = t3
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t5 = t0
+goto lbl_GoodPtr_10
+lbl_NullPtr_9:
+error("null pointer")
+lbl_GoodPtr_10:
+t0 = t5
+print(t0)
+t0 = 0
+s6 = t0
+v12_1 = s6
+      return v12_1
+
+func A_Fib()
+s3_stack = s3
+s4_stack = s4
+s11_stack = s11
+s5_stack = s5
+s10_stack = s10
+s6_stack = s6
+s7_stack = s7
+s8_stack = s8
+s9_stack = s9
+s1_stack = s1
+s2_stack = s2
+t0 = 4
+s7 = t0
+t0 = 8
+s8 = t0
+t0 = s7
+t0 = alloc(t0)
+s9 = t0
+t0 = s8
+t0 = alloc(t0)
+s10 = t0
+t0 = @B_Helper
+s11 = t0
+t1 = s10
+t0 = s11
+[t1 + 4] = t0
+t0 = @B_Fib
+s1 = t0
+t1 = s10
+t0 = s1
+[t1 + 0] = t0
+t1 = s9
+t0 = s10
+[t1 + 0] = t0
+t0 = s9
+if0 t0 goto lbl_NullPtr_19
+goto lbl_GoodPtr_20
+lbl_NullPtr_19:
+error("null pointer")
+lbl_GoodPtr_20:
+t0 = s9
+t2 = t0
+t0 = 4
+s2 = t0
+t0 = 8
+s5 = t0
+t0 = s2
+t0 = alloc(t0)
+s4 = t0
+t0 = s5
+t0 = alloc(t0)
+s3 = t0
+t0 = @C_Helper
+s6 = t0
+t1 = s3
+t0 = s6
+[t1 + 4] = t0
+t0 = @C_Fib
+s7 = t0
+t1 = s3
+t0 = s7
+[t1 + 0] = t0
+t1 = s4
+t0 = s3
+[t1 + 0] = t0
+t0 = s4
+if0 t0 goto lbl_NullPtr_27
+goto lbl_GoodPtr_28
+lbl_NullPtr_27:
+error("null pointer")
+lbl_GoodPtr_28:
+t0 = s4
+t3 = t0
+t0 = 3
+s8 = t0
+t0 = a3
+t1 = s8
+t0 = t0 < t1
+s11 = t0
+t0 = s11
+if0 t0 goto lbl_Else_29
+t0 = a3
+t4 = t0
+goto lbl_IfEnd_30
+lbl_Else_29:
+t0 = a2
+if0 t0 goto lbl_NullPtr_38
+t0 = a2
+t0 = [t0 + 0]
+t5 = t0
+t0 = t5
+t0 = [t0 + 0]
+t5 = t0
+t0 = 2
+s1 = t0
+t0 = a3
+t1 = s1
+t0 = t0 - t1
+s10 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = a2_stack
+a2 = t0
+t0 = s10
+a3 = t0
+t0 = t5
+t2_stack = t2
+t3_stack = t3
+t4_stack = t4
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t2 = t2_stack
+t3 = t3_stack
+t4 = t4_stack
+s9 = t0
+goto lbl_GoodPtr_39
+lbl_NullPtr_38:
+error("null pointer")
+lbl_GoodPtr_39:
+t0 = a2
+if0 t0 goto lbl_NullPtr_44
+t0 = a2
+t0 = [t0 + 0]
+t5 = t0
+t0 = t5
+t0 = [t0 + 0]
+t5 = t0
+t0 = 1
+s2 = t0
+t0 = a3
+t1 = s2
+t0 = t0 - t1
+s5 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = a2_stack
+a2 = t0
+t0 = s5
+a3 = t0
+t0 = t5
+t2_stack = t2
+t3_stack = t3
+t4_stack = t4
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t2 = t2_stack
+t3 = t3_stack
+t4 = t4_stack
+s6 = t0
+goto lbl_GoodPtr_45
+lbl_NullPtr_44:
+error("null pointer")
+lbl_GoodPtr_45:
+t0 = s9
+t1 = s6
+t0 = t0 + t1
+t5 = t0
+t0 = t2
+if0 t0 goto lbl_NullPtr_50
+t0 = t2
+t0 = [t0 + 0]
+s7 = t0
+t0 = s7
+t0 = [t0 + 0]
+s7 = t0
+t0 = 1
+s3 = t0
+t0 = a3
+t1 = s3
+t0 = t0 - t1
+s4 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t2
+a2 = t0
+t0 = s4
+a3 = t0
+t0 = s7
+t3_stack = t3
+t4_stack = t4
+t5_stack = t5
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t3 = t3_stack
+t4 = t4_stack
+t5 = t5_stack
+s8 = t0
+goto lbl_GoodPtr_51
+lbl_NullPtr_50:
+error("null pointer")
+lbl_GoodPtr_51:
+t0 = t5
+t1 = s8
+t0 = t0 + t1
+t2 = t0
+t0 = t3
+if0 t0 goto lbl_NullPtr_56
+t0 = t3
+t0 = [t0 + 0]
+t5 = t0
+t0 = t5
+t0 = [t0 + 0]
+t5 = t0
+t0 = 1
+s11 = t0
+t0 = a3
+t1 = s11
+t0 = t0 - t1
+s1 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t3
+a2 = t0
+t0 = s1
+a3 = t0
+t0 = t5
+t4_stack = t4
+t2_stack = t2
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t4 = t4_stack
+t2 = t2_stack
+s10 = t0
+goto lbl_GoodPtr_57
+lbl_NullPtr_56:
+error("null pointer")
+lbl_GoodPtr_57:
+t0 = t2
+t1 = s10
+t0 = t0 + t1
+s2 = t0
+t0 = s2
+t4 = t0
+lbl_IfEnd_30:
+rt_2 = t4
+s3 = s3_stack
+s4 = s4_stack
+s11 = s11_stack
+s5 = s5_stack
+s10 = s10_stack
+s6 = s6_stack
+s7 = s7_stack
+s8 = s8_stack
+s9 = s9_stack
+s1 = s1_stack
+s2 = s2_stack
+      return rt_2
+
+func B_Fib()
+s3_stack = s3
+s5_stack = s5
+s6_stack = s6
+s9_stack = s9
+t0 = 3
+s5 = t0
+t0 = a3
+t1 = s5
+t0 = t0 < t1
+s9 = t0
+t0 = s9
+if0 t0 goto lbl_Else_60
+t0 = a3
+t3 = t0
+goto lbl_IfEnd_61
+lbl_Else_60:
+t0 = a2
+if0 t0 goto lbl_NullPtr_67
+t0 = a2
+t0 = [t0 + 0]
+t5 = t0
+t0 = t5
+t0 = [t0 + 0]
+t5 = t0
+t0 = 2
+s6 = t0
+t0 = a3
+t1 = s6
+t0 = t0 - t1
+t2 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = a2_stack
+a2 = t0
+t0 = t2
+a3 = t0
+t0 = t5
+t3_stack = t3
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t3 = t3_stack
+t4 = t0
+goto lbl_GoodPtr_68
+lbl_NullPtr_67:
+error("null pointer")
+lbl_GoodPtr_68:
+t0 = a2
+if0 t0 goto lbl_NullPtr_73
+t0 = a2
+t0 = [t0 + 0]
+t5 = t0
+t0 = t5
+t0 = [t0 + 4]
+t5 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = a2_stack
+a2 = t0
+t0 = a3
+a3 = t0
+t0 = t5
+t3_stack = t3
+t4_stack = t4
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t3 = t3_stack
+t4 = t4_stack
+t2 = t0
+goto lbl_GoodPtr_74
+lbl_NullPtr_73:
+error("null pointer")
+lbl_GoodPtr_74:
+t0 = t4
+t1 = t2
+t0 = t0 + t1
+s3 = t0
+t0 = s3
+t3 = t0
+lbl_IfEnd_61:
+rt_3 = t3
+s3 = s3_stack
+s5 = s5_stack
+s6 = s6_stack
+s9 = s9_stack
+      return rt_3
+
+func B_Helper()
+s4_stack = s4
+s7_stack = s7
+t0 = a2
+if0 t0 goto lbl_NullPtr_77
+t0 = a2
+t0 = [t0 + 0]
+t5 = t0
+t0 = t5
+t0 = [t0 + 0]
+t5 = t0
+t0 = 2
+s7 = t0
+t0 = a3
+t1 = s7
+t0 = t0 - t1
+t4 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = a2_stack
+a2 = t0
+t0 = t4
+a3 = t0
+t0 = t5
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t2 = t0
+goto lbl_GoodPtr_78
+lbl_NullPtr_77:
+error("null pointer")
+lbl_GoodPtr_78:
+t0 = t2
+s4 = t0
+result_4 = s4
+s4 = s4_stack
+s7 = s7_stack
+      return result_4
+
+func C_Fib()
+s5_stack = s5
+s11_stack = s11
+s10_stack = s10
+s6_stack = s6
+s8_stack = s8
+s9_stack = s9
+s1_stack = s1
+s2_stack = s2
+t0 = 4
+s8 = t0
+t0 = a3
+t1 = s8
+t0 = t0 < t1
+s11 = t0
+t0 = s11
+if0 t0 goto lbl_Else_81
+t0 = a3
+t3 = t0
+goto lbl_IfEnd_82
+lbl_Else_81:
+t0 = a2
+if0 t0 goto lbl_NullPtr_89
+t0 = a2
+t0 = [t0 + 0]
+t5 = t0
+t0 = t5
+t0 = [t0 + 4]
+t5 = t0
+t0 = 2
+s1 = t0
+t0 = a3
+t1 = s1
+t0 = t0 - t1
+t4 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = a2_stack
+a2 = t0
+t0 = t4
+a3 = t0
+t0 = t5
+t3_stack = t3
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t3 = t3_stack
+t2 = t0
+goto lbl_GoodPtr_90
+lbl_NullPtr_89:
+error("null pointer")
+lbl_GoodPtr_90:
+t0 = a2
+if0 t0 goto lbl_NullPtr_95
+t0 = a2
+t0 = [t0 + 0]
+t5 = t0
+t0 = t5
+t0 = [t0 + 4]
+t5 = t0
+t0 = 1
+s10 = t0
+t0 = a3
+t1 = s10
+t0 = t0 - t1
+t4 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = a2_stack
+a2 = t0
+t0 = t4
+a3 = t0
+t0 = t5
+t3_stack = t3
+t2_stack = t2
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t3 = t3_stack
+t2 = t2_stack
+s2 = t0
+goto lbl_GoodPtr_96
+lbl_NullPtr_95:
+error("null pointer")
+lbl_GoodPtr_96:
+t0 = t2
+t1 = s2
+t0 = t0 + t1
+t5 = t0
+t0 = a2
+if0 t0 goto lbl_NullPtr_101
+t0 = a2
+t0 = [t0 + 0]
+t4 = t0
+t0 = t4
+t0 = [t0 + 0]
+t4 = t0
+t0 = 3
+s5 = t0
+t0 = a3
+t1 = s5
+t0 = t0 - t1
+t2 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = a2_stack
+a2 = t0
+t0 = t2
+a3 = t0
+t0 = t4
+t3_stack = t3
+t5_stack = t5
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t3 = t3_stack
+t5 = t5_stack
+s9 = t0
+goto lbl_GoodPtr_102
+lbl_NullPtr_101:
+error("null pointer")
+lbl_GoodPtr_102:
+t0 = t5
+t1 = s9
+t0 = t0 + t1
+s6 = t0
+t0 = s6
+t3 = t0
+lbl_IfEnd_82:
+rt_5 = t3
+s5 = s5_stack
+s11 = s11_stack
+s10 = s10_stack
+s6 = s6_stack
+s8 = s8_stack
+s9 = s9_stack
+s1 = s1_stack
+s2 = s2_stack
+      return rt_5
+
+func C_Helper()
+s3_stack = s3
+s7_stack = s7
+t0 = a2
+if0 t0 goto lbl_NullPtr_107
+t0 = a2
+t0 = [t0 + 0]
+t4 = t0
+t0 = t4
+t0 = [t0 + 0]
+t4 = t0
+t0 = 2
+s3 = t0
+t0 = a3
+t1 = s3
+t0 = t0 - t1
+t2 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = a2_stack
+a2 = t0
+t0 = t2
+a3 = t0
+t0 = t4
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t5 = t0
+goto lbl_GoodPtr_108
+lbl_NullPtr_107:
+error("null pointer")
+lbl_GoodPtr_108:
+t0 = t5
+s7 = t0
+result_6 = s7
+s3 = s3_stack
+s7 = s7_stack
+      return result_6
+
+

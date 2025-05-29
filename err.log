@@ -1,0 +1,2974 @@
+openjdk version "21.0.7" 2025-04-15
+OpenJDK Runtime Environment (build 21.0.7+6-Ubuntu-0ubuntu124.04)
+OpenJDK 64-Bit Server VM (build 21.0.7+6-Ubuntu-0ubuntu124.04, mixed mode, sharing)
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: s2_stack = s2 with print value: s2
+Adding instruction: s3_stack = s3 with print value: s3
+Adding instruction: s4_stack = s4 with print value: s4
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: s8_stack = s8 with print value: s8
+Adding instruction: s9_stack = s9 with print value: s9
+Adding instruction: s10_stack = s10 with print value: s10
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: t0 = 4 with print value: t0
+Adding instruction: s1 = t0 with print value: t0
+Adding instruction: t0 = 4 with print value: t0
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: t0 = alloc(t0) with print value: t0
+Adding instruction: t2 = t0 with print value: t0
+Adding instruction: t0 = s2 with print value: t0
+Adding instruction: t0 = alloc(t0) with print value: t0
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: t0 = @LL_Start with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t1 = s3 with print value: t1
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: [t1 + 0] = t0 with print value: t1
+Adding instruction: t1 = t2 with print value: t1
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: [t1 + 0] = t0 with print value: t1
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_5 with no print value.
+Adding instruction: goto lbl_GoodPtr_6 with no print value.
+Adding instruction: lbl_NullPtr_5: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_6: with no print value.
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_9 with no print value.
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: t3 = t0 with print value: t0
+Adding instruction: t0 = t3 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: t3 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = t3 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t0 = call t0(t2_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: t4 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_10 with no print value.
+Adding instruction: lbl_NullPtr_9: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_10: with no print value.
+Adding instruction: t0 = t4 with print value: t0
+Adding instruction: print(t0) with no print value.
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: s5 = t0 with print value: t0
+Adding instruction: v11_1 = s5 with print value: s5
+Adding instruction: s1 = s1_stack with print value: s1
+Adding instruction: s2 = s2_stack with print value: s2
+Adding instruction: s3 = s3_stack with print value: s3
+Adding instruction: s4 = s4_stack with print value: s4
+Adding instruction: s5 = s5_stack with print value: s5
+Adding instruction: s6 = s6_stack with print value: s6
+Adding instruction: s7 = s7_stack with print value: s7
+Adding instruction: s8 = s8_stack with print value: s8
+Adding instruction: s9 = s9_stack with print value: s9
+Adding instruction: s10 = s10_stack with print value: s10
+Adding instruction: s11 = s11_stack with print value: s11
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: s2_stack = s2 with print value: s2
+Adding instruction: s3_stack = s3 with print value: s3
+Adding instruction: s4_stack = s4 with print value: s4
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: s8_stack = s8 with print value: s8
+Adding instruction: s9_stack = s9 with print value: s9
+Adding instruction: s10_stack = s10 with print value: s10
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: s7 = this_2 with print value: s7
+Adding instruction: s8 = v_Age_2 with print value: s8
+Adding instruction: s6 = v_Salary_2 with print value: s6
+Adding instruction: s9 = v_Married_2 with print value: s9
+Adding instruction: t1 = s7 with print value: t1
+Adding instruction: t0 = s8 with print value: t0
+Adding instruction: [t1 + 12] = t0 with print value: t1
+Adding instruction: t1 = s7 with print value: t1
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: [t1 + 4] = t0 with print value: t1
+Adding instruction: t1 = s7 with print value: t1
+Adding instruction: t0 = s9 with print value: t0
+Adding instruction: [t1 + 8] = t0 with print value: t1
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: s10 = t0 with print value: t0
+Adding instruction: v12_2 = s10 with print value: s10
+Adding instruction: s1 = s1_stack with print value: s1
+Adding instruction: s2 = s2_stack with print value: s2
+Adding instruction: s3 = s3_stack with print value: s3
+Adding instruction: s4 = s4_stack with print value: s4
+Adding instruction: s5 = s5_stack with print value: s5
+Adding instruction: s6 = s6_stack with print value: s6
+Adding instruction: s7 = s7_stack with print value: s7
+Adding instruction: s8 = s8_stack with print value: s8
+Adding instruction: s9 = s9_stack with print value: s9
+Adding instruction: s10 = s10_stack with print value: s10
+Adding instruction: s11 = s11_stack with print value: s11
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: s2_stack = s2 with print value: s2
+Adding instruction: s3_stack = s3 with print value: s3
+Adding instruction: s4_stack = s4 with print value: s4
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: s8_stack = s8 with print value: s8
+Adding instruction: s9_stack = s9 with print value: s9
+Adding instruction: s10_stack = s10 with print value: s10
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: t2 = this_3 with print value: t2
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: t0 = [t0 + 12] with print value: t0
+Adding instruction: s11 = t0 with print value: t0
+Adding instruction: v13_3 = s11 with print value: s11
+Adding instruction: s1 = s1_stack with print value: s1
+Adding instruction: s2 = s2_stack with print value: s2
+Adding instruction: s3 = s3_stack with print value: s3
+Adding instruction: s4 = s4_stack with print value: s4
+Adding instruction: s5 = s5_stack with print value: s5
+Adding instruction: s6 = s6_stack with print value: s6
+Adding instruction: s7 = s7_stack with print value: s7
+Adding instruction: s8 = s8_stack with print value: s8
+Adding instruction: s9 = s9_stack with print value: s9
+Adding instruction: s10 = s10_stack with print value: s10
+Adding instruction: s11 = s11_stack with print value: s11
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: s2_stack = s2 with print value: s2
+Adding instruction: s3_stack = s3 with print value: s3
+Adding instruction: s4_stack = s4 with print value: s4
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: s8_stack = s8 with print value: s8
+Adding instruction: s9_stack = s9 with print value: s9
+Adding instruction: s10_stack = s10 with print value: s10
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: t4 = this_4 with print value: t4
+Adding instruction: t0 = t4 with print value: t0
+Adding instruction: t0 = [t0 + 4] with print value: t0
+Adding instruction: t3 = t0 with print value: t0
+Adding instruction: v14_4 = t3 with print value: t3
+Adding instruction: s1 = s1_stack with print value: s1
+Adding instruction: s2 = s2_stack with print value: s2
+Adding instruction: s3 = s3_stack with print value: s3
+Adding instruction: s4 = s4_stack with print value: s4
+Adding instruction: s5 = s5_stack with print value: s5
+Adding instruction: s6 = s6_stack with print value: s6
+Adding instruction: s7 = s7_stack with print value: s7
+Adding instruction: s8 = s8_stack with print value: s8
+Adding instruction: s9 = s9_stack with print value: s9
+Adding instruction: s10 = s10_stack with print value: s10
+Adding instruction: s11 = s11_stack with print value: s11
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: s2_stack = s2 with print value: s2
+Adding instruction: s3_stack = s3 with print value: s3
+Adding instruction: s4_stack = s4 with print value: s4
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: s8_stack = s8 with print value: s8
+Adding instruction: s9_stack = s9 with print value: s9
+Adding instruction: s10_stack = s10 with print value: s10
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: t0 = this_5 with print value: t0
+Adding instruction: t0 = [t0 + 8] with print value: t0
+Adding instruction: v15_5 = t0 with print value: t0
+Adding instruction: s1 = s1_stack with print value: s1
+Adding instruction: s2 = s2_stack with print value: s2
+Adding instruction: s3 = s3_stack with print value: s3
+Adding instruction: s4 = s4_stack with print value: s4
+Adding instruction: s5 = s5_stack with print value: s5
+Adding instruction: s6 = s6_stack with print value: s6
+Adding instruction: s7 = s7_stack with print value: s7
+Adding instruction: s8 = s8_stack with print value: s8
+Adding instruction: s9 = s9_stack with print value: s9
+Adding instruction: s10 = s10_stack with print value: s10
+Adding instruction: s11 = s11_stack with print value: s11
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: s2_stack = s2 with print value: s2
+Adding instruction: s3_stack = s3 with print value: s3
+Adding instruction: s4_stack = s4 with print value: s4
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: s8_stack = s8 with print value: s8
+Adding instruction: s9_stack = s9 with print value: s9
+Adding instruction: s10_stack = s10 with print value: s10
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: t5 = this_6 with print value: t5
+Adding instruction: s1 = other_6 with print value: s1
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: v16_6 = t0 with print value: t0
+Adding instruction: t0 = v16_6 with print value: t0
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_19 with no print value.
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: t0 = [t0 + 8] with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: t0 = call t0(s1_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_20 with no print value.
+Adding instruction: lbl_NullPtr_19: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_20: with no print value.
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: s5 = t0 with print value: t0
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_25 with no print value.
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s6 = t0 with print value: t0
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: t0 = [t0 + 20] with print value: t0
+Adding instruction: s6 = t0 with print value: t0
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: t0 = [t0 + 12] with print value: t0
+Adding instruction: s7 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: t0 = call t0(t5_stack s5_stack s7_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s8 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_26 with no print value.
+Adding instruction: lbl_NullPtr_25: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_26: with no print value.
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = s8 with print value: t0
+Adding instruction: t1 = s4 with print value: t1
+Adding instruction: t0 = t0 < t1 with print value: t0
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: if0 t0 goto lbl_Else_21 with no print value.
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: s5 = t0 with print value: t0
+Adding instruction: t0 = s5 with print value: t0
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: goto lbl_IfEnd_22 with no print value.
+Adding instruction: lbl_Else_21: with no print value.
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_33 with no print value.
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s9 = t0 with print value: t0
+Adding instruction: t0 = s9 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s9 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s9 with print value: t0
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: t0 = call t0(s1_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s10 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_34 with no print value.
+Adding instruction: lbl_NullPtr_33: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_34: with no print value.
+Adding instruction: t0 = s10 with print value: t0
+Adding instruction: s11 = t0 with print value: t0
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_39 with no print value.
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: t2 = t0 with print value: t0
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: t0 = [t0 + 20] with print value: t0
+Adding instruction: t2 = t0 with print value: t0
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: t0 = [t0 + 4] with print value: t0
+Adding instruction: t3 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t0 = call t0(t5_stack s11_stack t3_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: t4 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_40 with no print value.
+Adding instruction: lbl_NullPtr_39: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_40: with no print value.
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: s6 = t0 with print value: t0
+Adding instruction: t0 = t4 with print value: t0
+Adding instruction: t1 = s6 with print value: t1
+Adding instruction: t0 = t0 < t1 with print value: t0
+Adding instruction: s7 = t0 with print value: t0
+Adding instruction: t0 = s7 with print value: t0
+Adding instruction: if0 t0 goto lbl_Else_35 with no print value.
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: s8 = t0 with print value: t0
+Adding instruction: t0 = s8 with print value: t0
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: goto lbl_IfEnd_36 with no print value.
+Adding instruction: lbl_Else_35: with no print value.
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: t0 = [t0 + 8] with print value: t0
+Adding instruction: s9 = t0 with print value: t0
+Adding instruction: t0 = s9 with print value: t0
+Adding instruction: if0 t0 goto lbl_Else_45 with no print value.
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_52 with no print value.
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: t0 = [t0 + 16] with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: t0 = call t0(s1_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_53 with no print value.
+Adding instruction: lbl_NullPtr_52: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_53: with no print value.
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: s10 = t0 with print value: t0
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: t1 = s10 with print value: t1
+Adding instruction: t0 = t0 < t1 with print value: t0
+Adding instruction: s11 = t0 with print value: t0
+Adding instruction: t0 = s11 with print value: t0
+Adding instruction: if0 t0 goto lbl_Else_48 with no print value.
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: t2 = t0 with print value: t0
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: goto lbl_IfEnd_49 with no print value.
+Adding instruction: lbl_Else_48: with no print value.
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: t3 = t0 with print value: t0
+Adding instruction: t0 = t3 with print value: t0
+Adding instruction: t4 = t0 with print value: t0
+Adding instruction: lbl_IfEnd_49: with no print value.
+Adding instruction: goto lbl_IfEnd_46 with no print value.
+Adding instruction: lbl_Else_45: with no print value.
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_62 with no print value.
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s5 = t0 with print value: t0
+Adding instruction: t0 = s5 with print value: t0
+Adding instruction: t0 = [t0 + 16] with print value: t0
+Adding instruction: s5 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s5 with print value: t0
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: t0 = call t0(s1_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s6 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_63 with no print value.
+Adding instruction: lbl_NullPtr_62: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_63: with no print value.
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: if0 t0 goto lbl_Else_58 with no print value.
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: goto lbl_IfEnd_59 with no print value.
+Adding instruction: lbl_Else_58: with no print value.
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: t4 = t0 with print value: t0
+Adding instruction: lbl_IfEnd_59: with no print value.
+Adding instruction: lbl_IfEnd_46: with no print value.
+Adding instruction: lbl_IfEnd_36: with no print value.
+Adding instruction: lbl_IfEnd_22: with no print value.
+Adding instruction: ret_val_6 = s2 with print value: s2
+Adding instruction: s1 = s1_stack with print value: s1
+Adding instruction: s2 = s2_stack with print value: s2
+Adding instruction: s3 = s3_stack with print value: s3
+Adding instruction: s4 = s4_stack with print value: s4
+Adding instruction: s5 = s5_stack with print value: s5
+Adding instruction: s6 = s6_stack with print value: s6
+Adding instruction: s7 = s7_stack with print value: s7
+Adding instruction: s8 = s8_stack with print value: s8
+Adding instruction: s9 = s9_stack with print value: s9
+Adding instruction: s10 = s10_stack with print value: s10
+Adding instruction: s11 = s11_stack with print value: s11
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: s2_stack = s2 with print value: s2
+Adding instruction: s3_stack = s3 with print value: s3
+Adding instruction: s4_stack = s4 with print value: s4
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: s8_stack = s8 with print value: s8
+Adding instruction: s9_stack = s9 with print value: s9
+Adding instruction: s10_stack = s10 with print value: s10
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: s1 = t0 with print value: t0
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: retval_7 = t0 with print value: t0
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: t0 = num2_7 with print value: t0
+Adding instruction: t1 = s2 with print value: t0
+Adding instruction: t0 = t0 + t1 with print value: t0
+Adding instruction: t5 = t0 with print value: t0
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: aux02_7 = t0 with print value: t0
+Adding instruction: t0 = num1_7 with print value: t0
+Adding instruction: t1 = num2_7 with print value: t1
+Adding instruction: t0 = t0 < t1 with print value: t0
+Adding instruction: s5 = t0 with print value: t0
+Adding instruction: t0 = s5 with print value: t0
+Adding instruction: if0 t0 goto lbl_Else_69 with no print value.
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: s6 = t0 with print value: t0
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: retval_7 = t0 with print value: t0
+Adding instruction: goto lbl_IfEnd_70 with no print value.
+Adding instruction: lbl_Else_69: with no print value.
+Adding instruction: t0 = num1_7 with print value: t0
+Adding instruction: t1 = aux02_7 with print value: t1
+Adding instruction: t0 = t0 < t1 with print value: t0
+Adding instruction: v75_7 = t0 with print value: t0
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: v76_7 = t0 with print value: t0
+Adding instruction: t0 = v75_7 with print value: t0
+Adding instruction: t1 = v76_7 with print value: t1
+Adding instruction: t0 = t0 < t1 with print value: t0
+Adding instruction: v77_7 = t0 with print value: t0
+Adding instruction: t0 = v77_7 with print value: t0
+Adding instruction: if0 t0 goto lbl_Else_73 with no print value.
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: v78_7 = t0 with print value: t0
+Adding instruction: t0 = v78_7 with print value: t0
+Adding instruction: retval_7 = t0 with print value: t0
+Adding instruction: goto lbl_IfEnd_74 with no print value.
+Adding instruction: lbl_Else_73: with no print value.
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: v79_7 = t0 with print value: t0
+Adding instruction: t0 = v79_7 with print value: t0
+Adding instruction: retval_7 = t0 with print value: t0
+Adding instruction: lbl_IfEnd_74: with no print value.
+Adding instruction: lbl_IfEnd_70: with no print value.
+Adding instruction: s1 = s1_stack with print value: s1
+Adding instruction: s2 = s2_stack with print value: s2
+Adding instruction: s3 = s3_stack with print value: s3
+Adding instruction: s4 = s4_stack with print value: s4
+Adding instruction: s5 = s5_stack with print value: s5
+Adding instruction: s6 = s6_stack with print value: s6
+Adding instruction: s7 = s7_stack with print value: s7
+Adding instruction: s8 = s8_stack with print value: s8
+Adding instruction: s9 = s9_stack with print value: s9
+Adding instruction: s10 = s10_stack with print value: s10
+Adding instruction: s11 = s11_stack with print value: s11
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: s2_stack = s2 with print value: s2
+Adding instruction: s3_stack = s3 with print value: s3
+Adding instruction: s4_stack = s4 with print value: s4
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: s8_stack = s8 with print value: s8
+Adding instruction: s9_stack = s9 with print value: s9
+Adding instruction: s10_stack = s10 with print value: s10
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: v80_8 = t0 with print value: t0
+Adding instruction: t1 = this_8 with print value: t1
+Adding instruction: t0 = v80_8 with print value: t0
+Adding instruction: [t1 + 12] = t0 with print value: t1
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: v81_8 = t0 with print value: t0
+Adding instruction: s1 = s1_stack with print value: s1
+Adding instruction: s2 = s2_stack with print value: s2
+Adding instruction: s3 = s3_stack with print value: s3
+Adding instruction: s4 = s4_stack with print value: s4
+Adding instruction: s5 = s5_stack with print value: s5
+Adding instruction: s6 = s6_stack with print value: s6
+Adding instruction: s7 = s7_stack with print value: s7
+Adding instruction: s8 = s8_stack with print value: s8
+Adding instruction: s9 = s9_stack with print value: s9
+Adding instruction: s10 = s10_stack with print value: s10
+Adding instruction: s11 = s11_stack with print value: s11
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: s2_stack = s2 with print value: s2
+Adding instruction: s3_stack = s3 with print value: s3
+Adding instruction: s4_stack = s4 with print value: s4
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: s8_stack = s8 with print value: s8
+Adding instruction: s9_stack = s9 with print value: s9
+Adding instruction: s10_stack = s10 with print value: s10
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: t1 = this_9 with print value: t1
+Adding instruction: t0 = v_end_9 with print value: t0
+Adding instruction: [t1 + 12] = t0 with print value: t1
+Adding instruction: t1 = this_9 with print value: t1
+Adding instruction: t0 = v_elem_9 with print value: t0
+Adding instruction: [t1 + 4] = t0 with print value: t1
+Adding instruction: t1 = this_9 with print value: t1
+Adding instruction: t0 = v_next_9 with print value: t0
+Adding instruction: [t1 + 8] = t0 with print value: t1
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: v82_9 = t0 with print value: t0
+Adding instruction: s1 = s1_stack with print value: s1
+Adding instruction: s2 = s2_stack with print value: s2
+Adding instruction: s3 = s3_stack with print value: s3
+Adding instruction: s4 = s4_stack with print value: s4
+Adding instruction: s5 = s5_stack with print value: s5
+Adding instruction: s6 = s6_stack with print value: s6
+Adding instruction: s7 = s7_stack with print value: s7
+Adding instruction: s8 = s8_stack with print value: s8
+Adding instruction: s9 = s9_stack with print value: s9
+Adding instruction: s10 = s10_stack with print value: s10
+Adding instruction: s11 = s11_stack with print value: s11
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: s2_stack = s2 with print value: s2
+Adding instruction: s3_stack = s3 with print value: s3
+Adding instruction: s4_stack = s4 with print value: s4
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: s8_stack = s8 with print value: s8
+Adding instruction: s9_stack = s9 with print value: s9
+Adding instruction: s10_stack = s10 with print value: s10
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: t0 = this_10 with print value: t0
+Adding instruction: aux03_10 = t0 with print value: t0
+Adding instruction: t0 = 16 with print value: t0
+Adding instruction: s9 = t0 with print value: t0
+Adding instruction: t0 = 40 with print value: t0
+Adding instruction: s8 = t0 with print value: t0
+Adding instruction: t0 = s9 with print value: t0
+Adding instruction: t0 = alloc(t0) with print value: t0
+Adding instruction: v85_10 = t0 with print value: t0
+Adding instruction: t0 = s8 with print value: t0
+Adding instruction: t0 = alloc(t0) with print value: t0
+Adding instruction: v86_10 = t0 with print value: t0
+Adding instruction: t0 = @List_Delete with print value: t0
+Adding instruction: s8 = t0 with print value: t0
+Adding instruction: t1 = v86_10 with print value: t1
+Adding instruction: t0 = s8 with print value: t0
+Adding instruction: [t1 + 0] = t0 with print value: t1
+Adding instruction: t0 = @List_Print with print value: t0
+Adding instruction: s7 = t0 with print value: t0
+Adding instruction: t1 = v86_10 with print value: t1
+Adding instruction: t0 = s7 with print value: t0
+Adding instruction: [t1 + 4] = t0 with print value: t1
+Adding instruction: t0 = @List_Init with print value: t0
+Adding instruction: s7 = t0 with print value: t0
+Adding instruction: t1 = v86_10 with print value: t1
+Adding instruction: t0 = s7 with print value: t0
+Adding instruction: [t1 + 8] = t0 with print value: t1
+Adding instruction: t0 = @List_GetElem with print value: t0
+Adding instruction: s9 = t0 with print value: t0
+Adding instruction: t1 = v86_10 with print value: t1
+Adding instruction: t0 = s9 with print value: t0
+Adding instruction: [t1 + 12] = t0 with print value: t1
+Adding instruction: t0 = @List_GetNext with print value: t0
+Adding instruction: v91_10 = t0 with print value: t0
+Adding instruction: t1 = v86_10 with print value: t1
+Adding instruction: t0 = v91_10 with print value: t0
+Adding instruction: [t1 + 16] = t0 with print value: t1
+Adding instruction: t0 = @List_SetNext with print value: t0
+Adding instruction: v92_10 = t0 with print value: t0
+Adding instruction: t1 = v86_10 with print value: t1
+Adding instruction: t0 = v92_10 with print value: t0
+Adding instruction: [t1 + 20] = t0 with print value: t1
+Adding instruction: t0 = @List_Search with print value: t0
+Adding instruction: v93_10 = t0 with print value: t0
+Adding instruction: t1 = v86_10 with print value: t1
+Adding instruction: t0 = v93_10 with print value: t0
+Adding instruction: [t1 + 24] = t0 with print value: t1
+Adding instruction: t0 = @List_GetEnd with print value: t0
+Adding instruction: v94_10 = t0 with print value: t0
+Adding instruction: t1 = v86_10 with print value: t1
+Adding instruction: t0 = v94_10 with print value: t0
+Adding instruction: [t1 + 28] = t0 with print value: t1
+Adding instruction: t0 = @List_InitNew with print value: t0
+Adding instruction: v95_10 = t0 with print value: t0
+Adding instruction: t1 = v86_10 with print value: t1
+Adding instruction: t0 = v95_10 with print value: t0
+Adding instruction: [t1 + 32] = t0 with print value: t1
+Adding instruction: t0 = @List_Insert with print value: t0
+Adding instruction: v96_10 = t0 with print value: t0
+Adding instruction: t1 = v86_10 with print value: t1
+Adding instruction: t0 = v96_10 with print value: t0
+Adding instruction: [t1 + 36] = t0 with print value: t1
+Adding instruction: t1 = v85_10 with print value: t1
+Adding instruction: t0 = v86_10 with print value: t0
+Adding instruction: [t1 + 0] = t0 with print value: t1
+Adding instruction: t0 = v85_10 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_97 with no print value.
+Adding instruction: goto lbl_GoodPtr_98 with no print value.
+Adding instruction: lbl_NullPtr_97: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_98: with no print value.
+Adding instruction: t0 = v85_10 with print value: t0
+Adding instruction: s10 = t0 with print value: t0
+Adding instruction: t0 = s10 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_101 with no print value.
+Adding instruction: t0 = s10 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s11 = t0 with print value: t0
+Adding instruction: t0 = s11 with print value: t0
+Adding instruction: t0 = [t0 + 32] with print value: t0
+Adding instruction: s11 = t0 with print value: t0
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: t2 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s11 with print value: t0
+Adding instruction: s10_stack = s10 with print value: s10
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t0 = call t0(s10_stack new_elem_10 aux03_10 t2_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: t3 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_102 with no print value.
+Adding instruction: lbl_NullPtr_101: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_102: with no print value.
+Adding instruction: t0 = t3 with print value: t0
+Adding instruction: s11 = t0 with print value: t0
+Adding instruction: aux02_10 = s10 with print value: s10
+Adding instruction: s1 = s1_stack with print value: s1
+Adding instruction: s2 = s2_stack with print value: s2
+Adding instruction: s3 = s3_stack with print value: s3
+Adding instruction: s4 = s4_stack with print value: s4
+Adding instruction: s5 = s5_stack with print value: s5
+Adding instruction: s6 = s6_stack with print value: s6
+Adding instruction: s7 = s7_stack with print value: s7
+Adding instruction: s8 = s8_stack with print value: s8
+Adding instruction: s9 = s9_stack with print value: s9
+Adding instruction: s10 = s10_stack with print value: s10
+Adding instruction: s11 = s11_stack with print value: s11
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: s2_stack = s2 with print value: s2
+Adding instruction: s3_stack = s3 with print value: s3
+Adding instruction: s4_stack = s4 with print value: s4
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: s8_stack = s8 with print value: s8
+Adding instruction: s9_stack = s9 with print value: s9
+Adding instruction: s10_stack = s10 with print value: s10
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: t3 = this_11 with print value: t3
+Adding instruction: t2 = v_next_11 with print value: t2
+Adding instruction: t1 = t3 with print value: t1
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: [t1 + 8] = t0 with print value: t1
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: s10 = t0 with print value: t0
+Adding instruction: v104_11 = s10 with print value: s10
+Adding instruction: s1 = s1_stack with print value: s1
+Adding instruction: s2 = s2_stack with print value: s2
+Adding instruction: s3 = s3_stack with print value: s3
+Adding instruction: s4 = s4_stack with print value: s4
+Adding instruction: s5 = s5_stack with print value: s5
+Adding instruction: s6 = s6_stack with print value: s6
+Adding instruction: s7 = s7_stack with print value: s7
+Adding instruction: s8 = s8_stack with print value: s8
+Adding instruction: s9 = s9_stack with print value: s9
+Adding instruction: s10 = s10_stack with print value: s10
+Adding instruction: s11 = s11_stack with print value: s11
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: s2_stack = s2 with print value: s2
+Adding instruction: s3_stack = s3 with print value: s3
+Adding instruction: s4_stack = s4 with print value: s4
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: s8_stack = s8 with print value: s8
+Adding instruction: s9_stack = s9 with print value: s9
+Adding instruction: s10_stack = s10 with print value: s10
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: t0 = this_12 with print value: t0
+Adding instruction: my_head_12 = t0 with print value: t0
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: s1 = t0 with print value: t0
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: t1 = s4 with print value: t0
+Adding instruction: t0 = t0 - t1 with print value: t0
+Adding instruction: t4 = t0 with print value: t0
+Adding instruction: t0 = t4 with print value: t0
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: t0 = this_12 with print value: t0
+Adding instruction: t5 = t0 with print value: t0
+Adding instruction: t0 = this_12 with print value: t0
+Adding instruction: s5 = t0 with print value: t0
+Adding instruction: t0 = this_12 with print value: t0
+Adding instruction: t0 = [t0 + 12] with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: s6 = t0 with print value: t0
+Adding instruction: t0 = this_12 with print value: t0
+Adding instruction: t0 = [t0 + 4] with print value: t0
+Adding instruction: t4 = t0 with print value: t0
+Adding instruction: t0 = t4 with print value: t0
+Adding instruction: s8 = t0 with print value: t0
+Adding instruction: lbl_While_111: with no print value.
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: s7 = t0 with print value: t0
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: t1 = s7 with print value: t1
+Adding instruction: t0 = t0 < t1 with print value: t0
+Adding instruction: s9 = t0 with print value: t0
+Adding instruction: t0 = s9 with print value: t0
+Adding instruction: if0 t0 goto lbl_FullAnd_114 with no print value.
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: s11 = t0 with print value: t0
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: t1 = s11 with print value: t1
+Adding instruction: t0 = t0 < t1 with print value: t0
+Adding instruction: t2 = t0 with print value: t0
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: t3 = t0 with print value: t0
+Adding instruction: goto lbl_ShortAnd_115 with no print value.
+Adding instruction: lbl_FullAnd_114: with no print value.
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: t3 = t0 with print value: t0
+Adding instruction: lbl_ShortAnd_115: with no print value.
+Adding instruction: t0 = t3 with print value: t0
+Adding instruction: if0 t0 goto lbl_WhileExit_112 with no print value.
+Adding instruction: t0 = e_12 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_124 with no print value.
+Adding instruction: t0 = e_12 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s10 = t0 with print value: t0
+Adding instruction: t0 = s10 with print value: t0
+Adding instruction: t0 = [t0 + 12] with print value: t0
+Adding instruction: s10 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s10 with print value: t0
+Adding instruction: s8_stack = s8 with print value: s8
+Adding instruction: t0 = call t0(e_12 s8_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_125 with no print value.
+Adding instruction: lbl_NullPtr_124: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_125: with no print value.
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: if0 t0 goto lbl_Else_120 with no print value.
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: s1 = t0 with print value: t0
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: t4 = t0 with print value: t0
+Adding instruction: t0 = s2 with print value: t0
+Adding instruction: t1 = t4 with print value: t1
+Adding instruction: t0 = t0 < t1 with print value: t0
+Adding instruction: v129_12 = t0 with print value: t0
+Adding instruction: t0 = v129_12 with print value: t0
+Adding instruction: if0 t0 goto lbl_Else_127 with no print value.
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_133 with no print value.
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: v131_12 = t0 with print value: t0
+Adding instruction: t0 = v131_12 with print value: t0
+Adding instruction: t0 = [t0 + 16] with print value: t0
+Adding instruction: v131_12 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = v131_12 with print value: t0
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: t0 = call t0(t5_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: v132_12 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_134 with no print value.
+Adding instruction: lbl_NullPtr_133: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_134: with no print value.
+Adding instruction: t0 = v132_12 with print value: t0
+Adding instruction: my_head_12 = t0 with print value: t0
+Adding instruction: goto lbl_IfEnd_128 with no print value.
+Adding instruction: lbl_Else_127: with no print value.
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: v136_12 = t0 with print value: t0
+Adding instruction: t0 = 555 with print value: t0
+Adding instruction: v137_12 = t0 with print value: t0
+Adding instruction: t0 = v136_12 with print value: t0
+Adding instruction: t1 = v137_12 with print value: t0
+Adding instruction: t0 = t0 - t1 with print value: t0
+Adding instruction: v135_12 = t0 with print value: t0
+Adding instruction: t0 = v135_12 with print value: t0
+Adding instruction: print(t0) with no print value.
+Adding instruction: t0 = s5 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_140 with no print value.
+Adding instruction: t0 = s5 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: v138_12 = t0 with print value: t0
+Adding instruction: t0 = v138_12 with print value: t0
+Adding instruction: t0 = [t0 + 20] with print value: t0
+Adding instruction: v138_12 = t0 with print value: t0
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_144 with no print value.
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: v142_12 = t0 with print value: t0
+Adding instruction: t0 = v142_12 with print value: t0
+Adding instruction: t0 = [t0 + 16] with print value: t0
+Adding instruction: v142_12 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = v142_12 with print value: t0
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: t0 = call t0(t5_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: v143_12 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_145 with no print value.
+Adding instruction: lbl_NullPtr_144: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_145: with no print value.
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = v138_12 with print value: t0
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: t0 = call t0(s5_stack v143_12) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: v139_12 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_141 with no print value.
+Adding instruction: lbl_NullPtr_140: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_141: with no print value.
+Adding instruction: t0 = v139_12 with print value: t0
+Adding instruction: aux05_12 = t0 with print value: t0
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: v147_12 = t0 with print value: t0
+Adding instruction: t0 = 555 with print value: t0
+Adding instruction: v148_12 = t0 with print value: t0
+Adding instruction: t0 = v147_12 with print value: t0
+Adding instruction: t1 = v148_12 with print value: t0
+Adding instruction: t0 = t0 - t1 with print value: t0
+Adding instruction: v146_12 = t0 with print value: t0
+Adding instruction: t0 = v146_12 with print value: t0
+Adding instruction: print(t0) with no print value.
+Adding instruction: lbl_IfEnd_128: with no print value.
+Adding instruction: goto lbl_IfEnd_121 with no print value.
+Adding instruction: lbl_Else_120: with no print value.
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: v149_12 = t0 with print value: t0
+Adding instruction: t0 = v149_12 with print value: t0
+Adding instruction: nt_12 = t0 with print value: t0
+Adding instruction: lbl_IfEnd_121: with no print value.
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: v152_12 = t0 with print value: t0
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: t1 = v152_12 with print value: t1
+Adding instruction: t0 = t0 < t1 with print value: t0
+Adding instruction: v153_12 = t0 with print value: t0
+Adding instruction: t0 = v153_12 with print value: t0
+Adding instruction: if0 t0 goto lbl_Else_150 with no print value.
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: s5 = t0 with print value: t0
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_156 with no print value.
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: v154_12 = t0 with print value: t0
+Adding instruction: t0 = v154_12 with print value: t0
+Adding instruction: t0 = [t0 + 16] with print value: t0
+Adding instruction: v154_12 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = v154_12 with print value: t0
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: t0 = call t0(t5_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: v155_12 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_157 with no print value.
+Adding instruction: lbl_NullPtr_156: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_157: with no print value.
+Adding instruction: t0 = v155_12 with print value: t0
+Adding instruction: t5 = t0 with print value: t0
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_160 with no print value.
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: v158_12 = t0 with print value: t0
+Adding instruction: t0 = v158_12 with print value: t0
+Adding instruction: t0 = [t0 + 28] with print value: t0
+Adding instruction: v158_12 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = v158_12 with print value: t0
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: t0 = call t0(t5_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: v159_12 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_161 with no print value.
+Adding instruction: lbl_NullPtr_160: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_161: with no print value.
+Adding instruction: t0 = v159_12 with print value: t0
+Adding instruction: s6 = t0 with print value: t0
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_164 with no print value.
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: v162_12 = t0 with print value: t0
+Adding instruction: t0 = v162_12 with print value: t0
+Adding instruction: t0 = [t0 + 12] with print value: t0
+Adding instruction: v162_12 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = v162_12 with print value: t0
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: t0 = call t0(t5_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: v163_12 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_165 with no print value.
+Adding instruction: lbl_NullPtr_164: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_165: with no print value.
+Adding instruction: t0 = v163_12 with print value: t0
+Adding instruction: s8 = t0 with print value: t0
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: v166_12 = t0 with print value: t0
+Adding instruction: t0 = v166_12 with print value: t0
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: goto lbl_IfEnd_151 with no print value.
+Adding instruction: lbl_Else_150: with no print value.
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: v167_12 = t0 with print value: t0
+Adding instruction: t0 = v167_12 with print value: t0
+Adding instruction: nt_12 = t0 with print value: t0
+Adding instruction: lbl_IfEnd_151: with no print value.
+Adding instruction: goto lbl_While_111 with no print value.
+Adding instruction: lbl_WhileExit_112: with no print value.
+Adding instruction: s1 = s1_stack with print value: s1
+Adding instruction: s2 = s2_stack with print value: s2
+Adding instruction: s3 = s3_stack with print value: s3
+Adding instruction: s4 = s4_stack with print value: s4
+Adding instruction: s5 = s5_stack with print value: s5
+Adding instruction: s6 = s6_stack with print value: s6
+Adding instruction: s7 = s7_stack with print value: s7
+Adding instruction: s8 = s8_stack with print value: s8
+Adding instruction: s9 = s9_stack with print value: s9
+Adding instruction: s10 = s10_stack with print value: s10
+Adding instruction: s11 = s11_stack with print value: s11
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: s2_stack = s2 with print value: s2
+Adding instruction: s3_stack = s3 with print value: s3
+Adding instruction: s4_stack = s4 with print value: s4
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: s8_stack = s8 with print value: s8
+Adding instruction: s9_stack = s9 with print value: s9
+Adding instruction: s10_stack = s10 with print value: s10
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: s1 = t0 with print value: t0
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: int_ret_val_13 = t0 with print value: t0
+Adding instruction: t0 = this_13 with print value: t0
+Adding instruction: s1 = t0 with print value: t0
+Adding instruction: t0 = this_13 with print value: t0
+Adding instruction: t0 = [t0 + 12] with print value: t0
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: t0 = s2 with print value: t0
+Adding instruction: var_end_13 = t0 with print value: t0
+Adding instruction: t0 = this_13 with print value: t0
+Adding instruction: t0 = [t0 + 4] with print value: t0
+Adding instruction: t5 = t0 with print value: t0
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: lbl_While_171: with no print value.
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: t5 = t0 with print value: t0
+Adding instruction: t0 = var_end_13 with print value: t0
+Adding instruction: t1 = t5 with print value: t1
+Adding instruction: t0 = t0 < t1 with print value: t0
+Adding instruction: v174_13 = t0 with print value: t0
+Adding instruction: t0 = v174_13 with print value: t0
+Adding instruction: if0 t0 goto lbl_WhileExit_172 with no print value.
+Adding instruction: t0 = e_13 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_179 with no print value.
+Adding instruction: t0 = e_13 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: v177_13 = t0 with print value: t0
+Adding instruction: t0 = v177_13 with print value: t0
+Adding instruction: t0 = [t0 + 12] with print value: t0
+Adding instruction: v177_13 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = v177_13 with print value: t0
+Adding instruction: s2_stack = s2 with print value: s2
+Adding instruction: t0 = call t0(e_13 s2_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: v178_13 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_180 with no print value.
+Adding instruction: lbl_NullPtr_179: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_180: with no print value.
+Adding instruction: t0 = v178_13 with print value: t0
+Adding instruction: if0 t0 goto lbl_Else_175 with no print value.
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: v181_13 = t0 with print value: t0
+Adding instruction: t0 = v181_13 with print value: t0
+Adding instruction: int_ret_val_13 = t0 with print value: t0
+Adding instruction: goto lbl_IfEnd_176 with no print value.
+Adding instruction: lbl_Else_175: with no print value.
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: v182_13 = t0 with print value: t0
+Adding instruction: t0 = v182_13 with print value: t0
+Adding instruction: nt_13 = t0 with print value: t0
+Adding instruction: lbl_IfEnd_176: with no print value.
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_185 with no print value.
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: v183_13 = t0 with print value: t0
+Adding instruction: t0 = v183_13 with print value: t0
+Adding instruction: t0 = [t0 + 16] with print value: t0
+Adding instruction: v183_13 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = v183_13 with print value: t0
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: t0 = call t0(s1_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: v184_13 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_186 with no print value.
+Adding instruction: lbl_NullPtr_185: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_186: with no print value.
+Adding instruction: t0 = v184_13 with print value: t0
+Adding instruction: s1 = t0 with print value: t0
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_189 with no print value.
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: v187_13 = t0 with print value: t0
+Adding instruction: t0 = v187_13 with print value: t0
+Adding instruction: t0 = [t0 + 28] with print value: t0
+Adding instruction: v187_13 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = v187_13 with print value: t0
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: t0 = call t0(s1_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: v188_13 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_190 with no print value.
+Adding instruction: lbl_NullPtr_189: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_190: with no print value.
+Adding instruction: t0 = v188_13 with print value: t0
+Adding instruction: var_end_13 = t0 with print value: t0
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_193 with no print value.
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: v191_13 = t0 with print value: t0
+Adding instruction: t0 = v191_13 with print value: t0
+Adding instruction: t0 = [t0 + 12] with print value: t0
+Adding instruction: v191_13 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = v191_13 with print value: t0
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: t0 = call t0(s1_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: v192_13 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_194 with no print value.
+Adding instruction: lbl_NullPtr_193: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_194: with no print value.
+Adding instruction: t0 = v192_13 with print value: t0
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: goto lbl_While_171 with no print value.
+Adding instruction: lbl_WhileExit_172: with no print value.
+Adding instruction: s1 = s1_stack with print value: s1
+Adding instruction: s2 = s2_stack with print value: s2
+Adding instruction: s3 = s3_stack with print value: s3
+Adding instruction: s4 = s4_stack with print value: s4
+Adding instruction: s5 = s5_stack with print value: s5
+Adding instruction: s6 = s6_stack with print value: s6
+Adding instruction: s7 = s7_stack with print value: s7
+Adding instruction: s8 = s8_stack with print value: s8
+Adding instruction: s9 = s9_stack with print value: s9
+Adding instruction: s10 = s10_stack with print value: s10
+Adding instruction: s11 = s11_stack with print value: s11
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: s2_stack = s2 with print value: s2
+Adding instruction: s3_stack = s3 with print value: s3
+Adding instruction: s4_stack = s4 with print value: s4
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: s8_stack = s8 with print value: s8
+Adding instruction: s9_stack = s9 with print value: s9
+Adding instruction: s10_stack = s10 with print value: s10
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: s6 = this_14 with print value: s6
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: t0 = [t0 + 12] with print value: t0
+Adding instruction: s5 = t0 with print value: t0
+Adding instruction: v195_14 = s5 with print value: s5
+Adding instruction: s1 = s1_stack with print value: s1
+Adding instruction: s2 = s2_stack with print value: s2
+Adding instruction: s3 = s3_stack with print value: s3
+Adding instruction: s4 = s4_stack with print value: s4
+Adding instruction: s5 = s5_stack with print value: s5
+Adding instruction: s6 = s6_stack with print value: s6
+Adding instruction: s7 = s7_stack with print value: s7
+Adding instruction: s8 = s8_stack with print value: s8
+Adding instruction: s9 = s9_stack with print value: s9
+Adding instruction: s10 = s10_stack with print value: s10
+Adding instruction: s11 = s11_stack with print value: s11
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: s2_stack = s2 with print value: s2
+Adding instruction: s3_stack = s3 with print value: s3
+Adding instruction: s4_stack = s4 with print value: s4
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: s8_stack = s8 with print value: s8
+Adding instruction: s9_stack = s9 with print value: s9
+Adding instruction: s10_stack = s10 with print value: s10
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: s7 = this_15 with print value: s7
+Adding instruction: t0 = s7 with print value: t0
+Adding instruction: t0 = [t0 + 4] with print value: t0
+Adding instruction: s8 = t0 with print value: t0
+Adding instruction: v196_15 = s8 with print value: s8
+Adding instruction: s1 = s1_stack with print value: s1
+Adding instruction: s2 = s2_stack with print value: s2
+Adding instruction: s3 = s3_stack with print value: s3
+Adding instruction: s4 = s4_stack with print value: s4
+Adding instruction: s5 = s5_stack with print value: s5
+Adding instruction: s6 = s6_stack with print value: s6
+Adding instruction: s7 = s7_stack with print value: s7
+Adding instruction: s8 = s8_stack with print value: s8
+Adding instruction: s9 = s9_stack with print value: s9
+Adding instruction: s10 = s10_stack with print value: s10
+Adding instruction: s11 = s11_stack with print value: s11
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: s2_stack = s2 with print value: s2
+Adding instruction: s3_stack = s3 with print value: s3
+Adding instruction: s4_stack = s4 with print value: s4
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: s8_stack = s8 with print value: s8
+Adding instruction: s9_stack = s9 with print value: s9
+Adding instruction: s10_stack = s10 with print value: s10
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: s9 = this_16 with print value: s9
+Adding instruction: t0 = s9 with print value: t0
+Adding instruction: t0 = [t0 + 8] with print value: t0
+Adding instruction: s11 = t0 with print value: t0
+Adding instruction: v197_16 = s11 with print value: s11
+Adding instruction: s1 = s1_stack with print value: s1
+Adding instruction: s2 = s2_stack with print value: s2
+Adding instruction: s3 = s3_stack with print value: s3
+Adding instruction: s4 = s4_stack with print value: s4
+Adding instruction: s5 = s5_stack with print value: s5
+Adding instruction: s6 = s6_stack with print value: s6
+Adding instruction: s7 = s7_stack with print value: s7
+Adding instruction: s8 = s8_stack with print value: s8
+Adding instruction: s9 = s9_stack with print value: s9
+Adding instruction: s10 = s10_stack with print value: s10
+Adding instruction: s11 = s11_stack with print value: s11
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: s2_stack = s2 with print value: s2
+Adding instruction: s3_stack = s3 with print value: s3
+Adding instruction: s4_stack = s4 with print value: s4
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: s8_stack = s8 with print value: s8
+Adding instruction: s9_stack = s9 with print value: s9
+Adding instruction: s10_stack = s10 with print value: s10
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: t0 = this_17 with print value: t0
+Adding instruction: s6 = t0 with print value: t0
+Adding instruction: t0 = this_17 with print value: t0
+Adding instruction: t0 = [t0 + 12] with print value: t0
+Adding instruction: t2 = t0 with print value: t0
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: s8 = t0 with print value: t0
+Adding instruction: t0 = this_17 with print value: t0
+Adding instruction: t0 = [t0 + 4] with print value: t0
+Adding instruction: t3 = t0 with print value: t0
+Adding instruction: t0 = t3 with print value: t0
+Adding instruction: s7 = t0 with print value: t0
+Adding instruction: lbl_While_200: with no print value.
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: s9 = t0 with print value: t0
+Adding instruction: t0 = s8 with print value: t0
+Adding instruction: t1 = s9 with print value: t1
+Adding instruction: t0 = t0 < t1 with print value: t0
+Adding instruction: s11 = t0 with print value: t0
+Adding instruction: t0 = s11 with print value: t0
+Adding instruction: if0 t0 goto lbl_WhileExit_201 with no print value.
+Adding instruction: t0 = s7 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_206 with no print value.
+Adding instruction: t0 = s7 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: t2 = t0 with print value: t0
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: t0 = [t0 + 8] with print value: t0
+Adding instruction: t2 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: t0 = call t0(s7_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: t3 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_207 with no print value.
+Adding instruction: lbl_NullPtr_206: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_207: with no print value.
+Adding instruction: t0 = t3 with print value: t0
+Adding instruction: print(t0) with no print value.
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_210 with no print value.
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s5 = t0 with print value: t0
+Adding instruction: t0 = s5 with print value: t0
+Adding instruction: t0 = [t0 + 16] with print value: t0
+Adding instruction: s5 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s5 with print value: t0
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: t0 = call t0(s6_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: v209_17 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_211 with no print value.
+Adding instruction: lbl_NullPtr_210: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_211: with no print value.
+Adding instruction: t0 = v209_17 with print value: t0
+Adding instruction: s6 = t0 with print value: t0
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_214 with no print value.
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: v212_17 = t0 with print value: t0
+Adding instruction: t0 = v212_17 with print value: t0
+Adding instruction: t0 = [t0 + 28] with print value: t0
+Adding instruction: v212_17 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = v212_17 with print value: t0
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: t0 = call t0(s6_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: v213_17 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_215 with no print value.
+Adding instruction: lbl_NullPtr_214: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_215: with no print value.
+Adding instruction: t0 = v213_17 with print value: t0
+Adding instruction: s8 = t0 with print value: t0
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_218 with no print value.
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: v216_17 = t0 with print value: t0
+Adding instruction: t0 = v216_17 with print value: t0
+Adding instruction: t0 = [t0 + 12] with print value: t0
+Adding instruction: v216_17 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = v216_17 with print value: t0
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: t0 = call t0(s6_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: v217_17 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_219 with no print value.
+Adding instruction: lbl_NullPtr_218: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_219: with no print value.
+Adding instruction: t0 = v217_17 with print value: t0
+Adding instruction: s7 = t0 with print value: t0
+Adding instruction: goto lbl_While_200 with no print value.
+Adding instruction: lbl_WhileExit_201: with no print value.
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: s10 = t0 with print value: t0
+Adding instruction: v220_17 = s10 with print value: s10
+Adding instruction: s1 = s1_stack with print value: s1
+Adding instruction: s2 = s2_stack with print value: s2
+Adding instruction: s3 = s3_stack with print value: s3
+Adding instruction: s4 = s4_stack with print value: s4
+Adding instruction: s5 = s5_stack with print value: s5
+Adding instruction: s6 = s6_stack with print value: s6
+Adding instruction: s7 = s7_stack with print value: s7
+Adding instruction: s8 = s8_stack with print value: s8
+Adding instruction: s9 = s9_stack with print value: s9
+Adding instruction: s10 = s10_stack with print value: s10
+Adding instruction: s11 = s11_stack with print value: s11
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: s2_stack = s2 with print value: s2
+Adding instruction: s3_stack = s3 with print value: s3
+Adding instruction: s4_stack = s4 with print value: s4
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: s8_stack = s8 with print value: s8
+Adding instruction: s9_stack = s9 with print value: s9
+Adding instruction: s10_stack = s10 with print value: s10
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: t0 = 16 with print value: t0
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: t0 = 40 with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: t0 = alloc(t0) with print value: t0
+Adding instruction: t4 = t0 with print value: t0
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: t0 = alloc(t0) with print value: t0
+Adding instruction: s1 = t0 with print value: t0
+Adding instruction: t0 = @List_Delete with print value: t0
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: t1 = s1 with print value: t1
+Adding instruction: t0 = s2 with print value: t0
+Adding instruction: [t1 + 0] = t0 with print value: t1
+Adding instruction: t0 = @List_Print with print value: t0
+Adding instruction: t5 = t0 with print value: t0
+Adding instruction: t1 = s1 with print value: t1
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: [t1 + 4] = t0 with print value: t1
+Adding instruction: t0 = @List_Init with print value: t0
+Adding instruction: s6 = t0 with print value: t0
+Adding instruction: t1 = s1 with print value: t1
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: [t1 + 8] = t0 with print value: t1
+Adding instruction: t0 = @List_GetElem with print value: t0
+Adding instruction: s8 = t0 with print value: t0
+Adding instruction: t1 = s1 with print value: t1
+Adding instruction: t0 = s8 with print value: t0
+Adding instruction: [t1 + 12] = t0 with print value: t1
+Adding instruction: t0 = @List_GetNext with print value: t0
+Adding instruction: s7 = t0 with print value: t0
+Adding instruction: t1 = s1 with print value: t1
+Adding instruction: t0 = s7 with print value: t0
+Adding instruction: [t1 + 16] = t0 with print value: t1
+Adding instruction: t0 = @List_SetNext with print value: t0
+Adding instruction: s9 = t0 with print value: t0
+Adding instruction: t1 = s1 with print value: t1
+Adding instruction: t0 = s9 with print value: t0
+Adding instruction: [t1 + 20] = t0 with print value: t1
+Adding instruction: t0 = @List_Search with print value: t0
+Adding instruction: s11 = t0 with print value: t0
+Adding instruction: t1 = s1 with print value: t1
+Adding instruction: t0 = s11 with print value: t0
+Adding instruction: [t1 + 24] = t0 with print value: t1
+Adding instruction: t0 = @List_GetEnd with print value: t0
+Adding instruction: t2 = t0 with print value: t0
+Adding instruction: t1 = s1 with print value: t1
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: [t1 + 28] = t0 with print value: t1
+Adding instruction: t0 = @List_InitNew with print value: t0
+Adding instruction: t3 = t0 with print value: t0
+Adding instruction: t1 = s1 with print value: t1
+Adding instruction: t0 = t3 with print value: t0
+Adding instruction: [t1 + 32] = t0 with print value: t1
+Adding instruction: t0 = @List_Insert with print value: t0
+Adding instruction: s5 = t0 with print value: t0
+Adding instruction: t1 = s1 with print value: t1
+Adding instruction: t0 = s5 with print value: t0
+Adding instruction: [t1 + 36] = t0 with print value: t1
+Adding instruction: t1 = t4 with print value: t1
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: [t1 + 0] = t0 with print value: t1
+Adding instruction: t0 = t4 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_235 with no print value.
+Adding instruction: goto lbl_GoodPtr_236 with no print value.
+Adding instruction: lbl_NullPtr_235: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_236: with no print value.
+Adding instruction: t0 = t4 with print value: t0
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_239 with no print value.
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: t0 = [t0 + 8] with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: s3_stack = s3 with print value: s3
+Adding instruction: t0 = call t0(s3_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_240 with no print value.
+Adding instruction: lbl_NullPtr_239: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_240: with no print value.
+Adding instruction: t0 = s2 with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: head_18 = t0 with print value: t0
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_243 with no print value.
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s6 = t0 with print value: t0
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: t0 = [t0 + 8] with print value: t0
+Adding instruction: s6 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: t0 = call t0(head_18) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s8 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_244 with no print value.
+Adding instruction: lbl_NullPtr_243: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_244: with no print value.
+Adding instruction: t0 = s8 with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_247 with no print value.
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s7 = t0 with print value: t0
+Adding instruction: t0 = s7 with print value: t0
+Adding instruction: t0 = [t0 + 4] with print value: t0
+Adding instruction: s7 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s7 with print value: t0
+Adding instruction: t0 = call t0(head_18) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s9 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_248 with no print value.
+Adding instruction: lbl_NullPtr_247: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_248: with no print value.
+Adding instruction: t0 = s9 with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = 16 with print value: t0
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: t0 = 24 with print value: t0
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: t0 = s2 with print value: t0
+Adding instruction: t0 = alloc(t0) with print value: t0
+Adding instruction: s6 = t0 with print value: t0
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: t0 = alloc(t0) with print value: t0
+Adding instruction: s8 = t0 with print value: t0
+Adding instruction: t0 = @Element_GetSalary with print value: t0
+Adding instruction: s7 = t0 with print value: t0
+Adding instruction: t1 = s8 with print value: t1
+Adding instruction: t0 = s7 with print value: t0
+Adding instruction: [t1 + 0] = t0 with print value: t1
+Adding instruction: t0 = @Element_Init with print value: t0
+Adding instruction: s9 = t0 with print value: t0
+Adding instruction: t1 = s8 with print value: t1
+Adding instruction: t0 = s9 with print value: t0
+Adding instruction: [t1 + 4] = t0 with print value: t1
+Adding instruction: t0 = @Element_GetAge with print value: t0
+Adding instruction: s10 = t0 with print value: t0
+Adding instruction: t1 = s8 with print value: t1
+Adding instruction: t0 = s10 with print value: t0
+Adding instruction: [t1 + 8] = t0 with print value: t1
+Adding instruction: t0 = @Element_Equal with print value: t0
+Adding instruction: s10 = t0 with print value: t0
+Adding instruction: t1 = s8 with print value: t1
+Adding instruction: t0 = s10 with print value: t0
+Adding instruction: [t1 + 12] = t0 with print value: t1
+Adding instruction: t0 = @Element_GetMarried with print value: t0
+Adding instruction: t5 = t0 with print value: t0
+Adding instruction: t1 = s8 with print value: t1
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: [t1 + 16] = t0 with print value: t1
+Adding instruction: t0 = @Element_Compare with print value: t0
+Adding instruction: t5 = t0 with print value: t0
+Adding instruction: t1 = s8 with print value: t1
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: [t1 + 20] = t0 with print value: t1
+Adding instruction: t1 = s6 with print value: t1
+Adding instruction: t0 = s8 with print value: t0
+Adding instruction: [t1 + 0] = t0 with print value: t1
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_259 with no print value.
+Adding instruction: goto lbl_GoodPtr_260 with no print value.
+Adding instruction: lbl_NullPtr_259: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_260: with no print value.
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: el01_18 = t0 with print value: t0
+Adding instruction: t0 = el01_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_263 with no print value.
+Adding instruction: t0 = el01_18 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: t2 = t0 with print value: t0
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: t0 = [t0 + 4] with print value: t0
+Adding instruction: t2 = t0 with print value: t0
+Adding instruction: t0 = 25 with print value: t0
+Adding instruction: t3 = t0 with print value: t0
+Adding instruction: t0 = 37000 with print value: t0
+Adding instruction: s5 = t0 with print value: t0
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: s1 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s1_stack = s1 with print value: s1
+Adding instruction: t0 = call t0(el01_18 t3_stack s5_stack s1_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: t4 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_264 with no print value.
+Adding instruction: lbl_NullPtr_263: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_264: with no print value.
+Adding instruction: t0 = t4 with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_270 with no print value.
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: t0 = [t0 + 36] with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: t0 = call t0(head_18 el01_18) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_271 with no print value.
+Adding instruction: lbl_NullPtr_270: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_271: with no print value.
+Adding instruction: t0 = s2 with print value: t0
+Adding instruction: head_18 = t0 with print value: t0
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_274 with no print value.
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: t0 = [t0 + 4] with print value: t0
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: t0 = call t0(head_18) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s7 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_275 with no print value.
+Adding instruction: lbl_NullPtr_274: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_275: with no print value.
+Adding instruction: t0 = s7 with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = 10000000 with print value: t0
+Adding instruction: t2 = t0 with print value: t0
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: print(t0) with no print value.
+Adding instruction: t0 = 16 with print value: t0
+Adding instruction: t3 = t0 with print value: t0
+Adding instruction: t0 = 24 with print value: t0
+Adding instruction: s5 = t0 with print value: t0
+Adding instruction: t0 = t3 with print value: t0
+Adding instruction: t0 = alloc(t0) with print value: t0
+Adding instruction: s1 = t0 with print value: t0
+Adding instruction: t0 = s5 with print value: t0
+Adding instruction: t0 = alloc(t0) with print value: t0
+Adding instruction: t4 = t0 with print value: t0
+Adding instruction: t0 = @Element_GetSalary with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t1 = t4 with print value: t1
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: [t1 + 0] = t0 with print value: t1
+Adding instruction: t0 = @Element_Init with print value: t0
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: t1 = t4 with print value: t1
+Adding instruction: t0 = s2 with print value: t0
+Adding instruction: [t1 + 4] = t0 with print value: t1
+Adding instruction: t0 = @Element_GetAge with print value: t0
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: t1 = t4 with print value: t1
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: [t1 + 8] = t0 with print value: t1
+Adding instruction: t0 = @Element_Equal with print value: t0
+Adding instruction: s7 = t0 with print value: t0
+Adding instruction: t1 = t4 with print value: t1
+Adding instruction: t0 = s7 with print value: t0
+Adding instruction: [t1 + 12] = t0 with print value: t1
+Adding instruction: t0 = @Element_GetMarried with print value: t0
+Adding instruction: s11 = t0 with print value: t0
+Adding instruction: t1 = t4 with print value: t1
+Adding instruction: t0 = s11 with print value: t0
+Adding instruction: [t1 + 16] = t0 with print value: t1
+Adding instruction: t0 = @Element_Compare with print value: t0
+Adding instruction: s11 = t0 with print value: t0
+Adding instruction: t1 = t4 with print value: t1
+Adding instruction: t0 = s11 with print value: t0
+Adding instruction: [t1 + 20] = t0 with print value: t1
+Adding instruction: t1 = s1 with print value: t1
+Adding instruction: t0 = t4 with print value: t0
+Adding instruction: [t1 + 0] = t0 with print value: t1
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_287 with no print value.
+Adding instruction: goto lbl_GoodPtr_288 with no print value.
+Adding instruction: lbl_NullPtr_287: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_288: with no print value.
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: el01_18 = t0 with print value: t0
+Adding instruction: t0 = el01_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_291 with no print value.
+Adding instruction: t0 = el01_18 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s9 = t0 with print value: t0
+Adding instruction: t0 = s9 with print value: t0
+Adding instruction: t0 = [t0 + 4] with print value: t0
+Adding instruction: s9 = t0 with print value: t0
+Adding instruction: t0 = 39 with print value: t0
+Adding instruction: s10 = t0 with print value: t0
+Adding instruction: t0 = 42000 with print value: t0
+Adding instruction: t5 = t0 with print value: t0
+Adding instruction: t0 = 1 with print value: t0
+Adding instruction: s8 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s9 with print value: t0
+Adding instruction: s10_stack = s10 with print value: s10
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: s8_stack = s8 with print value: s8
+Adding instruction: t0 = call t0(el01_18 s10_stack t5_stack s8_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s6 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_292 with no print value.
+Adding instruction: lbl_NullPtr_291: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_292: with no print value.
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = el01_18 with print value: t0
+Adding instruction: el02_18 = t0 with print value: t0
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_298 with no print value.
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: t3 = t0 with print value: t0
+Adding instruction: t0 = t3 with print value: t0
+Adding instruction: t0 = [t0 + 36] with print value: t0
+Adding instruction: t3 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = t3 with print value: t0
+Adding instruction: t0 = call t0(head_18 el01_18) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s5 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_299 with no print value.
+Adding instruction: lbl_NullPtr_298: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_299: with no print value.
+Adding instruction: t0 = s5 with print value: t0
+Adding instruction: head_18 = t0 with print value: t0
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_302 with no print value.
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: t0 = [t0 + 4] with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: t0 = call t0(head_18) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_303 with no print value.
+Adding instruction: lbl_NullPtr_302: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_303: with no print value.
+Adding instruction: t0 = s2 with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = 10000000 with print value: t0
+Adding instruction: s9 = t0 with print value: t0
+Adding instruction: t0 = s9 with print value: t0
+Adding instruction: print(t0) with no print value.
+Adding instruction: t0 = 16 with print value: t0
+Adding instruction: s10 = t0 with print value: t0
+Adding instruction: t0 = 24 with print value: t0
+Adding instruction: t5 = t0 with print value: t0
+Adding instruction: t0 = s10 with print value: t0
+Adding instruction: t0 = alloc(t0) with print value: t0
+Adding instruction: s8 = t0 with print value: t0
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: t0 = alloc(t0) with print value: t0
+Adding instruction: s6 = t0 with print value: t0
+Adding instruction: t0 = @Element_GetSalary with print value: t0
+Adding instruction: t3 = t0 with print value: t0
+Adding instruction: t1 = s6 with print value: t1
+Adding instruction: t0 = t3 with print value: t0
+Adding instruction: [t1 + 0] = t0 with print value: t1
+Adding instruction: t0 = @Element_Init with print value: t0
+Adding instruction: s5 = t0 with print value: t0
+Adding instruction: t1 = s6 with print value: t1
+Adding instruction: t0 = s5 with print value: t0
+Adding instruction: [t1 + 4] = t0 with print value: t1
+Adding instruction: t0 = @Element_GetAge with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t1 = s6 with print value: t1
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: [t1 + 8] = t0 with print value: t1
+Adding instruction: t0 = @Element_Equal with print value: t0
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: t1 = s6 with print value: t1
+Adding instruction: t0 = s2 with print value: t0
+Adding instruction: [t1 + 12] = t0 with print value: t1
+Adding instruction: t0 = @Element_GetMarried with print value: t0
+Adding instruction: t2 = t0 with print value: t0
+Adding instruction: t1 = s6 with print value: t1
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: [t1 + 16] = t0 with print value: t1
+Adding instruction: t0 = @Element_Compare with print value: t0
+Adding instruction: t2 = t0 with print value: t0
+Adding instruction: t1 = s6 with print value: t1
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: [t1 + 20] = t0 with print value: t1
+Adding instruction: t1 = s8 with print value: t1
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: [t1 + 0] = t0 with print value: t1
+Adding instruction: t0 = s8 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_315 with no print value.
+Adding instruction: goto lbl_GoodPtr_316 with no print value.
+Adding instruction: lbl_NullPtr_315: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_316: with no print value.
+Adding instruction: t0 = s8 with print value: t0
+Adding instruction: el01_18 = t0 with print value: t0
+Adding instruction: t0 = el01_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_319 with no print value.
+Adding instruction: t0 = el01_18 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: t0 = [t0 + 4] with print value: t0
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: t0 = 22 with print value: t0
+Adding instruction: s7 = t0 with print value: t0
+Adding instruction: t0 = 34000 with print value: t0
+Adding instruction: s11 = t0 with print value: t0
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: t4 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: s7_stack = s7 with print value: s7
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t0 = call t0(el01_18 s7_stack s11_stack t4_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s1 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_320 with no print value.
+Adding instruction: lbl_NullPtr_319: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_320: with no print value.
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_326 with no print value.
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s9 = t0 with print value: t0
+Adding instruction: t0 = s9 with print value: t0
+Adding instruction: t0 = [t0 + 36] with print value: t0
+Adding instruction: s9 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s9 with print value: t0
+Adding instruction: t0 = call t0(head_18 el01_18) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s10 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_327 with no print value.
+Adding instruction: lbl_NullPtr_326: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_327: with no print value.
+Adding instruction: t0 = s10 with print value: t0
+Adding instruction: head_18 = t0 with print value: t0
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_330 with no print value.
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: t5 = t0 with print value: t0
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: t0 = [t0 + 4] with print value: t0
+Adding instruction: t5 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: t0 = call t0(head_18) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: t3 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_331 with no print value.
+Adding instruction: lbl_NullPtr_330: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_331: with no print value.
+Adding instruction: t0 = t3 with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = 16 with print value: t0
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: t0 = 24 with print value: t0
+Adding instruction: s7 = t0 with print value: t0
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: t0 = alloc(t0) with print value: t0
+Adding instruction: v334_18 = t0 with print value: t0
+Adding instruction: t0 = s7 with print value: t0
+Adding instruction: t0 = alloc(t0) with print value: t0
+Adding instruction: t4 = t0 with print value: t0
+Adding instruction: t0 = @Element_GetSalary with print value: t0
+Adding instruction: s1 = t0 with print value: t0
+Adding instruction: t1 = t4 with print value: t1
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: [t1 + 0] = t0 with print value: t1
+Adding instruction: t0 = @Element_Init with print value: t0
+Adding instruction: s9 = t0 with print value: t0
+Adding instruction: t1 = t4 with print value: t1
+Adding instruction: t0 = s9 with print value: t0
+Adding instruction: [t1 + 4] = t0 with print value: t1
+Adding instruction: t0 = @Element_GetAge with print value: t0
+Adding instruction: s10 = t0 with print value: t0
+Adding instruction: t1 = t4 with print value: t1
+Adding instruction: t0 = s10 with print value: t0
+Adding instruction: [t1 + 8] = t0 with print value: t1
+Adding instruction: t0 = @Element_Equal with print value: t0
+Adding instruction: t5 = t0 with print value: t0
+Adding instruction: t1 = t4 with print value: t1
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: [t1 + 12] = t0 with print value: t1
+Adding instruction: t0 = @Element_GetMarried with print value: t0
+Adding instruction: t3 = t0 with print value: t0
+Adding instruction: t1 = t4 with print value: t1
+Adding instruction: t0 = t3 with print value: t0
+Adding instruction: [t1 + 16] = t0 with print value: t1
+Adding instruction: t0 = @Element_Compare with print value: t0
+Adding instruction: s11 = t0 with print value: t0
+Adding instruction: t1 = t4 with print value: t1
+Adding instruction: t0 = s11 with print value: t0
+Adding instruction: [t1 + 20] = t0 with print value: t1
+Adding instruction: t1 = v334_18 with print value: t1
+Adding instruction: t0 = t4 with print value: t0
+Adding instruction: [t1 + 0] = t0 with print value: t1
+Adding instruction: t0 = v334_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_342 with no print value.
+Adding instruction: goto lbl_GoodPtr_343 with no print value.
+Adding instruction: lbl_NullPtr_342: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_343: with no print value.
+Adding instruction: t0 = v334_18 with print value: t0
+Adding instruction: s5 = t0 with print value: t0
+Adding instruction: t0 = s5 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_346 with no print value.
+Adding instruction: t0 = s5 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: t0 = [t0 + 4] with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = 27 with print value: t0
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: t0 = 34000 with print value: t0
+Adding instruction: t2 = t0 with print value: t0
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: s6 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: s2_stack = s2 with print value: s2
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: s6_stack = s6 with print value: s6
+Adding instruction: t0 = call t0(s5_stack s2_stack t2_stack s6_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s8 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_347 with no print value.
+Adding instruction: lbl_NullPtr_346: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_347: with no print value.
+Adding instruction: t0 = s8 with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_353 with no print value.
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: t0 = [t0 + 24] with print value: t0
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: t0 = call t0(head_18 el02_18) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s7 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_354 with no print value.
+Adding instruction: lbl_NullPtr_353: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_354: with no print value.
+Adding instruction: t0 = s7 with print value: t0
+Adding instruction: print(t0) with no print value.
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_357 with no print value.
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s1 = t0 with print value: t0
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: t0 = [t0 + 24] with print value: t0
+Adding instruction: s1 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: s5_stack = s5 with print value: s5
+Adding instruction: t0 = call t0(head_18 s5_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s9 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_358 with no print value.
+Adding instruction: lbl_NullPtr_357: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_358: with no print value.
+Adding instruction: t0 = s9 with print value: t0
+Adding instruction: print(t0) with no print value.
+Adding instruction: t0 = 10000000 with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: print(t0) with no print value.
+Adding instruction: t0 = 16 with print value: t0
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: t0 = 24 with print value: t0
+Adding instruction: t2 = t0 with print value: t0
+Adding instruction: t0 = s2 with print value: t0
+Adding instruction: t0 = alloc(t0) with print value: t0
+Adding instruction: v362_18 = t0 with print value: t0
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: t0 = alloc(t0) with print value: t0
+Adding instruction: s8 = t0 with print value: t0
+Adding instruction: t0 = @Element_GetSalary with print value: t0
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: t1 = s8 with print value: t1
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: [t1 + 0] = t0 with print value: t1
+Adding instruction: t0 = @Element_Init with print value: t0
+Adding instruction: s7 = t0 with print value: t0
+Adding instruction: t1 = s8 with print value: t1
+Adding instruction: t0 = s7 with print value: t0
+Adding instruction: [t1 + 4] = t0 with print value: t1
+Adding instruction: t0 = @Element_GetAge with print value: t0
+Adding instruction: s5 = t0 with print value: t0
+Adding instruction: t1 = s8 with print value: t1
+Adding instruction: t0 = s5 with print value: t0
+Adding instruction: [t1 + 8] = t0 with print value: t1
+Adding instruction: t0 = @Element_Equal with print value: t0
+Adding instruction: s1 = t0 with print value: t0
+Adding instruction: t1 = s8 with print value: t1
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: [t1 + 12] = t0 with print value: t1
+Adding instruction: t0 = @Element_GetMarried with print value: t0
+Adding instruction: s9 = t0 with print value: t0
+Adding instruction: t1 = s8 with print value: t1
+Adding instruction: t0 = s9 with print value: t0
+Adding instruction: [t1 + 16] = t0 with print value: t1
+Adding instruction: t0 = @Element_Compare with print value: t0
+Adding instruction: s6 = t0 with print value: t0
+Adding instruction: t1 = s8 with print value: t1
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: [t1 + 20] = t0 with print value: t1
+Adding instruction: t1 = v362_18 with print value: t1
+Adding instruction: t0 = s8 with print value: t0
+Adding instruction: [t1 + 0] = t0 with print value: t1
+Adding instruction: t0 = v362_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_370 with no print value.
+Adding instruction: goto lbl_GoodPtr_371 with no print value.
+Adding instruction: lbl_NullPtr_370: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_371: with no print value.
+Adding instruction: t0 = v362_18 with print value: t0
+Adding instruction: el01_18 = t0 with print value: t0
+Adding instruction: t0 = el01_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_374 with no print value.
+Adding instruction: t0 = el01_18 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s10 = t0 with print value: t0
+Adding instruction: t0 = s10 with print value: t0
+Adding instruction: t0 = [t0 + 4] with print value: t0
+Adding instruction: s10 = t0 with print value: t0
+Adding instruction: t0 = 28 with print value: t0
+Adding instruction: t5 = t0 with print value: t0
+Adding instruction: t0 = 35000 with print value: t0
+Adding instruction: t3 = t0 with print value: t0
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: s11 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s10 with print value: t0
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: s11_stack = s11 with print value: s11
+Adding instruction: t0 = call t0(el01_18 t5_stack t3_stack s11_stack) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: t4 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_375 with no print value.
+Adding instruction: lbl_NullPtr_374: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_375: with no print value.
+Adding instruction: t0 = t4 with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_381 with no print value.
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: t0 = [t0 + 36] with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s4 with print value: t0
+Adding instruction: t0 = call t0(head_18 el01_18) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s2 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_382 with no print value.
+Adding instruction: lbl_NullPtr_381: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_382: with no print value.
+Adding instruction: t0 = s2 with print value: t0
+Adding instruction: head_18 = t0 with print value: t0
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_385 with no print value.
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: t2 = t0 with print value: t0
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: t0 = [t0 + 4] with print value: t0
+Adding instruction: t2 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = t2 with print value: t0
+Adding instruction: t0 = call t0(head_18) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s3 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_386 with no print value.
+Adding instruction: lbl_NullPtr_385: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_386: with no print value.
+Adding instruction: t0 = s3 with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = 2220000 with print value: t0
+Adding instruction: s10 = t0 with print value: t0
+Adding instruction: t0 = s10 with print value: t0
+Adding instruction: print(t0) with no print value.
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_390 with no print value.
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s7 = t0 with print value: t0
+Adding instruction: t0 = s7 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s7 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s7 with print value: t0
+Adding instruction: t0 = call t0(head_18 el02_18) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s5 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_391 with no print value.
+Adding instruction: lbl_NullPtr_390: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_391: with no print value.
+Adding instruction: t0 = s5 with print value: t0
+Adding instruction: head_18 = t0 with print value: t0
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_394 with no print value.
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s1 = t0 with print value: t0
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: t0 = [t0 + 4] with print value: t0
+Adding instruction: s1 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s1 with print value: t0
+Adding instruction: t0 = call t0(head_18) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s9 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_395 with no print value.
+Adding instruction: lbl_NullPtr_394: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_395: with no print value.
+Adding instruction: t0 = s9 with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = 33300000 with print value: t0
+Adding instruction: t5 = t0 with print value: t0
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: print(t0) with no print value.
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_399 with no print value.
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s6 = t0 with print value: t0
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s6 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s6 with print value: t0
+Adding instruction: t0 = call t0(head_18 el01_18) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: s8 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_400 with no print value.
+Adding instruction: lbl_NullPtr_399: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_400: with no print value.
+Adding instruction: t0 = s8 with print value: t0
+Adding instruction: head_18 = t0 with print value: t0
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: if0 t0 goto lbl_NullPtr_403 with no print value.
+Adding instruction: t0 = head_18 with print value: t0
+Adding instruction: t0 = [t0 + 0] with print value: t0
+Adding instruction: s10 = t0 with print value: t0
+Adding instruction: t0 = s10 with print value: t0
+Adding instruction: t0 = [t0 + 4] with print value: t0
+Adding instruction: s10 = t0 with print value: t0
+Adding instruction: t2_stack = t2 with print value: t2
+Adding instruction: t3_stack = t3 with print value: t3
+Adding instruction: t4_stack = t4 with print value: t4
+Adding instruction: t5_stack = t5 with print value: t5
+Adding instruction: a2_stack = a2 with print value: a2
+Adding instruction: a3_stack = a3 with print value: a3
+Adding instruction: a4_stack = a4 with print value: a4
+Adding instruction: a5_stack = a5 with print value: a5
+Adding instruction: a6_stack = a6 with print value: a6
+Adding instruction: a7_stack = a7 with print value: a7
+Adding instruction: t0 = s10 with print value: t0
+Adding instruction: t0 = call t0(head_18) with print value: t0
+Adding instruction: t2 = t2_stack with print value: t2
+Adding instruction: t3 = t3_stack with print value: t3
+Adding instruction: t4 = t4_stack with print value: t4
+Adding instruction: t5 = t5_stack with print value: t5
+Adding instruction: a2 = a2_stack with print value: a2
+Adding instruction: a3 = a3_stack with print value: a3
+Adding instruction: a4 = a4_stack with print value: a4
+Adding instruction: a5 = a5_stack with print value: a5
+Adding instruction: a6 = a6_stack with print value: a6
+Adding instruction: a7 = a7_stack with print value: a7
+Adding instruction: t5 = t0 with print value: t0
+Adding instruction: goto lbl_GoodPtr_404 with no print value.
+Adding instruction: lbl_NullPtr_403: with no print value.
+Adding instruction: error("null pointer") with no print value.
+Adding instruction: lbl_GoodPtr_404: with no print value.
+Adding instruction: t0 = t5 with print value: t0
+Adding instruction: s4 = t0 with print value: t0
+Adding instruction: t0 = 44440000 with print value: t0
+Adding instruction: t3 = t0 with print value: t0
+Adding instruction: t0 = t3 with print value: t0
+Adding instruction: print(t0) with no print value.
+Adding instruction: t0 = 0 with print value: t0
+Adding instruction: s11 = t0 with print value: t0
+Adding instruction: v406_18 = s11 with print value: s11
+Adding instruction: s1 = s1_stack with print value: s1
+Adding instruction: s2 = s2_stack with print value: s2
+Adding instruction: s3 = s3_stack with print value: s3
+Adding instruction: s4 = s4_stack with print value: s4
+Adding instruction: s5 = s5_stack with print value: s5
+Adding instruction: s6 = s6_stack with print value: s6
+Adding instruction: s7 = s7_stack with print value: s7
+Adding instruction: s8 = s8_stack with print value: s8
+Adding instruction: s9 = s9_stack with print value: s9
+Adding instruction: s10 = s10_stack with print value: s10
+Adding instruction: s11 = s11_stack with print value: s11

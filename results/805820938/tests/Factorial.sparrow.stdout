@@ -1,0 +1,104 @@
+func Main()
+s1_stack = s1
+t0 = 4
+t2 = t0
+t0 = t2
+t0 = alloc(t0)
+t3 = t0
+t0 = t2
+t0 = alloc(t0)
+s1 = t0
+t0 = @FacComputeFac
+t2 = t0
+t1 = s1
+t0 = t2
+[t1 + 0] = t0
+t0 = s1
+t2 = t0
+t1 = t3
+t0 = t2
+[t1 + 0] = t0
+t0 = t3
+if0 t0 goto null1
+t0 = t3
+t0 = [t0 + 0]
+t4 = t0
+t0 = t4
+t0 = [t0 + 0]
+t4 = t0
+t0 = 6
+t2 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t3
+a2 = t0
+t0 = t2
+a3 = t0
+t0 = t4
+t2_stack = t2
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t2 = t2_stack
+t5 = t0
+t0 = t5
+print(t0)
+goto main_end
+null1:
+error("null pointer")
+main_end:
+v0_1 = t2
+s1 = s1_stack
+      return v0_1
+
+func FacComputeFac()
+s3_stack = s3
+s2_stack = s2
+t0 = 1
+s2 = t0
+t0 = a3
+t1 = s2
+t0 = t0 < t1
+s3 = t0
+t0 = s3
+if0 t0 goto if1_else
+t0 = 1
+t3 = t0
+goto if1_end
+if1_else:
+t0 = a2
+t0 = [t0 + 0]
+t4 = t0
+t0 = t4
+t0 = [t0 + 0]
+t4 = t0
+t0 = 1
+s2 = t0
+t0 = a3
+t1 = s2
+t0 = t0 - t1
+t5 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = a2_stack
+a2 = t0
+t0 = t5
+a3 = t0
+t0 = t4
+t3_stack = t3
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t3 = t3_stack
+t2 = t0
+t0 = a3
+t1 = t2
+t0 = t0 * t1
+t3 = t0
+if1_end:
+num_aux_2 = t3
+s3 = s3_stack
+s2 = s2_stack
+      return num_aux_2
+
+

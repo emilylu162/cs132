@@ -1,0 +1,2518 @@
+func main()
+s3_stack = s3
+s4_stack = s4
+s5_stack = s5
+s11_stack = s11
+s10_stack = s10
+s6_stack = s6
+s7_stack = s7
+s8_stack = s8
+s9_stack = s9
+s1_stack = s1
+s2_stack = s2
+t0 = 64
+s1 = t0
+t0 = 20
+s2 = t0
+t0 = s1
+t0 = alloc(t0)
+s3 = t0
+t0 = s2
+t0 = alloc(t0)
+s4 = t0
+t0 = @X_compute
+s5 = t0
+t1 = s4
+t0 = s5
+[t1 + 0] = t0
+t0 = @V_getArray
+s6 = t0
+t1 = s4
+t0 = s6
+[t1 + 4] = t0
+t0 = @X_setDepArray
+s7 = t0
+t1 = s4
+t0 = s7
+[t1 + 16] = t0
+t0 = @X_calculate
+s8 = t0
+t1 = s4
+t0 = s8
+[t1 + 8] = t0
+t0 = @V_setArray
+s9 = t0
+t1 = s4
+t0 = s9
+[t1 + 12] = t0
+t1 = s3
+t0 = s4
+[t1 + 0] = t0
+t0 = s3
+if0 t0 goto lbl_NullPtr_9
+goto lbl_GoodPtr_10
+lbl_NullPtr_9:
+error("null pointer")
+lbl_GoodPtr_10:
+t0 = s3
+t2 = t0
+t0 = 56
+s10 = t0
+t0 = 20
+s11 = t0
+t0 = s10
+t0 = alloc(t0)
+s1 = t0
+t0 = s11
+t0 = alloc(t0)
+s2 = t0
+t0 = @Y_compute
+s5 = t0
+t1 = s2
+t0 = s5
+[t1 + 0] = t0
+t0 = @V_getArray
+s6 = t0
+t1 = s2
+t0 = s6
+[t1 + 4] = t0
+t0 = @Y_setDepArray
+s7 = t0
+t1 = s2
+t0 = s7
+[t1 + 16] = t0
+t0 = @Y_calculate
+s8 = t0
+t1 = s2
+t0 = s8
+[t1 + 8] = t0
+t0 = @V_setArray
+s9 = t0
+t1 = s2
+t0 = s9
+[t1 + 12] = t0
+t1 = s1
+t0 = s2
+[t1 + 0] = t0
+t0 = s1
+if0 t0 goto lbl_NullPtr_20
+goto lbl_GoodPtr_21
+lbl_NullPtr_20:
+error("null pointer")
+lbl_GoodPtr_21:
+t0 = s1
+t3 = t0
+t0 = 48
+s4 = t0
+t0 = 20
+s3 = t0
+t0 = s4
+t0 = alloc(t0)
+s10 = t0
+t0 = s3
+t0 = alloc(t0)
+s11 = t0
+t0 = @Z_compute
+s5 = t0
+t1 = s11
+t0 = s5
+[t1 + 0] = t0
+t0 = @V_getArray
+s6 = t0
+t1 = s11
+t0 = s6
+[t1 + 4] = t0
+t0 = @Z_setDepArray
+s7 = t0
+t1 = s11
+t0 = s7
+[t1 + 16] = t0
+t0 = @Z_calculate
+s8 = t0
+t1 = s11
+t0 = s8
+[t1 + 8] = t0
+t0 = @V_setArray
+s9 = t0
+t1 = s11
+t0 = s9
+[t1 + 12] = t0
+t1 = s10
+t0 = s11
+[t1 + 0] = t0
+t0 = s10
+if0 t0 goto lbl_NullPtr_31
+goto lbl_GoodPtr_32
+lbl_NullPtr_31:
+error("null pointer")
+lbl_GoodPtr_32:
+t0 = s10
+t4 = t0
+t0 = 40
+s2 = t0
+t0 = 20
+s1 = t0
+t0 = s2
+t0 = alloc(t0)
+s4 = t0
+t0 = s1
+t0 = alloc(t0)
+s3 = t0
+t0 = @W_compute
+s5 = t0
+t1 = s3
+t0 = s5
+[t1 + 0] = t0
+t0 = @V_getArray
+s6 = t0
+t1 = s3
+t0 = s6
+[t1 + 4] = t0
+t0 = @W_setDepArray
+s7 = t0
+t1 = s3
+t0 = s7
+[t1 + 16] = t0
+t0 = @W_calculate
+s8 = t0
+t1 = s3
+t0 = s8
+[t1 + 8] = t0
+t0 = @V_setArray
+s9 = t0
+t1 = s3
+t0 = s9
+[t1 + 12] = t0
+t1 = s4
+t0 = s3
+[t1 + 0] = t0
+t0 = s4
+if0 t0 goto lbl_NullPtr_42
+goto lbl_GoodPtr_43
+lbl_NullPtr_42:
+error("null pointer")
+lbl_GoodPtr_43:
+t0 = s4
+t5 = t0
+t0 = 32
+s11 = t0
+t0 = 16
+s10 = t0
+t0 = s11
+t0 = alloc(t0)
+s2 = t0
+t0 = s10
+t0 = alloc(t0)
+s1 = t0
+t0 = @V_compute
+s5 = t0
+t1 = s1
+t0 = s5
+[t1 + 0] = t0
+t0 = @V_getArray
+s6 = t0
+t1 = s1
+t0 = s6
+[t1 + 4] = t0
+t0 = @V_calculate
+s7 = t0
+t1 = s1
+t0 = s7
+[t1 + 8] = t0
+t0 = @V_setArray
+s8 = t0
+t1 = s1
+t0 = s8
+[t1 + 12] = t0
+t1 = s2
+t0 = s1
+[t1 + 0] = t0
+t0 = s2
+if0 t0 goto lbl_NullPtr_52
+goto lbl_GoodPtr_53
+lbl_NullPtr_52:
+error("null pointer")
+lbl_GoodPtr_53:
+t0 = s2
+s9 = t0
+t0 = t2
+if0 t0 goto lbl_NullPtr_56
+t0 = t2
+t0 = [t0 + 0]
+s3 = t0
+t0 = s3
+t0 = [t0 + 0]
+s3 = t0
+t0 = 10
+s4 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t2
+a2 = t0
+t0 = s4
+a3 = t0
+t0 = s3
+t3_stack = t3
+t4_stack = t4
+t5_stack = t5
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t3 = t3_stack
+t4 = t4_stack
+t5 = t5_stack
+s11 = t0
+goto lbl_GoodPtr_57
+lbl_NullPtr_56:
+error("null pointer")
+lbl_GoodPtr_57:
+t0 = s11
+t2 = t0
+t0 = t2
+print(t0)
+t0 = t3
+if0 t0 goto lbl_NullPtr_61
+t0 = t3
+t0 = [t0 + 0]
+s10 = t0
+t0 = s10
+t0 = [t0 + 0]
+s10 = t0
+t0 = 20
+s5 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t3
+a2 = t0
+t0 = s5
+a3 = t0
+t0 = s10
+t4_stack = t4
+t5_stack = t5
+t2_stack = t2
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t4 = t4_stack
+t5 = t5_stack
+t2 = t2_stack
+s6 = t0
+goto lbl_GoodPtr_62
+lbl_NullPtr_61:
+error("null pointer")
+lbl_GoodPtr_62:
+t0 = s6
+t2 = t0
+t0 = t2
+print(t0)
+t0 = t4
+if0 t0 goto lbl_NullPtr_66
+t0 = t4
+t0 = [t0 + 0]
+t3 = t0
+t0 = t3
+t0 = [t0 + 0]
+t3 = t0
+t0 = 30
+s7 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t4
+a2 = t0
+t0 = s7
+a3 = t0
+t0 = t3
+t5_stack = t5
+t2_stack = t2
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t5 = t5_stack
+t2 = t2_stack
+s8 = t0
+goto lbl_GoodPtr_67
+lbl_NullPtr_66:
+error("null pointer")
+lbl_GoodPtr_67:
+t0 = s8
+t2 = t0
+t0 = t2
+print(t0)
+t0 = t5
+if0 t0 goto lbl_NullPtr_71
+t0 = t5
+t0 = [t0 + 0]
+t4 = t0
+t0 = t4
+t0 = [t0 + 0]
+t4 = t0
+t0 = 40
+t3 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t5
+a2 = t0
+t0 = t3
+a3 = t0
+t0 = t4
+t2_stack = t2
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t2 = t2_stack
+s1 = t0
+goto lbl_GoodPtr_72
+lbl_NullPtr_71:
+error("null pointer")
+lbl_GoodPtr_72:
+t0 = s1
+t2 = t0
+t0 = t2
+print(t0)
+t0 = s9
+if0 t0 goto lbl_NullPtr_76
+t0 = s9
+t0 = [t0 + 0]
+t5 = t0
+t0 = t5
+t0 = [t0 + 0]
+t5 = t0
+t0 = 50
+t4 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = s9
+a2 = t0
+t0 = t4
+a3 = t0
+t0 = t5
+t2_stack = t2
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t2 = t2_stack
+t3 = t0
+goto lbl_GoodPtr_77
+lbl_NullPtr_76:
+error("null pointer")
+lbl_GoodPtr_77:
+t0 = t3
+t2 = t0
+t0 = t2
+print(t0)
+t0 = 0
+s2 = t0
+v79_1 = s2
+      return v79_1
+
+func V_getArray()
+s3_stack = s3
+t0 = a2
+t0 = [t0 + 20]
+s3 = t0
+v80_2 = s3
+s3 = s3_stack
+      return v80_2
+
+func V_setArray()
+s4_stack = s4
+t1 = a2
+t0 = a3
+[t1 + 20] = t0
+t0 = 1
+s4 = t0
+v81_3 = s4
+s4 = s4_stack
+      return v81_3
+
+func V_compute()
+s3_stack = s3
+s4_stack = s4
+s11_stack = s11
+s5_stack = s5
+s6_stack = s6
+s10_stack = s10
+s7_stack = s7
+s8_stack = s8
+s9_stack = s9
+s1_stack = s1
+s2_stack = s2
+t0 = 64
+s11 = t0
+t0 = 20
+s10 = t0
+t0 = s11
+t0 = alloc(t0)
+s5 = t0
+t0 = s10
+t0 = alloc(t0)
+s6 = t0
+t0 = @X_compute
+s7 = t0
+t1 = s6
+t0 = s7
+[t1 + 0] = t0
+t0 = @V_getArray
+s8 = t0
+t1 = s6
+t0 = s8
+[t1 + 4] = t0
+t0 = @X_setDepArray
+s1 = t0
+t1 = s6
+t0 = s1
+[t1 + 16] = t0
+t0 = @X_calculate
+s9 = t0
+t1 = s6
+t0 = s9
+[t1 + 8] = t0
+t0 = @V_setArray
+s2 = t0
+t1 = s6
+t0 = s2
+[t1 + 12] = t0
+t1 = s5
+t0 = s6
+[t1 + 0] = t0
+t0 = s5
+if0 t0 goto lbl_NullPtr_91
+goto lbl_GoodPtr_92
+lbl_NullPtr_91:
+error("null pointer")
+lbl_GoodPtr_92:
+t1 = a2
+t0 = s5
+[t1 + 8] = t0
+t0 = a2
+t0 = [t0 + 8]
+t5 = t0
+t0 = t5
+if0 t0 goto lbl_NullPtr_96
+t0 = t5
+t0 = [t0 + 0]
+t4 = t0
+t0 = t4
+t0 = [t0 + 8]
+t4 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t5
+a2 = t0
+t0 = a3
+a3 = t0
+t0 = t4
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t3 = t0
+goto lbl_GoodPtr_97
+lbl_NullPtr_96:
+error("null pointer")
+lbl_GoodPtr_97:
+t0 = t3
+result_4 = t0
+t0 = 1
+s4 = t0
+t0 = 4
+s11 = t0
+t0 = a3
+t1 = s4
+t0 = t0 + t1
+s10 = t0
+t0 = s10
+t1 = s11
+t0 = t0 * t1
+s10 = t0
+t0 = s10
+t0 = alloc(t0)
+s7 = t0
+t0 = s7
+if0 t0 goto lbl_NullPtr_102
+goto lbl_GoodPtr_103
+lbl_NullPtr_102:
+error("null pointer")
+lbl_GoodPtr_103:
+t1 = s7
+t0 = a3
+[t1 + 0] = t0
+t1 = a2
+t0 = s7
+[t1 + 20] = t0
+t0 = 0
+s8 = t0
+t0 = s8
+s1 = t0
+lbl_While_105:
+t0 = a2
+t0 = [t0 + 20]
+s9 = t0
+t0 = s9
+t0 = [t0 + 0]
+s2 = t0
+t0 = s1
+t1 = s2
+t0 = t0 < t1
+s6 = t0
+t0 = s6
+if0 t0 goto lbl_WhileExit_106
+t0 = a2
+t0 = [t0 + 20]
+s5 = t0
+t0 = 4
+s4 = t0
+t0 = 5
+s11 = t0
+t0 = s4
+t1 = s11
+t0 = t0 - t1
+s10 = t0
+t0 = s5
+t0 = [t0 + 0]
+s7 = t0
+t0 = s10
+t1 = s1
+t0 = t0 < t1
+s8 = t0
+t0 = s1
+t1 = s7
+t0 = t0 < t1
+t2 = t0
+t0 = s8
+t1 = t2
+t0 = t0 * t1
+t5 = t0
+t0 = t5
+if0 t0 goto lbl_OutOfBounds_118
+goto lbl_Inbound_119
+lbl_OutOfBounds_118:
+error("array index out of bounds")
+lbl_Inbound_119:
+t0 = s4
+t1 = s1
+t0 = t0 * t1
+t4 = t0
+t0 = t4
+t1 = s4
+t0 = t0 + t1
+t4 = t0
+t0 = s5
+t1 = t4
+t0 = t0 + t1
+t4 = t0
+t1 = t4
+t0 = result_4
+[t1 + 0] = t0
+t0 = 1
+t3 = t0
+t0 = s1
+t1 = t3
+t0 = t0 + t1
+s3 = t0
+t0 = s3
+s1 = t0
+goto lbl_While_105
+lbl_WhileExit_106:
+s3 = s3_stack
+s4 = s4_stack
+s11 = s11_stack
+s5 = s5_stack
+s6 = s6_stack
+s10 = s10_stack
+s7 = s7_stack
+s8 = s8_stack
+s9 = s9_stack
+s1 = s1_stack
+s2 = s2_stack
+      return result_4
+
+func V_calculate()
+s9_stack = s9
+s1_stack = s1
+t0 = 2
+s1 = t0
+t0 = a3
+t1 = s1
+t0 = t0 * t1
+s9 = t0
+v123_5 = s9
+s9 = s9_stack
+s1 = s1_stack
+      return v123_5
+
+func W_setDepArray()
+s2_stack = s2
+t1 = a2
+t0 = a3
+[t1 + 36] = t0
+t0 = 1
+s2 = t0
+v125_6 = s2
+s2 = s2_stack
+      return v125_6
+
+func W_compute()
+s3_stack = s3
+s4_stack = s4
+s11_stack = s11
+s5_stack = s5
+s10_stack = s10
+s6_stack = s6
+s7_stack = s7
+s8_stack = s8
+s9_stack = s9
+s1_stack = s1
+s2_stack = s2
+t0 = 56
+s6 = t0
+t0 = 20
+s5 = t0
+t0 = s6
+t0 = alloc(t0)
+s4 = t0
+t0 = s5
+t0 = alloc(t0)
+s11 = t0
+t0 = @Y_compute
+s10 = t0
+t1 = s11
+t0 = s10
+[t1 + 0] = t0
+t0 = @V_getArray
+s7 = t0
+t1 = s11
+t0 = s7
+[t1 + 4] = t0
+t0 = @Y_setDepArray
+s8 = t0
+t1 = s11
+t0 = s8
+[t1 + 16] = t0
+t0 = @Y_calculate
+s3 = t0
+t1 = s11
+t0 = s3
+[t1 + 8] = t0
+t0 = @V_setArray
+s1 = t0
+t1 = s11
+t0 = s1
+[t1 + 12] = t0
+t1 = s4
+t0 = s11
+[t1 + 0] = t0
+t0 = s4
+if0 t0 goto lbl_NullPtr_135
+goto lbl_GoodPtr_136
+lbl_NullPtr_135:
+error("null pointer")
+lbl_GoodPtr_136:
+t1 = a2
+t0 = s4
+[t1 + 32] = t0
+t0 = a2
+t0 = [t0 + 32]
+t2 = t0
+t0 = t2
+if0 t0 goto lbl_NullPtr_140
+t0 = t2
+t0 = [t0 + 0]
+t5 = t0
+t0 = t5
+t0 = [t0 + 8]
+t5 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t2
+a2 = t0
+t0 = a3
+a3 = t0
+t0 = t5
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t4 = t0
+goto lbl_GoodPtr_141
+lbl_NullPtr_140:
+error("null pointer")
+lbl_GoodPtr_141:
+t0 = t4
+result_7 = t0
+t0 = 1
+s2 = t0
+t0 = 4
+s6 = t0
+t0 = a3
+t1 = s2
+t0 = t0 + t1
+s5 = t0
+t0 = s5
+t1 = s6
+t0 = t0 * t1
+s5 = t0
+t0 = s5
+t0 = alloc(t0)
+s10 = t0
+t0 = s10
+if0 t0 goto lbl_NullPtr_146
+goto lbl_GoodPtr_147
+lbl_NullPtr_146:
+error("null pointer")
+lbl_GoodPtr_147:
+t1 = s10
+t0 = a3
+[t1 + 0] = t0
+t1 = a2
+t0 = s10
+[t1 + 20] = t0
+t0 = 1
+s7 = t0
+t0 = 4
+s8 = t0
+t0 = a3
+t1 = s7
+t0 = t0 + t1
+s3 = t0
+t0 = s3
+t1 = s8
+t0 = t0 * t1
+s3 = t0
+t0 = s3
+t0 = alloc(t0)
+s1 = t0
+t0 = s1
+if0 t0 goto lbl_NullPtr_152
+goto lbl_GoodPtr_153
+lbl_NullPtr_152:
+error("null pointer")
+lbl_GoodPtr_153:
+t1 = s1
+t0 = a3
+[t1 + 0] = t0
+t1 = a2
+t0 = s1
+[t1 + 36] = t0
+t0 = 0
+s11 = t0
+t0 = s11
+s4 = t0
+lbl_While_155:
+t0 = a2
+t0 = [t0 + 20]
+s2 = t0
+t0 = s2
+t0 = [t0 + 0]
+s6 = t0
+t0 = s4
+t1 = s6
+t0 = t0 < t1
+s5 = t0
+t0 = s5
+if0 t0 goto lbl_WhileExit_156
+t0 = a2
+t0 = [t0 + 20]
+s10 = t0
+t0 = 4
+s7 = t0
+t0 = 5
+s8 = t0
+t0 = s7
+t1 = s8
+t0 = t0 - t1
+s3 = t0
+t0 = s10
+t0 = [t0 + 0]
+s1 = t0
+t0 = s3
+t1 = s4
+t0 = t0 < t1
+s11 = t0
+t0 = s4
+t1 = s1
+t0 = t0 < t1
+t3 = t0
+t0 = s11
+t1 = t3
+t0 = t0 * t1
+t2 = t0
+t0 = t2
+if0 t0 goto lbl_OutOfBounds_168
+goto lbl_Inbound_169
+lbl_OutOfBounds_168:
+error("array index out of bounds")
+lbl_Inbound_169:
+t0 = s7
+t1 = s4
+t0 = t0 * t1
+t5 = t0
+t0 = t5
+t1 = s7
+t0 = t0 + t1
+t5 = t0
+t0 = s10
+t1 = t5
+t0 = t0 + t1
+t5 = t0
+t1 = t5
+t0 = result_7
+[t1 + 0] = t0
+t0 = a2
+t0 = [t0 + 36]
+t4 = t0
+t0 = a2
+t0 = [t0 + 20]
+s9 = t0
+t0 = 4
+v173_7 = t0
+t0 = 5
+v174_7 = t0
+t0 = v173_7
+t1 = v174_7
+t0 = t0 - t1
+v175_7 = t0
+t0 = s9
+t0 = [t0 + 0]
+v176_7 = t0
+t0 = v175_7
+t1 = s4
+t0 = t0 < t1
+v177_7 = t0
+t0 = s4
+t1 = v176_7
+t0 = t0 < t1
+v178_7 = t0
+t0 = v177_7
+t1 = v178_7
+t0 = t0 * t1
+v179_7 = t0
+t0 = v179_7
+if0 t0 goto lbl_OutOfBounds_180
+goto lbl_Inbound_181
+lbl_OutOfBounds_180:
+error("array index out of bounds")
+lbl_Inbound_181:
+t0 = v173_7
+t1 = s4
+t0 = t0 * t1
+v182_7 = t0
+t0 = v182_7
+t1 = v173_7
+t0 = t0 + t1
+v182_7 = t0
+t0 = s9
+t1 = v182_7
+t0 = t0 + t1
+v182_7 = t0
+t0 = v182_7
+t0 = [t0 + 0]
+v183_7 = t0
+t0 = 4
+v184_7 = t0
+t0 = 5
+v185_7 = t0
+t0 = v184_7
+t1 = v185_7
+t0 = t0 - t1
+v186_7 = t0
+t0 = t4
+t0 = [t0 + 0]
+v187_7 = t0
+t0 = v186_7
+t1 = s4
+t0 = t0 < t1
+v188_7 = t0
+t0 = s4
+t1 = v187_7
+t0 = t0 < t1
+v189_7 = t0
+t0 = v188_7
+t1 = v189_7
+t0 = t0 * t1
+v190_7 = t0
+t0 = v190_7
+if0 t0 goto lbl_OutOfBounds_191
+goto lbl_Inbound_192
+lbl_OutOfBounds_191:
+error("array index out of bounds")
+lbl_Inbound_192:
+t0 = v184_7
+t1 = s4
+t0 = t0 * t1
+v193_7 = t0
+t0 = v193_7
+t1 = v184_7
+t0 = t0 + t1
+v193_7 = t0
+t0 = t4
+t1 = v193_7
+t0 = t0 + t1
+v193_7 = t0
+t1 = v193_7
+t0 = v183_7
+[t1 + 0] = t0
+t0 = 1
+v195_7 = t0
+t0 = s4
+t1 = v195_7
+t0 = t0 + t1
+v194_7 = t0
+t0 = v194_7
+s4 = t0
+goto lbl_While_155
+lbl_WhileExit_156:
+s3 = s3_stack
+s4 = s4_stack
+s11 = s11_stack
+s5 = s5_stack
+s10 = s10_stack
+s6 = s6_stack
+s7 = s7_stack
+s8 = s8_stack
+s9 = s9_stack
+s1 = s1_stack
+s2 = s2_stack
+      return result_7
+
+func W_calculate()
+s4_stack = s4
+s2_stack = s2
+t0 = 3
+s4 = t0
+t0 = a3
+t1 = s4
+t0 = t0 * t1
+s2 = t0
+v196_8 = s2
+s4 = s4_stack
+s2 = s2_stack
+      return v196_8
+
+func Z_setDepArray()
+s6_stack = s6
+t1 = a2
+t0 = a3
+[t1 + 44] = t0
+t0 = 1
+s6 = t0
+v198_9 = s6
+s6 = s6_stack
+      return v198_9
+
+func Z_compute()
+s3_stack = s3
+s4_stack = s4
+s5_stack = s5
+s11_stack = s11
+s10_stack = s10
+s6_stack = s6
+s7_stack = s7
+s8_stack = s8
+s9_stack = s9
+s1_stack = s1
+s2_stack = s2
+t0 = 48
+s5 = t0
+t0 = 20
+s10 = t0
+t0 = s5
+t0 = alloc(t0)
+s7 = t0
+t0 = s10
+t0 = alloc(t0)
+s8 = t0
+t0 = @Z_compute
+s3 = t0
+t1 = s8
+t0 = s3
+[t1 + 0] = t0
+t0 = @V_getArray
+s1 = t0
+t1 = s8
+t0 = s1
+[t1 + 4] = t0
+t0 = @Z_setDepArray
+s11 = t0
+t1 = s8
+t0 = s11
+[t1 + 16] = t0
+t0 = @Z_calculate
+s9 = t0
+t1 = s8
+t0 = s9
+[t1 + 8] = t0
+t0 = @V_setArray
+s4 = t0
+t1 = s8
+t0 = s4
+[t1 + 12] = t0
+t1 = s7
+t0 = s8
+[t1 + 0] = t0
+t0 = s7
+if0 t0 goto lbl_NullPtr_208
+goto lbl_GoodPtr_209
+lbl_NullPtr_208:
+error("null pointer")
+lbl_GoodPtr_209:
+t1 = a2
+t0 = s7
+[t1 + 40] = t0
+t0 = a2
+t0 = [t0 + 40]
+t3 = t0
+t0 = t3
+if0 t0 goto lbl_NullPtr_213
+t0 = t3
+t0 = [t0 + 0]
+t2 = t0
+t0 = t2
+t0 = [t0 + 8]
+t2 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t3
+a2 = t0
+t0 = a3
+a3 = t0
+t0 = t2
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t5 = t0
+goto lbl_GoodPtr_214
+lbl_NullPtr_213:
+error("null pointer")
+lbl_GoodPtr_214:
+t0 = t5
+result_10 = t0
+t0 = 1
+s6 = t0
+t0 = 4
+s5 = t0
+t0 = a3
+t1 = s6
+t0 = t0 + t1
+s10 = t0
+t0 = s10
+t1 = s5
+t0 = t0 * t1
+s10 = t0
+t0 = s10
+t0 = alloc(t0)
+s3 = t0
+t0 = s3
+if0 t0 goto lbl_NullPtr_219
+goto lbl_GoodPtr_220
+lbl_NullPtr_219:
+error("null pointer")
+lbl_GoodPtr_220:
+t1 = s3
+t0 = a3
+[t1 + 0] = t0
+t1 = a2
+t0 = s3
+[t1 + 20] = t0
+t0 = 1
+s1 = t0
+t0 = 4
+s11 = t0
+t0 = a3
+t1 = s1
+t0 = t0 + t1
+s9 = t0
+t0 = s9
+t1 = s11
+t0 = t0 * t1
+s9 = t0
+t0 = s9
+t0 = alloc(t0)
+s4 = t0
+t0 = s4
+if0 t0 goto lbl_NullPtr_225
+goto lbl_GoodPtr_226
+lbl_NullPtr_225:
+error("null pointer")
+lbl_GoodPtr_226:
+t1 = s4
+t0 = a3
+[t1 + 0] = t0
+t1 = a2
+t0 = s4
+[t1 + 44] = t0
+t0 = 0
+s8 = t0
+t0 = s8
+i_10 = t0
+lbl_While_228:
+t0 = a2
+t0 = [t0 + 20]
+s6 = t0
+t0 = s6
+t0 = [t0 + 0]
+s5 = t0
+t0 = i_10
+t1 = s5
+t0 = t0 < t1
+s10 = t0
+t0 = s10
+if0 t0 goto lbl_WhileExit_229
+t0 = a2
+t0 = [t0 + 20]
+s3 = t0
+t0 = 2
+s1 = t0
+t0 = result_10
+t1 = s1
+t0 = t0 * t1
+s11 = t0
+t0 = 4
+s9 = t0
+t0 = 5
+s4 = t0
+t0 = s9
+t1 = s4
+t0 = t0 - t1
+s8 = t0
+t0 = s3
+t0 = [t0 + 0]
+t4 = t0
+t0 = s8
+t1 = i_10
+t0 = t0 < t1
+t3 = t0
+t0 = i_10
+t1 = t4
+t0 = t0 < t1
+t2 = t0
+t0 = t3
+t1 = t2
+t0 = t0 * t1
+t5 = t0
+t0 = t5
+if0 t0 goto lbl_OutOfBounds_243
+goto lbl_Inbound_244
+lbl_OutOfBounds_243:
+error("array index out of bounds")
+lbl_Inbound_244:
+t0 = s9
+t1 = i_10
+t0 = t0 * t1
+s2 = t0
+t0 = s2
+t1 = s9
+t0 = t0 + t1
+s2 = t0
+t0 = s3
+t1 = s2
+t0 = t0 + t1
+s2 = t0
+t1 = s2
+t0 = s11
+[t1 + 0] = t0
+t0 = a2
+t0 = [t0 + 44]
+s7 = t0
+t0 = a2
+t0 = [t0 + 20]
+v247_10 = t0
+t0 = 4
+v248_10 = t0
+t0 = 5
+v249_10 = t0
+t0 = v248_10
+t1 = v249_10
+t0 = t0 - t1
+v250_10 = t0
+t0 = v247_10
+t0 = [t0 + 0]
+v251_10 = t0
+t0 = v250_10
+t1 = i_10
+t0 = t0 < t1
+v252_10 = t0
+t0 = i_10
+t1 = v251_10
+t0 = t0 < t1
+v253_10 = t0
+t0 = v252_10
+t1 = v253_10
+t0 = t0 * t1
+v254_10 = t0
+t0 = v254_10
+if0 t0 goto lbl_OutOfBounds_255
+goto lbl_Inbound_256
+lbl_OutOfBounds_255:
+error("array index out of bounds")
+lbl_Inbound_256:
+t0 = v248_10
+t1 = i_10
+t0 = t0 * t1
+v257_10 = t0
+t0 = v257_10
+t1 = v248_10
+t0 = t0 + t1
+v257_10 = t0
+t0 = v247_10
+t1 = v257_10
+t0 = t0 + t1
+v257_10 = t0
+t0 = v257_10
+t0 = [t0 + 0]
+v258_10 = t0
+t0 = 4
+v259_10 = t0
+t0 = 5
+v260_10 = t0
+t0 = v259_10
+t1 = v260_10
+t0 = t0 - t1
+v261_10 = t0
+t0 = s7
+t0 = [t0 + 0]
+v262_10 = t0
+t0 = v261_10
+t1 = i_10
+t0 = t0 < t1
+v263_10 = t0
+t0 = i_10
+t1 = v262_10
+t0 = t0 < t1
+v264_10 = t0
+t0 = v263_10
+t1 = v264_10
+t0 = t0 * t1
+v265_10 = t0
+t0 = v265_10
+if0 t0 goto lbl_OutOfBounds_266
+goto lbl_Inbound_267
+lbl_OutOfBounds_266:
+error("array index out of bounds")
+lbl_Inbound_267:
+t0 = v259_10
+t1 = i_10
+t0 = t0 * t1
+v268_10 = t0
+t0 = v268_10
+t1 = v259_10
+t0 = t0 + t1
+v268_10 = t0
+t0 = s7
+t1 = v268_10
+t0 = t0 + t1
+v268_10 = t0
+t1 = v268_10
+t0 = v258_10
+[t1 + 0] = t0
+t0 = 1
+v270_10 = t0
+t0 = i_10
+t1 = v270_10
+t0 = t0 + t1
+v269_10 = t0
+t0 = v269_10
+i_10 = t0
+goto lbl_While_228
+lbl_WhileExit_229:
+t0 = 0
+s6 = t0
+t0 = s6
+i_10 = t0
+lbl_While_272:
+t0 = a2
+t0 = [t0 + 20]
+s5 = t0
+t0 = s5
+t0 = [t0 + 0]
+s10 = t0
+t0 = i_10
+t1 = s10
+t0 = t0 < t1
+s3 = t0
+t0 = s3
+if0 t0 goto lbl_WhileExit_273
+t0 = 0
+s1 = t0
+t0 = s1
+s11 = t0
+lbl_While_278:
+t0 = a2
+t0 = [t0 + 44]
+s9 = t0
+t0 = s9
+t0 = [t0 + 0]
+s4 = t0
+t0 = s11
+t1 = s4
+t0 = t0 < t1
+s8 = t0
+t0 = s8
+if0 t0 goto lbl_WhileExit_279
+t0 = a2
+t0 = [t0 + 20]
+s2 = t0
+t0 = 4
+s7 = t0
+t0 = 5
+s6 = t0
+t0 = s7
+t1 = s6
+t0 = t0 - t1
+t4 = t0
+t0 = s2
+t0 = [t0 + 0]
+t3 = t0
+t0 = t4
+t1 = i_10
+t0 = t0 < t1
+t2 = t0
+t0 = i_10
+t1 = t3
+t0 = t0 < t1
+t5 = t0
+t0 = t2
+t1 = t5
+t0 = t0 * t1
+v292_10 = t0
+t0 = v292_10
+if0 t0 goto lbl_OutOfBounds_293
+goto lbl_Inbound_294
+lbl_OutOfBounds_293:
+error("array index out of bounds")
+lbl_Inbound_294:
+t0 = s7
+t1 = i_10
+t0 = t0 * t1
+v295_10 = t0
+t0 = v295_10
+t1 = s7
+t0 = t0 + t1
+v295_10 = t0
+t0 = s2
+t1 = v295_10
+t0 = t0 + t1
+v295_10 = t0
+t0 = v295_10
+t0 = [t0 + 0]
+v296_10 = t0
+t0 = a2
+t0 = [t0 + 44]
+v297_10 = t0
+t0 = 4
+v298_10 = t0
+t0 = 5
+v299_10 = t0
+t0 = v298_10
+t1 = v299_10
+t0 = t0 - t1
+v300_10 = t0
+t0 = v297_10
+t0 = [t0 + 0]
+v301_10 = t0
+t0 = v300_10
+t1 = s11
+t0 = t0 < t1
+v302_10 = t0
+t0 = s11
+t1 = v301_10
+t0 = t0 < t1
+v303_10 = t0
+t0 = v302_10
+t1 = v303_10
+t0 = t0 * t1
+v304_10 = t0
+t0 = v304_10
+if0 t0 goto lbl_OutOfBounds_305
+goto lbl_Inbound_306
+lbl_OutOfBounds_305:
+error("array index out of bounds")
+lbl_Inbound_306:
+t0 = v298_10
+t1 = s11
+t0 = t0 * t1
+v307_10 = t0
+t0 = v307_10
+t1 = v298_10
+t0 = t0 + t1
+v307_10 = t0
+t0 = v297_10
+t1 = v307_10
+t0 = t0 + t1
+v307_10 = t0
+t0 = v307_10
+t0 = [t0 + 0]
+v308_10 = t0
+t0 = v296_10
+t1 = v308_10
+t0 = t0 + t1
+v284_10 = t0
+t0 = result_10
+t1 = v284_10
+t0 = t0 + t1
+v283_10 = t0
+t0 = v283_10
+result_10 = t0
+t0 = 1
+v310_10 = t0
+t0 = s11
+t1 = v310_10
+t0 = t0 + t1
+v309_10 = t0
+t0 = v309_10
+s11 = t0
+goto lbl_While_278
+lbl_WhileExit_279:
+t0 = 1
+v312_10 = t0
+t0 = i_10
+t1 = v312_10
+t0 = t0 + t1
+v311_10 = t0
+t0 = v311_10
+i_10 = t0
+goto lbl_While_272
+lbl_WhileExit_273:
+s3 = s3_stack
+s4 = s4_stack
+s5 = s5_stack
+s11 = s11_stack
+s10 = s10_stack
+s6 = s6_stack
+s7 = s7_stack
+s8 = s8_stack
+s9 = s9_stack
+s1 = s1_stack
+s2 = s2_stack
+      return result_10
+
+func Z_calculate()
+s5_stack = s5
+s10_stack = s10
+t0 = 4
+s5 = t0
+t0 = a3
+t1 = s5
+t0 = t0 * t1
+s10 = t0
+v313_11 = s10
+s5 = s5_stack
+s10 = s10_stack
+      return v313_11
+
+func Y_setDepArray()
+s3_stack = s3
+t1 = a2
+t0 = a3
+[t1 + 52] = t0
+t0 = 1
+s3 = t0
+v315_12 = s3
+s3 = s3_stack
+      return v315_12
+
+func Y_compute()
+s3_stack = s3
+s4_stack = s4
+s11_stack = s11
+s5_stack = s5
+s10_stack = s10
+s6_stack = s6
+s7_stack = s7
+s8_stack = s8
+s9_stack = s9
+s1_stack = s1
+s2_stack = s2
+t0 = 32
+s1 = t0
+t0 = 16
+s11 = t0
+t0 = s1
+t0 = alloc(t0)
+s9 = t0
+t0 = s11
+t0 = alloc(t0)
+s4 = t0
+t0 = @V_compute
+s8 = t0
+t1 = s4
+t0 = s8
+[t1 + 0] = t0
+t0 = @V_getArray
+s2 = t0
+t1 = s4
+t0 = s2
+[t1 + 4] = t0
+t0 = @V_calculate
+s7 = t0
+t1 = s4
+t0 = s7
+[t1 + 8] = t0
+t0 = @V_setArray
+s6 = t0
+t1 = s4
+t0 = s6
+[t1 + 12] = t0
+t1 = s9
+t0 = s4
+[t1 + 0] = t0
+t0 = s9
+if0 t0 goto lbl_NullPtr_324
+goto lbl_GoodPtr_325
+lbl_NullPtr_324:
+error("null pointer")
+lbl_GoodPtr_325:
+t1 = a2
+t0 = s9
+[t1 + 48] = t0
+t0 = a2
+t0 = [t0 + 48]
+t4 = t0
+t0 = t4
+if0 t0 goto lbl_NullPtr_329
+t0 = t4
+t0 = [t0 + 0]
+t3 = t0
+t0 = t3
+t0 = [t0 + 8]
+t3 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t4
+a2 = t0
+t0 = a3
+a3 = t0
+t0 = t3
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t2 = t0
+goto lbl_GoodPtr_330
+lbl_NullPtr_329:
+error("null pointer")
+lbl_GoodPtr_330:
+t0 = t2
+result_13 = t0
+t0 = 1
+s10 = t0
+t0 = 4
+s3 = t0
+t0 = a3
+t1 = s10
+t0 = t0 + t1
+s1 = t0
+t0 = s1
+t1 = s3
+t0 = t0 * t1
+s1 = t0
+t0 = s1
+t0 = alloc(t0)
+s11 = t0
+t0 = s11
+if0 t0 goto lbl_NullPtr_335
+goto lbl_GoodPtr_336
+lbl_NullPtr_335:
+error("null pointer")
+lbl_GoodPtr_336:
+t1 = s11
+t0 = a3
+[t1 + 0] = t0
+t1 = a2
+t0 = s11
+[t1 + 20] = t0
+t0 = 1
+s8 = t0
+t0 = 4
+s2 = t0
+t0 = a3
+t1 = s8
+t0 = t0 + t1
+s7 = t0
+t0 = s7
+t1 = s2
+t0 = t0 * t1
+s7 = t0
+t0 = s7
+t0 = alloc(t0)
+s6 = t0
+t0 = s6
+if0 t0 goto lbl_NullPtr_341
+goto lbl_GoodPtr_342
+lbl_NullPtr_341:
+error("null pointer")
+lbl_GoodPtr_342:
+t1 = s6
+t0 = a3
+[t1 + 0] = t0
+t1 = a2
+t0 = s6
+[t1 + 52] = t0
+t0 = 0
+s4 = t0
+t0 = s4
+i_13 = t0
+lbl_While_344:
+t0 = a2
+t0 = [t0 + 20]
+s10 = t0
+t0 = s10
+t0 = [t0 + 0]
+s3 = t0
+t0 = i_13
+t1 = s3
+t0 = t0 < t1
+s1 = t0
+t0 = s1
+if0 t0 goto lbl_WhileExit_345
+t0 = a2
+t0 = [t0 + 20]
+s11 = t0
+t0 = 3
+s8 = t0
+t0 = result_13
+t1 = s8
+t0 = t0 * t1
+s2 = t0
+t0 = 4
+s7 = t0
+t0 = 5
+s6 = t0
+t0 = s7
+t1 = s6
+t0 = t0 - t1
+s4 = t0
+t0 = s11
+t0 = [t0 + 0]
+t5 = t0
+t0 = s4
+t1 = i_13
+t0 = t0 < t1
+t4 = t0
+t0 = i_13
+t1 = t5
+t0 = t0 < t1
+t3 = t0
+t0 = t4
+t1 = t3
+t0 = t0 * t1
+t2 = t0
+t0 = t2
+if0 t0 goto lbl_OutOfBounds_359
+goto lbl_Inbound_360
+lbl_OutOfBounds_359:
+error("array index out of bounds")
+lbl_Inbound_360:
+t0 = s7
+t1 = i_13
+t0 = t0 * t1
+s5 = t0
+t0 = s5
+t1 = s7
+t0 = t0 + t1
+s5 = t0
+t0 = s11
+t1 = s5
+t0 = t0 + t1
+s5 = t0
+t1 = s5
+t0 = s2
+[t1 + 0] = t0
+t0 = a2
+t0 = [t0 + 52]
+s9 = t0
+t0 = a2
+t0 = [t0 + 20]
+v363_13 = t0
+t0 = 4
+v364_13 = t0
+t0 = 5
+v365_13 = t0
+t0 = v364_13
+t1 = v365_13
+t0 = t0 - t1
+v366_13 = t0
+t0 = v363_13
+t0 = [t0 + 0]
+v367_13 = t0
+t0 = v366_13
+t1 = i_13
+t0 = t0 < t1
+v368_13 = t0
+t0 = i_13
+t1 = v367_13
+t0 = t0 < t1
+v369_13 = t0
+t0 = v368_13
+t1 = v369_13
+t0 = t0 * t1
+v370_13 = t0
+t0 = v370_13
+if0 t0 goto lbl_OutOfBounds_371
+goto lbl_Inbound_372
+lbl_OutOfBounds_371:
+error("array index out of bounds")
+lbl_Inbound_372:
+t0 = v364_13
+t1 = i_13
+t0 = t0 * t1
+v373_13 = t0
+t0 = v373_13
+t1 = v364_13
+t0 = t0 + t1
+v373_13 = t0
+t0 = v363_13
+t1 = v373_13
+t0 = t0 + t1
+v373_13 = t0
+t0 = v373_13
+t0 = [t0 + 0]
+v374_13 = t0
+t0 = 4
+v375_13 = t0
+t0 = 5
+v376_13 = t0
+t0 = v375_13
+t1 = v376_13
+t0 = t0 - t1
+v377_13 = t0
+t0 = s9
+t0 = [t0 + 0]
+v378_13 = t0
+t0 = v377_13
+t1 = i_13
+t0 = t0 < t1
+v379_13 = t0
+t0 = i_13
+t1 = v378_13
+t0 = t0 < t1
+v380_13 = t0
+t0 = v379_13
+t1 = v380_13
+t0 = t0 * t1
+v381_13 = t0
+t0 = v381_13
+if0 t0 goto lbl_OutOfBounds_382
+goto lbl_Inbound_383
+lbl_OutOfBounds_382:
+error("array index out of bounds")
+lbl_Inbound_383:
+t0 = v375_13
+t1 = i_13
+t0 = t0 * t1
+v384_13 = t0
+t0 = v384_13
+t1 = v375_13
+t0 = t0 + t1
+v384_13 = t0
+t0 = s9
+t1 = v384_13
+t0 = t0 + t1
+v384_13 = t0
+t1 = v384_13
+t0 = v374_13
+[t1 + 0] = t0
+t0 = 1
+v386_13 = t0
+t0 = i_13
+t1 = v386_13
+t0 = t0 + t1
+v385_13 = t0
+t0 = v385_13
+i_13 = t0
+goto lbl_While_344
+lbl_WhileExit_345:
+t0 = 0
+s10 = t0
+t0 = s10
+i_13 = t0
+lbl_While_388:
+t0 = a2
+t0 = [t0 + 20]
+s3 = t0
+t0 = s3
+t0 = [t0 + 0]
+s1 = t0
+t0 = i_13
+t1 = s1
+t0 = t0 < t1
+s11 = t0
+t0 = s11
+if0 t0 goto lbl_WhileExit_389
+t0 = 0
+s8 = t0
+t0 = s8
+s2 = t0
+lbl_While_394:
+t0 = a2
+t0 = [t0 + 52]
+s7 = t0
+t0 = s7
+t0 = [t0 + 0]
+s6 = t0
+t0 = s2
+t1 = s6
+t0 = t0 < t1
+s4 = t0
+t0 = s4
+if0 t0 goto lbl_WhileExit_395
+t0 = a2
+t0 = [t0 + 20]
+s5 = t0
+t0 = 4
+s9 = t0
+t0 = 5
+s10 = t0
+t0 = s9
+t1 = s10
+t0 = t0 - t1
+t5 = t0
+t0 = s5
+t0 = [t0 + 0]
+t4 = t0
+t0 = t5
+t1 = i_13
+t0 = t0 < t1
+t3 = t0
+t0 = i_13
+t1 = t4
+t0 = t0 < t1
+t2 = t0
+t0 = t3
+t1 = t2
+t0 = t0 * t1
+v408_13 = t0
+t0 = v408_13
+if0 t0 goto lbl_OutOfBounds_409
+goto lbl_Inbound_410
+lbl_OutOfBounds_409:
+error("array index out of bounds")
+lbl_Inbound_410:
+t0 = s9
+t1 = i_13
+t0 = t0 * t1
+v411_13 = t0
+t0 = v411_13
+t1 = s9
+t0 = t0 + t1
+v411_13 = t0
+t0 = s5
+t1 = v411_13
+t0 = t0 + t1
+v411_13 = t0
+t0 = v411_13
+t0 = [t0 + 0]
+v412_13 = t0
+t0 = a2
+t0 = [t0 + 52]
+v413_13 = t0
+t0 = 4
+v414_13 = t0
+t0 = 5
+v415_13 = t0
+t0 = v414_13
+t1 = v415_13
+t0 = t0 - t1
+v416_13 = t0
+t0 = v413_13
+t0 = [t0 + 0]
+v417_13 = t0
+t0 = v416_13
+t1 = s2
+t0 = t0 < t1
+v418_13 = t0
+t0 = s2
+t1 = v417_13
+t0 = t0 < t1
+v419_13 = t0
+t0 = v418_13
+t1 = v419_13
+t0 = t0 * t1
+v420_13 = t0
+t0 = v420_13
+if0 t0 goto lbl_OutOfBounds_421
+goto lbl_Inbound_422
+lbl_OutOfBounds_421:
+error("array index out of bounds")
+lbl_Inbound_422:
+t0 = v414_13
+t1 = s2
+t0 = t0 * t1
+v423_13 = t0
+t0 = v423_13
+t1 = v414_13
+t0 = t0 + t1
+v423_13 = t0
+t0 = v413_13
+t1 = v423_13
+t0 = t0 + t1
+v423_13 = t0
+t0 = v423_13
+t0 = [t0 + 0]
+v424_13 = t0
+t0 = v412_13
+t1 = v424_13
+t0 = t0 - t1
+v400_13 = t0
+t0 = result_13
+t1 = v400_13
+t0 = t0 * t1
+v399_13 = t0
+t0 = v399_13
+result_13 = t0
+t0 = 1
+v426_13 = t0
+t0 = s2
+t1 = v426_13
+t0 = t0 + t1
+v425_13 = t0
+t0 = v425_13
+s2 = t0
+goto lbl_While_394
+lbl_WhileExit_395:
+t0 = 1
+v428_13 = t0
+t0 = i_13
+t1 = v428_13
+t0 = t0 + t1
+v427_13 = t0
+t0 = v427_13
+i_13 = t0
+goto lbl_While_388
+lbl_WhileExit_389:
+s3 = s3_stack
+s4 = s4_stack
+s11 = s11_stack
+s5 = s5_stack
+s10 = s10_stack
+s6 = s6_stack
+s7 = s7_stack
+s8 = s8_stack
+s9 = s9_stack
+s1 = s1_stack
+s2 = s2_stack
+      return result_13
+
+func Y_calculate()
+s3_stack = s3
+s1_stack = s1
+t0 = 5
+s3 = t0
+t0 = a3
+t1 = s3
+t0 = t0 * t1
+s1 = t0
+v429_14 = s1
+s3 = s3_stack
+s1 = s1_stack
+      return v429_14
+
+func X_setDepArray()
+s11_stack = s11
+t1 = a2
+t0 = a3
+[t1 + 60] = t0
+t0 = 1
+s11 = t0
+v431_15 = s11
+s11 = s11_stack
+      return v431_15
+
+func X_compute()
+s3_stack = s3
+s4_stack = s4
+s11_stack = s11
+s5_stack = s5
+s6_stack = s6
+s10_stack = s10
+s7_stack = s7
+s8_stack = s8
+s9_stack = s9
+s1_stack = s1
+s2_stack = s2
+t0 = 40
+s8 = t0
+t0 = 20
+s2 = t0
+t0 = s8
+t0 = alloc(t0)
+s7 = t0
+t0 = s2
+t0 = alloc(t0)
+s6 = t0
+t0 = @W_compute
+s4 = t0
+t1 = s6
+t0 = s4
+[t1 + 0] = t0
+t0 = @V_getArray
+s5 = t0
+t1 = s6
+t0 = s5
+[t1 + 4] = t0
+t0 = @W_setDepArray
+s9 = t0
+t1 = s6
+t0 = s9
+[t1 + 16] = t0
+t0 = @W_calculate
+s10 = t0
+t1 = s6
+t0 = s10
+[t1 + 8] = t0
+t0 = @V_setArray
+s3 = t0
+t1 = s6
+t0 = s3
+[t1 + 12] = t0
+t1 = s7
+t0 = s6
+[t1 + 0] = t0
+t0 = s7
+if0 t0 goto lbl_NullPtr_441
+goto lbl_GoodPtr_442
+lbl_NullPtr_441:
+error("null pointer")
+lbl_GoodPtr_442:
+t1 = a2
+t0 = s7
+[t1 + 56] = t0
+t0 = a2
+t0 = [t0 + 56]
+t5 = t0
+t0 = t5
+if0 t0 goto lbl_NullPtr_446
+t0 = t5
+t0 = [t0 + 0]
+t4 = t0
+t0 = t4
+t0 = [t0 + 8]
+t4 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t5
+a2 = t0
+t0 = a3
+a3 = t0
+t0 = t4
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t3 = t0
+goto lbl_GoodPtr_447
+lbl_NullPtr_446:
+error("null pointer")
+lbl_GoodPtr_447:
+t0 = t3
+result_16 = t0
+t0 = 1
+s11 = t0
+t0 = 4
+s8 = t0
+t0 = a3
+t1 = s11
+t0 = t0 + t1
+s2 = t0
+t0 = s2
+t1 = s8
+t0 = t0 * t1
+s2 = t0
+t0 = s2
+t0 = alloc(t0)
+s4 = t0
+t0 = s4
+if0 t0 goto lbl_NullPtr_452
+goto lbl_GoodPtr_453
+lbl_NullPtr_452:
+error("null pointer")
+lbl_GoodPtr_453:
+t1 = s4
+t0 = a3
+[t1 + 0] = t0
+t1 = a2
+t0 = s4
+[t1 + 20] = t0
+t0 = 1
+s5 = t0
+t0 = 4
+s9 = t0
+t0 = a3
+t1 = s5
+t0 = t0 + t1
+s10 = t0
+t0 = s10
+t1 = s9
+t0 = t0 * t1
+s10 = t0
+t0 = s10
+t0 = alloc(t0)
+s3 = t0
+t0 = s3
+if0 t0 goto lbl_NullPtr_458
+goto lbl_GoodPtr_459
+lbl_NullPtr_458:
+error("null pointer")
+lbl_GoodPtr_459:
+t1 = s3
+t0 = a3
+[t1 + 0] = t0
+t1 = a2
+t0 = s3
+[t1 + 60] = t0
+t0 = 0
+s6 = t0
+t0 = s6
+i_16 = t0
+lbl_While_461:
+t0 = a2
+t0 = [t0 + 20]
+s11 = t0
+t0 = s11
+t0 = [t0 + 0]
+s8 = t0
+t0 = i_16
+t1 = s8
+t0 = t0 < t1
+s2 = t0
+t0 = s2
+if0 t0 goto lbl_WhileExit_462
+t0 = a2
+t0 = [t0 + 20]
+s4 = t0
+t0 = 4
+s5 = t0
+t0 = result_16
+t1 = s5
+t0 = t0 * t1
+s9 = t0
+t0 = 4
+s10 = t0
+t0 = 5
+s3 = t0
+t0 = s10
+t1 = s3
+t0 = t0 - t1
+s6 = t0
+t0 = s4
+t0 = [t0 + 0]
+t2 = t0
+t0 = s6
+t1 = i_16
+t0 = t0 < t1
+t5 = t0
+t0 = i_16
+t1 = t2
+t0 = t0 < t1
+t4 = t0
+t0 = t5
+t1 = t4
+t0 = t0 * t1
+t3 = t0
+t0 = t3
+if0 t0 goto lbl_OutOfBounds_476
+goto lbl_Inbound_477
+lbl_OutOfBounds_476:
+error("array index out of bounds")
+lbl_Inbound_477:
+t0 = s10
+t1 = i_16
+t0 = t0 * t1
+s1 = t0
+t0 = s1
+t1 = s10
+t0 = t0 + t1
+s1 = t0
+t0 = s4
+t1 = s1
+t0 = t0 + t1
+s1 = t0
+t1 = s1
+t0 = s9
+[t1 + 0] = t0
+t0 = a2
+t0 = [t0 + 60]
+s7 = t0
+t0 = a2
+t0 = [t0 + 20]
+v480_16 = t0
+t0 = 4
+v481_16 = t0
+t0 = 5
+v482_16 = t0
+t0 = v481_16
+t1 = v482_16
+t0 = t0 - t1
+v483_16 = t0
+t0 = v480_16
+t0 = [t0 + 0]
+v484_16 = t0
+t0 = v483_16
+t1 = i_16
+t0 = t0 < t1
+v485_16 = t0
+t0 = i_16
+t1 = v484_16
+t0 = t0 < t1
+v486_16 = t0
+t0 = v485_16
+t1 = v486_16
+t0 = t0 * t1
+v487_16 = t0
+t0 = v487_16
+if0 t0 goto lbl_OutOfBounds_488
+goto lbl_Inbound_489
+lbl_OutOfBounds_488:
+error("array index out of bounds")
+lbl_Inbound_489:
+t0 = v481_16
+t1 = i_16
+t0 = t0 * t1
+v490_16 = t0
+t0 = v490_16
+t1 = v481_16
+t0 = t0 + t1
+v490_16 = t0
+t0 = v480_16
+t1 = v490_16
+t0 = t0 + t1
+v490_16 = t0
+t0 = v490_16
+t0 = [t0 + 0]
+v491_16 = t0
+t0 = 4
+v492_16 = t0
+t0 = 5
+v493_16 = t0
+t0 = v492_16
+t1 = v493_16
+t0 = t0 - t1
+v494_16 = t0
+t0 = s7
+t0 = [t0 + 0]
+v495_16 = t0
+t0 = v494_16
+t1 = i_16
+t0 = t0 < t1
+v496_16 = t0
+t0 = i_16
+t1 = v495_16
+t0 = t0 < t1
+v497_16 = t0
+t0 = v496_16
+t1 = v497_16
+t0 = t0 * t1
+v498_16 = t0
+t0 = v498_16
+if0 t0 goto lbl_OutOfBounds_499
+goto lbl_Inbound_500
+lbl_OutOfBounds_499:
+error("array index out of bounds")
+lbl_Inbound_500:
+t0 = v492_16
+t1 = i_16
+t0 = t0 * t1
+v501_16 = t0
+t0 = v501_16
+t1 = v492_16
+t0 = t0 + t1
+v501_16 = t0
+t0 = s7
+t1 = v501_16
+t0 = t0 + t1
+v501_16 = t0
+t1 = v501_16
+t0 = v491_16
+[t1 + 0] = t0
+t0 = 1
+v503_16 = t0
+t0 = i_16
+t1 = v503_16
+t0 = t0 + t1
+v502_16 = t0
+t0 = v502_16
+i_16 = t0
+goto lbl_While_461
+lbl_WhileExit_462:
+t0 = 0
+s11 = t0
+t0 = s11
+i_16 = t0
+lbl_While_505:
+t0 = a2
+t0 = [t0 + 20]
+s8 = t0
+t0 = s8
+t0 = [t0 + 0]
+s2 = t0
+t0 = i_16
+t1 = s2
+t0 = t0 < t1
+s4 = t0
+t0 = s4
+if0 t0 goto lbl_WhileExit_506
+t0 = 0
+s5 = t0
+t0 = s5
+s9 = t0
+lbl_While_511:
+t0 = a2
+t0 = [t0 + 60]
+s10 = t0
+t0 = s10
+t0 = [t0 + 0]
+s3 = t0
+t0 = s9
+t1 = s3
+t0 = t0 < t1
+s6 = t0
+t0 = s6
+if0 t0 goto lbl_WhileExit_512
+t0 = a2
+t0 = [t0 + 20]
+s1 = t0
+t0 = 4
+s7 = t0
+t0 = 5
+s11 = t0
+t0 = s7
+t1 = s11
+t0 = t0 - t1
+t2 = t0
+t0 = s1
+t0 = [t0 + 0]
+t5 = t0
+t0 = t2
+t1 = i_16
+t0 = t0 < t1
+t4 = t0
+t0 = i_16
+t1 = t5
+t0 = t0 < t1
+t3 = t0
+t0 = t4
+t1 = t3
+t0 = t0 * t1
+v525_16 = t0
+t0 = v525_16
+if0 t0 goto lbl_OutOfBounds_526
+goto lbl_Inbound_527
+lbl_OutOfBounds_526:
+error("array index out of bounds")
+lbl_Inbound_527:
+t0 = s7
+t1 = i_16
+t0 = t0 * t1
+v528_16 = t0
+t0 = v528_16
+t1 = s7
+t0 = t0 + t1
+v528_16 = t0
+t0 = s1
+t1 = v528_16
+t0 = t0 + t1
+v528_16 = t0
+t0 = v528_16
+t0 = [t0 + 0]
+v529_16 = t0
+t0 = a2
+t0 = [t0 + 60]
+v530_16 = t0
+t0 = 4
+v531_16 = t0
+t0 = 5
+v532_16 = t0
+t0 = v531_16
+t1 = v532_16
+t0 = t0 - t1
+v533_16 = t0
+t0 = v530_16
+t0 = [t0 + 0]
+v534_16 = t0
+t0 = v533_16
+t1 = s9
+t0 = t0 < t1
+v535_16 = t0
+t0 = s9
+t1 = v534_16
+t0 = t0 < t1
+v536_16 = t0
+t0 = v535_16
+t1 = v536_16
+t0 = t0 * t1
+v537_16 = t0
+t0 = v537_16
+if0 t0 goto lbl_OutOfBounds_538
+goto lbl_Inbound_539
+lbl_OutOfBounds_538:
+error("array index out of bounds")
+lbl_Inbound_539:
+t0 = v531_16
+t1 = s9
+t0 = t0 * t1
+v540_16 = t0
+t0 = v540_16
+t1 = v531_16
+t0 = t0 + t1
+v540_16 = t0
+t0 = v530_16
+t1 = v540_16
+t0 = t0 + t1
+v540_16 = t0
+t0 = v540_16
+t0 = [t0 + 0]
+v541_16 = t0
+t0 = v529_16
+t1 = v541_16
+t0 = t0 * t1
+v517_16 = t0
+t0 = result_16
+t1 = v517_16
+t0 = t0 + t1
+v516_16 = t0
+t0 = v516_16
+result_16 = t0
+t0 = 1
+v543_16 = t0
+t0 = s9
+t1 = v543_16
+t0 = t0 + t1
+v542_16 = t0
+t0 = v542_16
+s9 = t0
+goto lbl_While_511
+lbl_WhileExit_512:
+t0 = 1
+v545_16 = t0
+t0 = i_16
+t1 = v545_16
+t0 = t0 + t1
+v544_16 = t0
+t0 = v544_16
+i_16 = t0
+goto lbl_While_505
+lbl_WhileExit_506:
+s3 = s3_stack
+s4 = s4_stack
+s11 = s11_stack
+s5 = s5_stack
+s6 = s6_stack
+s10 = s10_stack
+s7 = s7_stack
+s8 = s8_stack
+s9 = s9_stack
+s1 = s1_stack
+s2 = s2_stack
+      return result_16
+
+func X_calculate()
+s8_stack = s8
+s2_stack = s2
+t0 = 6
+s8 = t0
+t0 = a3
+t1 = s8
+t0 = t0 * t1
+s2 = t0
+v546_17 = s2
+s8 = s8_stack
+s2 = s2_stack
+      return v546_17
+
+

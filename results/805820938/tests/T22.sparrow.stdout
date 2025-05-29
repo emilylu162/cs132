@@ -1,0 +1,134 @@
+func main()
+s3_stack = s3
+s4_stack = s4
+s5_stack = s5
+s6_stack = s6
+s1_stack = s1
+s2_stack = s2
+t0 = 8
+s1 = t0
+t0 = 4
+s2 = t0
+t0 = s1
+t0 = alloc(t0)
+s3 = t0
+t0 = s2
+t0 = alloc(t0)
+s4 = t0
+t0 = @A_BaseMethod
+s5 = t0
+t1 = s4
+t0 = s5
+[t1 + 0] = t0
+t1 = s3
+t0 = s4
+[t1 + 0] = t0
+t0 = s3
+if0 t0 goto lbl_NullPtr_5
+goto lbl_GoodPtr_6
+lbl_NullPtr_5:
+error("null pointer")
+lbl_GoodPtr_6:
+t0 = s3
+t2 = t0
+t0 = t2
+if0 t0 goto lbl_NullPtr_9
+t0 = t2
+t0 = [t0 + 0]
+t3 = t0
+t0 = t3
+t0 = [t0 + 0]
+t3 = t0
+t0 = 10
+t4 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t2
+a2 = t0
+t0 = t4
+a3 = t0
+t0 = t3
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t5 = t0
+goto lbl_GoodPtr_10
+lbl_NullPtr_9:
+error("null pointer")
+lbl_GoodPtr_10:
+t0 = t5
+print(t0)
+t0 = 0
+s6 = t0
+v12_1 = s6
+      return v12_1
+
+func A_BaseMethod()
+s11_stack = s11
+s10_stack = s10
+s7_stack = s7
+s8_stack = s8
+s9_stack = s9
+s1_stack = s1
+t0 = 0
+s7 = t0
+t0 = s7
+t1 = a3
+t0 = t0 < t1
+s8 = t0
+t0 = s8
+if0 t0 goto lbl_Else_13
+t0 = a2
+if0 t0 goto lbl_NullPtr_20
+t0 = a2
+t0 = [t0 + 0]
+t2 = t0
+t0 = t2
+t0 = [t0 + 0]
+t2 = t0
+t0 = 1
+s9 = t0
+t0 = a3
+t1 = s9
+t0 = t0 - t1
+t3 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = a2_stack
+a2 = t0
+t0 = t3
+a3 = t0
+t0 = t2
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+t4 = t0
+goto lbl_GoodPtr_21
+lbl_NullPtr_20:
+error("null pointer")
+lbl_GoodPtr_21:
+t0 = 20
+s10 = t0
+t0 = t4
+t1 = s10
+t0 = t0 + t1
+s11 = t0
+t1 = a2
+t0 = s11
+[t1 + 4] = t0
+goto lbl_IfEnd_14
+lbl_Else_13:
+lbl_IfEnd_14:
+t0 = a2
+t0 = [t0 + 4]
+s1 = t0
+v25_2 = s1
+s11 = s11_stack
+s10 = s10_stack
+s7 = s7_stack
+s8 = s8_stack
+s9 = s9_stack
+s1 = s1_stack
+      return v25_2
+
+

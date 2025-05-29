@@ -1,0 +1,524 @@
+func main()
+s3_stack = s3
+s4_stack = s4
+s5_stack = s5
+s11_stack = s11
+s10_stack = s10
+s6_stack = s6
+s7_stack = s7
+s8_stack = s8
+s9_stack = s9
+s1_stack = s1
+s2_stack = s2
+t0 = 52
+s1 = t0
+t0 = 24
+s2 = t0
+t0 = s1
+t0 = alloc(t0)
+s3 = t0
+t0 = s2
+t0 = alloc(t0)
+s4 = t0
+t0 = @C_printC
+s5 = t0
+t1 = s4
+t0 = s5
+[t1 + 16] = t0
+t0 = @C_initC
+s6 = t0
+t1 = s4
+t0 = s6
+[t1 + 20] = t0
+t0 = @B_initB
+s7 = t0
+t1 = s4
+t0 = s7
+[t1 + 12] = t0
+t0 = @A_printA
+s8 = t0
+t1 = s4
+t0 = s8
+[t1 + 0] = t0
+t0 = @A_initA
+s9 = t0
+t1 = s4
+t0 = s9
+[t1 + 4] = t0
+t0 = @B_printB
+s10 = t0
+t1 = s4
+t0 = s10
+[t1 + 8] = t0
+t1 = s3
+t0 = s4
+[t1 + 0] = t0
+t0 = s3
+if0 t0 goto lbl_NullPtr_10
+goto lbl_GoodPtr_11
+lbl_NullPtr_10:
+error("null pointer")
+lbl_GoodPtr_11:
+t0 = s3
+t2 = t0
+t0 = t2
+if0 t0 goto lbl_NullPtr_14
+t0 = t2
+t0 = [t0 + 0]
+t3 = t0
+t0 = t3
+t0 = [t0 + 20]
+t3 = t0
+t0 = 1
+t4 = t0
+t0 = 2
+t5 = t0
+t0 = 3
+s11 = t0
+t0 = 4
+s1 = t0
+t0 = 5
+s2 = t0
+t0 = 6
+s5 = t0
+t0 = 7
+s6 = t0
+a2_stack = a2
+a3_stack = a3
+a4_stack = a4
+a5_stack = a5
+a6_stack = a6
+a7_stack = a7
+t0 = t2
+a2 = t0
+t0 = t4
+a3 = t0
+t0 = t5
+a4 = t0
+t0 = s11
+a5 = t0
+t0 = s1
+a6 = t0
+t0 = s2
+a7 = t0
+v21_1_stack = s5
+v22_1_stack = s6
+t0 = t3
+t2_stack = t2
+t0 = call t0(v21_1_stack v22_1_stack)
+a2 = a2_stack
+a3 = a3_stack
+a4 = a4_stack
+a5 = a5_stack
+a6 = a6_stack
+a7 = a7_stack
+t2 = t2_stack
+s7 = t0
+goto lbl_GoodPtr_15
+lbl_NullPtr_14:
+error("null pointer")
+lbl_GoodPtr_15:
+t0 = s7
+s8 = t0
+t0 = t2
+if0 t0 goto lbl_NullPtr_25
+t0 = t2
+t0 = [t0 + 0]
+t3 = t0
+t0 = t3
+t0 = [t0 + 12]
+t3 = t0
+t0 = 8
+t4 = t0
+t0 = 9
+t5 = t0
+t0 = 10
+s9 = t0
+t0 = 11
+s10 = t0
+t0 = 12
+s4 = t0
+t0 = 13
+s3 = t0
+a2_stack = a2
+a3_stack = a3
+a4_stack = a4
+a5_stack = a5
+a6_stack = a6
+a7_stack = a7
+t0 = t2
+a2 = t0
+t0 = t4
+a3 = t0
+t0 = t5
+a4 = t0
+t0 = s9
+a5 = t0
+t0 = s10
+a6 = t0
+t0 = s4
+a7 = t0
+v32_1_stack = s3
+t0 = t3
+t2_stack = t2
+t0 = call t0(v32_1_stack)
+a2 = a2_stack
+a3 = a3_stack
+a4 = a4_stack
+a5 = a5_stack
+a6 = a6_stack
+a7 = a7_stack
+t2 = t2_stack
+s11 = t0
+goto lbl_GoodPtr_26
+lbl_NullPtr_25:
+error("null pointer")
+lbl_GoodPtr_26:
+t0 = s11
+s8 = t0
+t0 = t2
+if0 t0 goto lbl_NullPtr_35
+t0 = t2
+t0 = [t0 + 0]
+t3 = t0
+t0 = t3
+t0 = [t0 + 4]
+t3 = t0
+t0 = 14
+t4 = t0
+t0 = 15
+t5 = t0
+t0 = 16
+s1 = t0
+t0 = 17
+s2 = t0
+a2_stack = a2
+a3_stack = a3
+a4_stack = a4
+a5_stack = a5
+a6_stack = a6
+t0 = t2
+a2 = t0
+t0 = t4
+a3 = t0
+t0 = t5
+a4 = t0
+t0 = s1
+a5 = t0
+t0 = s2
+a6 = t0
+t0 = t3
+t2_stack = t2
+t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+a4 = a4_stack
+a5 = a5_stack
+a6 = a6_stack
+t2 = t2_stack
+s5 = t0
+goto lbl_GoodPtr_36
+lbl_NullPtr_35:
+error("null pointer")
+lbl_GoodPtr_36:
+t0 = s5
+s8 = t0
+t0 = t2
+if0 t0 goto lbl_NullPtr_43
+t0 = t2
+t0 = [t0 + 0]
+t3 = t0
+t0 = t3
+t0 = [t0 + 0]
+t3 = t0
+a2_stack = a2
+t0 = t2
+a2 = t0
+t0 = t3
+t2_stack = t2
+t0 = call t0()
+a2 = a2_stack
+t2 = t2_stack
+t4 = t0
+goto lbl_GoodPtr_44
+lbl_NullPtr_43:
+error("null pointer")
+lbl_GoodPtr_44:
+t0 = t4
+s8 = t0
+t0 = 100
+s6 = t0
+t0 = s6
+print(t0)
+t0 = t2
+if0 t0 goto lbl_NullPtr_48
+t0 = t2
+t0 = [t0 + 0]
+t5 = t0
+t0 = t5
+t0 = [t0 + 8]
+t5 = t0
+a2_stack = a2
+t0 = t2
+a2 = t0
+t0 = t5
+t2_stack = t2
+t0 = call t0()
+a2 = a2_stack
+t2 = t2_stack
+t3 = t0
+goto lbl_GoodPtr_49
+lbl_NullPtr_48:
+error("null pointer")
+lbl_GoodPtr_49:
+t0 = t3
+s8 = t0
+t0 = 100
+s7 = t0
+t0 = s7
+print(t0)
+t0 = t2
+if0 t0 goto lbl_NullPtr_53
+t0 = t2
+t0 = [t0 + 0]
+t4 = t0
+t0 = t4
+t0 = [t0 + 16]
+t4 = t0
+a2_stack = a2
+t0 = t2
+a2 = t0
+t0 = t4
+t0 = call t0()
+a2 = a2_stack
+t5 = t0
+goto lbl_GoodPtr_54
+lbl_NullPtr_53:
+error("null pointer")
+lbl_GoodPtr_54:
+t0 = t5
+s8 = t0
+t0 = 0
+s8 = t0
+v55_1 = s8
+      return v55_1
+
+func A_initA()
+s9_stack = s9
+t1 = a2
+t0 = a3
+[t1 + 4] = t0
+t1 = a2
+t0 = a4
+[t1 + 8] = t0
+t1 = a2
+t0 = a5
+[t1 + 12] = t0
+t1 = a2
+t0 = a6
+[t1 + 16] = t0
+t0 = 0
+s9 = t0
+v56_2 = s9
+s9 = s9_stack
+      return v56_2
+
+func A_printA()
+s3_stack = s3
+s4_stack = s4
+s11_stack = s11
+s10_stack = s10
+s1_stack = s1
+t0 = a2
+t0 = [t0 + 4]
+s10 = t0
+t0 = s10
+print(t0)
+t0 = a2
+t0 = [t0 + 8]
+s4 = t0
+t0 = s4
+print(t0)
+t0 = a2
+t0 = [t0 + 12]
+s3 = t0
+t0 = s3
+print(t0)
+t0 = a2
+t0 = [t0 + 16]
+s11 = t0
+t0 = s11
+print(t0)
+t0 = 0
+s1 = t0
+v61_3 = s1
+s3 = s3_stack
+s4 = s4_stack
+s11 = s11_stack
+s10 = s10_stack
+s1 = s1_stack
+      return v61_3
+
+func B_initB(n6_4)
+s2_stack = s2
+t1 = a2
+t0 = a3
+[t1 + 28] = t0
+t1 = a2
+t0 = a4
+[t1 + 20] = t0
+t1 = a2
+t0 = a5
+[t1 + 24] = t0
+t1 = a2
+t0 = a6
+[t1 + 32] = t0
+t1 = a2
+t0 = a7
+[t1 + 4] = t0
+t1 = a2
+t0 = n6_4
+[t1 + 12] = t0
+t0 = 0
+s2 = t0
+v62_4 = s2
+s2 = s2_stack
+      return v62_4
+
+func B_printB()
+s4_stack = s4
+s5_stack = s5
+s6_stack = s6
+s10_stack = s10
+s7_stack = s7
+s8_stack = s8
+s9_stack = s9
+t0 = a2
+t0 = [t0 + 4]
+s5 = t0
+t0 = s5
+print(t0)
+t0 = a2
+t0 = [t0 + 28]
+s6 = t0
+t0 = s6
+print(t0)
+t0 = a2
+t0 = [t0 + 20]
+s7 = t0
+t0 = s7
+print(t0)
+t0 = a2
+t0 = [t0 + 12]
+s8 = t0
+t0 = s8
+print(t0)
+t0 = a2
+t0 = [t0 + 24]
+s9 = t0
+t0 = s9
+print(t0)
+t0 = a2
+t0 = [t0 + 32]
+s10 = t0
+t0 = s10
+print(t0)
+t0 = 0
+s4 = t0
+v69_5 = s4
+s4 = s4_stack
+s5 = s5_stack
+s6 = s6_stack
+s10 = s10_stack
+s7 = s7_stack
+s8 = s8_stack
+s9 = s9_stack
+      return v69_5
+
+func C_initC(n6_6 n7_6)
+s3_stack = s3
+t1 = a2
+t0 = a3
+[t1 + 44] = t0
+t1 = a2
+t0 = a4
+[t1 + 40] = t0
+t1 = a2
+t0 = a5
+[t1 + 36] = t0
+t1 = a2
+t0 = a6
+[t1 + 48] = t0
+t1 = a2
+t0 = a7
+[t1 + 4] = t0
+t1 = a2
+t0 = n6_6
+[t1 + 20] = t0
+t1 = a2
+t0 = n7_6
+[t1 + 28] = t0
+t0 = 0
+s3 = t0
+v70_6 = s3
+s3 = s3_stack
+      return v70_6
+
+func C_printC()
+s11_stack = s11
+s5_stack = s5
+s6_stack = s6
+s7_stack = s7
+s8_stack = s8
+s9_stack = s9
+s1_stack = s1
+s2_stack = s2
+t0 = a2
+t0 = [t0 + 4]
+s11 = t0
+t0 = s11
+print(t0)
+t0 = a2
+t0 = [t0 + 28]
+s1 = t0
+t0 = s1
+print(t0)
+t0 = a2
+t0 = [t0 + 44]
+s2 = t0
+t0 = s2
+print(t0)
+t0 = a2
+t0 = [t0 + 20]
+s5 = t0
+t0 = s5
+print(t0)
+t0 = a2
+t0 = [t0 + 40]
+s6 = t0
+t0 = s6
+print(t0)
+t0 = a2
+t0 = [t0 + 36]
+s7 = t0
+t0 = s7
+print(t0)
+t0 = a2
+t0 = [t0 + 48]
+s8 = t0
+t0 = s8
+print(t0)
+t0 = 0
+s9 = t0
+v78_7 = s9
+s11 = s11_stack
+s5 = s5_stack
+s6 = s6_stack
+s7 = s7_stack
+s8 = s8_stack
+s9 = s9_stack
+s1 = s1_stack
+s2 = s2_stack
+      return v78_7
+
+
