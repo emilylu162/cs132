@@ -1,2 +1,20 @@
 WARNING: A command line option has enabled the Security Manager
 WARNING: The Security Manager is deprecated and will be removed in a future release
+Error: Cannot invoke "String.endsWith(String)" because "<local8>" is null
+java.lang.NullPointerException: Cannot invoke "String.endsWith(String)" because "<local8>" is null
+	at ArgumentShuffler.shuffle(ArgumentShuffler.java:29)
+	at TranslateVisitor.visit(TranslateVisitor.java:397)
+	at TranslateVisitor.visit(TranslateVisitor.java:17)
+	at sparrow.Call.accept(Call.java:31)
+	at TranslateVisitor.visit(TranslateVisitor.java:99)
+	at TranslateVisitor.visit(TranslateVisitor.java:17)
+	at sparrow.Block.accept(Block.java:33)
+	at TranslateVisitor.visit(TranslateVisitor.java:75)
+	at TranslateVisitor.visit(TranslateVisitor.java:17)
+	at sparrow.FunctionDecl.accept(FunctionDecl.java:38)
+	at TranslateVisitor.lambda$visit$0(TranslateVisitor.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at TranslateVisitor.visit(TranslateVisitor.java:22)
+	at TranslateVisitor.visit(TranslateVisitor.java:17)
+	at sparrow.Program.accept(Program.java:28)
+	at S2SV.main(S2SV.java:59)

@@ -28,7 +28,7 @@ public class S2SV {
 
             //comment out below this if you want to run the program normally
             if (fileInputMode) {
-                File file = new File("testcases/hw4/T7.sparrow");
+                File file = new File("testcases/hw4/BinaryTree.sparrow");
                 in = new FileInputStream(file);
             } 
             new SparrowParser(in);
@@ -92,6 +92,7 @@ class Env {
     
     ReturnIntervals returnIntervals;
     HashMap<String, HashSet<String>> labelToInstrs = new HashMap<String, HashSet<String>>();
+    HashMap<String, HashSet<String>> labelToArgInstrs = new HashMap<String, HashSet<String>>();
     HashSet<Integer> callSites = new HashSet<Integer>(); 
     ArrayList<String> allocated = new ArrayList<String>();
     sparrowv.Program program;
@@ -103,7 +104,7 @@ class Env {
     LinearScanAllocator linearScanAllocator;
     boolean debugMode = false; // Set to true if you want to see the debug output
     public HashMap<String, String> paramIdToReg = new HashMap<String, String>(); // Map to store parameter identifiers to registers
-    
+    public HashMap<String, String> idStrToArgReg = new HashMap<String, String>(); // Map to store parameter identifiers to memory locations
     public HashMap<String, String> paramSpillMap = new HashMap<String, String>(); // Map to store parameter identifiers to stack locations
     // Adding linear scan allocator to the environment
     public Env(IntervalScope scope) {

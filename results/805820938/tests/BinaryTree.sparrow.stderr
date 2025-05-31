@@ -1,2 +1,4 @@
 WARNING: A command line option has enabled the Security Manager
 WARNING: The Security Manager is deprecated and will be removed in a future release
+Error: Move_Id_Id with lhs v233 detected. This should not happen.
+Error: Function argument v233_15 is not spilled or allocated to a register.

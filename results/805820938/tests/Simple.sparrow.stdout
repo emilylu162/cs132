@@ -1,11 +1,4 @@
 func Main()
-s3_stack = s3
-s4_stack = s4
-s5_stack = s5
-s6_stack = s6
-s7_stack = s7
-s1_stack = s1
-s2_stack = s2
 t0 = 1
 s1 = t0
 t0 = 2

@@ -32,6 +32,7 @@ public class FastLiveVisitor implements ArgRetVisitor<Env, ReturnIntervals> {
             if (numParams <= 7) {
                 arg.paramIdToReg.put(idStr,"a"+numParams); // Assign the first 6 parameters to registers a1-a6
                 arg.paramSpillMap.put(idStr,"Register");
+                arg.idStrToArgReg.put("a"+numParams+"_"+arg.scope.functionNumber,idStr); // Add the parameter to the idStrToArgReg map
                 arg.scope.paramIntervals.put(idStr, new Interval(arg.scope.lineNumber, -1, idStr,arg.scope.functionNumber)); // Add the parameter to the return intervals
             } else {
                 arg.scope.parameters.add(idStr);
@@ -53,6 +54,11 @@ public class FastLiveVisitor implements ArgRetVisitor<Env, ReturnIntervals> {
                 interval.end = interval.start; // If the interval is not updated, set end to start
             }
         });
+        // arg.scope.paramIntervals.forEach((id, interval) -> {
+        //     if (interval.end == -1) {
+        //         interval.end = interval.start; // If the interval is not updated, set end to start
+        //     }
+        // });
         // n.formalParameters.forEach((id) -> {
         //     String idStr = MyUtils.getId(id,arg.scope);
         //     arg.returnIntervals.intervals.get(idStr).end = arg.scope.lineNumber; // Set end to the current line number
@@ -256,13 +262,17 @@ public class FastLiveVisitor implements ArgRetVisitor<Env, ReturnIntervals> {
                 if (arg.returnIntervals.intervals.containsKey(id)){
                     arg.returnIntervals.intervals.get(id).end = lineNumber-1;
                 }
+
             }
             for (String id: arg.labelToArgInstrs.get(curLabel)) {
                 if (arg.scope.parameters.contains(id)) {
                     throw new RuntimeException("Use of parameter " + id + " in goto instruction at line " + lineNumber);
                 }
-                if (arg.returnIntervals.intervals.containsKey(id)){
-                    arg.returnIntervals.intervals.get(id).end = lineNumber-1;
+                if (arg.scope.paramIntervals.containsKey(id)){
+                    arg.scope.paramIntervals.get(id).end = lineNumber-1;
+                }
+                if (arg.scope.paramIntervals.containsKey(id)){
+                    arg.scope.paramIntervals.get(id).end = lineNumber-1;
                 }
             }
         // if the label is not in the map, it means that it is a forward jump
@@ -286,11 +296,11 @@ public class FastLiveVisitor implements ArgRetVisitor<Env, ReturnIntervals> {
             }
         }
         if (arg.labelToArgInstrs.containsKey(curLabel)) {
-            HashSet<String> ids = arg.labelToArgInstrs.get(curLabel);
-            //Backwards jump, so we update the intervals to the current line number
-            int lineNumber = arg.scope.lineNumber;
-            for (String id2: ids) {
-                //arg.returnIntervals.intervals.get(id2).end = lineNumber-1;
+            if (arg.scope.parameters.contains(id)) {
+                    throw new RuntimeException("Use of parameter " + id + " in goto instruction at line " + arg.scope.lineNumber);
+                }
+            if (arg.scope.paramIntervals.containsKey(id)){
+                arg.scope.paramIntervals.get(id).end = arg.scope.lineNumber-1;
             }
         }
         return null; 

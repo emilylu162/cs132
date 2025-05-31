@@ -1,0 +1,1565 @@
+openjdk version "21.0.7" 2025-04-15
+OpenJDK Runtime Environment (build 21.0.7+6-Ubuntu-0ubuntu124.04)
+OpenJDK 64-Bit Server VM (build 21.0.7+6-Ubuntu-0ubuntu124.04, mixed mode, sharing)
+rm: cannot remove 'results/805820938/tests': Directory not empty
+mkdir: cannot create directory ‘results’: File exists
+Testing 'build/distributions/805820938.tar' against all 43 tests
+Results in 'results'
+Testing that 805820938 is a student id.
+Untaring into 'results/805820938/src'
+Testing tar content.
+Checking ./ArgumentShuffler.java
+Checking ./FastLiveVisitor.java
+Checking ./LinearScanAllocator.java
+Checking ./MyUtils.java
+Checking ./S2SV.java
+Checking ./TranslateVisitor.java
+Compiling sources.
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/0-TestProg.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/1-PrintLiteral.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/2-Add.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/3-Call.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/4-Vars.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/5-OutOfBounds.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/ArrayTest.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/BasicOverriding.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/BinaryTree.sparrow'
+WARN: Failed '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/BinaryTree.sparrow'
+WARNING: A command line option has enabled the Security Manager
+WARNING: The Security Manager is deprecated and will be removed in a future release
+18,19c18,26
+< --- Error (Explicit) ---
+< null pointer
+---
+> 4
+> 8
+> 14
+> 16
+> 20
+> 24
+> 28
+> 0
+> 0
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/BubbleSort.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/DynamicDispatch.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/Factorial.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/IndirectPoly.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/InheritanceOverride.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/LinearConGen.sparrow'
+WARN: Failed '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/LinearConGen.sparrow'
+WARNING: A command line option has enabled the Security Manager
+WARNING: The Security Manager is deprecated and will be removed in a future release
+1,3c1,408
+< --- Error (Explicit) ---
+< Error: [t1 + 12] = t0
+< Wrong argument type in Load
+---
+> 0
+> 7591
+> 0
+> 8807
+> 0
+> 8258
+> 0
+> 14044
+> 0
+> 7140
+> 0
+> 10771
+> 0
+> 9787
+> 0
+> 1288
+> 0
+> 4624
+> 0
+> 15145
+> 0
+> 11076
+> 0
+> 13517
+> 0
+> 12068
+> 0
+> 6079
+> 0
+> 5275
+> 0
+> 5381
+> 0
+> 1247
+> 0
+> 6223
+> 0
+> 15284
+> 0
+> 5655
+> 1
+> 0
+> 6186
+> 1
+> 0
+> 1102
+> 1
+> 0
+> 11878
+> 1
+> 0
+> 13489
+> 1
+> 0
+> 13160
+> 1
+> 0
+> 10366
+> 1
+> 0
+> 9957
+> 1
+> 0
+> 10283
+> 1
+> 0
+> 13194
+> 1
+> 0
+> 9040
+> 1
+> 0
+> 14796
+> 1
+> 0
+> 9062
+> 1
+> 0
+> 13938
+> 1
+> 0
+> 11274
+> 1
+> 0
+> 5795
+> 1
+> 0
+> 726
+> 1
+> 0
+> 10917
+> 1
+> 0
+> 4093
+> 1
+> 0
+> 4604
+> 1
+> 0
+> 300
+> 2
+> 1
+> 0
+> 11906
+> 2
+> 1
+> 0
+> 12397
+> 2
+> 1
+> 0
+> 8873
+> 2
+> 1
+> 0
+> 5684
+> 2
+> 1
+> 0
+> 5055
+> 2
+> 1
+> 0
+> 13961
+> 2
+> 1
+> 0
+> 10377
+> 2
+> 1
+> 0
+> 9528
+> 2
+> 1
+> 0
+> 11389
+> 2
+> 1
+> 0
+> 1310
+> 2
+> 1
+> 0
+> 3766
+> 2
+> 1
+> 0
+> 1732
+> 2
+> 1
+> 0
+> 2933
+> 2
+> 1
+> 0
+> 2969
+> 2
+> 1
+> 0
+> 1565
+> 2
+> 1
+> 0
+> 9446
+> 2
+> 1
+> 0
+> 14587
+> 2
+> 1
+> 0
+> 1588
+> 2
+> 1
+> 0
+> 8549
+> 2
+> 1
+> 0
+> 2695
+> 3
+> 2
+> 1
+> 0
+> 12251
+> 3
+> 2
+> 1
+> 0
+> 14567
+> 3
+> 2
+> 1
+> 0
+> 2368
+> 3
+> 2
+> 1
+> 0
+> 9379
+> 3
+> 2
+> 1
+> 0
+> 1575
+> 3
+> 2
+> 1
+> 0
+> 9056
+> 3
+> 2
+> 1
+> 0
+> 14172
+> 3
+> 2
+> 1
+> 0
+> 2148
+> 3
+> 2
+> 1
+> 0
+> 2334
+> 3
+> 2
+> 1
+> 0
+> 10705
+> 3
+> 2
+> 1
+> 0
+> 12361
+> 3
+> 2
+> 1
+> 0
+> 10277
+> 3
+> 2
+> 1
+> 0
+> 13428
+> 3
+> 2
+> 1
+> 0
+> 15539
+> 3
+> 2
+> 1
+> 0
+> 11335
+> 3
+> 2
+> 1
+> 0
+> 3416
+> 3
+> 2
+> 1
+> 0
+> 15382
+> 3
+> 2
+> 1
+> 0
+> 1833
+> 3
+> 2
+> 1
+> 0
+> 14619
+> 3
+> 2
+> 1
+> 0
+> 340
+> 4
+> 3
+> 2
+> 1
+> 0
+> 10346
+> 4
+> 3
+> 2
+> 1
+> 0
+> 10737
+> 4
+> 3
+> 2
+> 1
+> 0
+> 11113
+> 4
+> 3
+> 2
+> 1
+> 0
+> 12074
+> 4
+> 3
+> 2
+> 1
+> 0
+> 5845
+> 4
+> 3
+> 2
+> 1
+> 0
+> 14401
+> 4
+> 3
+> 2
+> 1
+> 0
+> 8842
+> 4
+> 3
+> 2
+> 1
+> 0
+> 6893
+> 4
+> 3
+> 2
+> 1
+> 0
+> 4779
+> 4
+> 3
+> 2
+> 1
+> 0
+> 9100
+> 4
+> 3
+> 2
+> 1
+> 0
+> 12456
+> 4
+> 3
+> 2
+> 1
+> 0
+> 6572
+> 4
+> 3
+> 2
+> 1
+> 0
+> 1673
+> 4
+> 3
+> 2
+> 1
+> 0
+> 5234
+> 4
+> 3
+> 2
+> 1
+> 0
+> 6980
+> 4
+> 3
+> 2
+> 1
+> 0
+> 1386
+> 4
+> 3
+> 2
+> 1
+> 0
+> 802
+> 4
+> 3
+> 2
+> 1
+> 0
+> 7953
+> 4
+> 3
+> 2
+> 1
+> 0
+> 10314
+> 4
+> 3
+> 2
+> 1
+> 0
+> 11985
+> 300
+> 15539
+> 0
+> 19
+> 30
+> 43
+> 64
+> 82
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/LinearSearch.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/LinkedList.sparrow'
+WARN: Failed '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/LinkedList.sparrow'
+WARNING: A command line option has enabled the Security Manager
+WARNING: The Security Manager is deprecated and will be removed in a future release
+9,11d8
+< (10 + 0)
+< (6 + 0)
+< (2 + 0)
+13,15d9
+< (10 + 0)
+< (6 + 0)
+< (2 + 0)
+27,29c21,26
+< --- Error (Explicit) ---
+< Error: t0 = [t0 + 0]
+< Wrong argument type in Load
+---
+> 25
+> 33300000
+> 22
+> 25
+> 44440000
+> 0
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/MoreThan4.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/outer.sparrow'
+WARN: /mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/outer.sparrow.out does not exist
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/PolyHierarchy.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/QuickSort.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/Shadowing.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/Simple.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/strech.sparrow'
+WARN: Failed '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/strech.sparrow'
+WARNING: A command line option has enabled the Security Manager
+WARNING: The Security Manager is deprecated and will be removed in a future release
+2,1026c2,4
+< Exception in thread "main" java.lang.StackOverflowError
+< 	at java.base/java.lang.String.equals(String.java:1863)
+< 	at sparrowv.visitor.GetFunctionDecl.visit(GetFunctionDecl.java:18)
+< 	at sparrowv.Program.accept(Program.java:15)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:357)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+< 	at sparrowv.Call.accept(Call.java:19)
+< 	at sparrowv.visitor.Interpreter.stepUntilReturn(Interpreter.java:36)
+< 	at sparrowv.visitor.Interpreter.visit(Interpreter.java:395)
+---
+> 40464
+> 80770
+> 121302
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/T1.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/T10.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/T11.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/T12.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/T13.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/T14.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/T15.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/T16.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/T17.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/T18.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/T2.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/T20.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/T21.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/T22.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/T3.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/T4.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/T5.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/T6.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/T7.sparrow'
+Testing '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/TreeVisitor.sparrow'
+WARN: Failed '/mnt/c/Users/user/Documents/Code/CS132/Hw4/cs132/testcases/hw4/TreeVisitor.sparrow'
+WARNING: A command line option has enabled the Security Manager
+WARNING: The Security Manager is deprecated and will be removed in a future release
+35,36c35,43
+< --- Error (Explicit) ---
+< null pointer
+---
+> 4
+> 8
+> 14
+> 16
+> 20
+> 24
+> 28
+> 0
+> 0

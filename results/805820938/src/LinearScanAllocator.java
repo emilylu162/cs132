@@ -135,9 +135,9 @@ public class LinearScanAllocator {
         }
     }
 
-    private int spansCall(Interval i) {
+    public int spansCall(Interval i) {
         for (int call : callSites) {
-            if (call >= i.start && call <= i.end) {
+            if (call > i.start && call < i.end) {
                 return call;
             }
         }

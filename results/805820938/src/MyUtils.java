@@ -31,12 +31,20 @@ public class MyUtils {
         for (HashSet<String> idsPerLabel: arg.labelToInstrs.values()) {
             if (!arg.scope.parameters.contains(useId)) {
                 idsPerLabel.add(useId);
+            }
         }
-    }
+        // Add to labels in case of loop 
+        for (HashSet<String> argsPerLabel : arg.labelToArgInstrs.values()) {
+            if (arg.paramIdToReg.containsKey(useId)) {
+                argsPerLabel.add(useId);
+            }
+        }
         if (arg.returnIntervals.intervals.containsKey(useId)) {
             arg.returnIntervals.intervals.get(useId).end = arg.scope.lineNumber;
         } else {
-            if (arg.scope.parameters.contains(useId)) {
+            if (arg.scope.paramIntervals.containsKey(useId)) {
+                // If the useId is a parameter, we need to set the end of the interval to the current line number
+                arg.scope.paramIntervals.get(useId).end = arg.scope.lineNumber;
                 //arg.scope.paramIntervals.get(useId).end = arg.scope.lineNumber;
                // throw new RuntimeException("Use of identifier " + useId + " before definition in scope " + arg.scope);
             }
