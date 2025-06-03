@@ -5,59 +5,62 @@ t0 = 4
 s2 = t0
 t0 = s1
 t0 = alloc(t0)
-s3 = t0
+t2 = t0
 t0 = s2
 t0 = alloc(t0)
-s4 = t0
+s3 = t0
 t0 = @A_run
-s5 = t0
-t1 = s4
-t0 = s5
-[t1 + 0] = t0
+s4 = t0
 t1 = s3
 t0 = s4
 [t1 + 0] = t0
+t1 = t2
 t0 = s3
+[t1 + 0] = t0
+t0 = t2
 if0 t0 goto lbl_NullPtr_5
 goto lbl_GoodPtr_6
 lbl_NullPtr_5:
 error("null pointer")
 lbl_GoodPtr_6:
-t0 = s3
+t0 = t2
 if0 t0 goto lbl_NullPtr_9
-t0 = s3
+t0 = t2
 t0 = [t0 + 0]
-s6 = t0
-t0 = s6
+t3 = t0
+t0 = t3
 t0 = [t0 + 0]
-s6 = t0
-a2 = s3
-t0 = s6
+t3 = t0
+a2_stack = a2
+t0 = t2
+a2 = t0
+t0 = t3
 t0 = call t0()
-s7 = t0
+a2 = a2_stack
+t4 = t0
 goto lbl_GoodPtr_10
 lbl_NullPtr_9:
 error("null pointer")
 lbl_GoodPtr_10:
-t0 = s7
+t0 = t4
 print(t0)
 t0 = 0
-s8 = t0
-v11_1 = s8
+s5 = t0
+v11_1 = s5
       return v11_1
 
 func A_run()
-s10_stack = s10
-s9_stack = s9
+s6_stack = s6
+s7_stack = s7
 t0 = 42
-s9 = t0
-t0 = s9
+s6 = t0
+t0 = s6
 print(t0)
 t0 = 99
-s10 = t0
-v13_2 = s10
-s10 = s10_stack
-s9 = s9_stack
+s7 = t0
+v13_2 = s7
+s6 = s6_stack
+s7 = s7_stack
       return v13_2
 
 

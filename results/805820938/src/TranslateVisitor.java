@@ -45,7 +45,7 @@ public class TranslateVisitor implements ArgRetVisitor<Env,ReturnIntervals>{
         // }
         
         for (String reg : argu.linearScanAllocator.functionNumToCalleeUsedRegisters.get(argu.scope.functionNumber)) {
-            if (n.functionName.name.equals("main") || n.functionName.name.equals("Main")) {
+            if (argu.scope.functionNumber == 1) {
                 // Skip the return address register in main function
                 continue;
             }
@@ -71,12 +71,13 @@ public class TranslateVisitor implements ArgRetVisitor<Env,ReturnIntervals>{
             // // If the parameter is not spilled, we do nothing, as it is already allocated to the stack
             // }
         }
+
         // Build the block of the function
         n.block.accept(this, argu);
 
 
         // Restore callee saved registers
-        if (!n.functionName.name.equals("main")){
+        if (!(argu.scope.functionNumber == 1)) {
             for (String reg : argu.linearScanAllocator.functionNumToCalleeUsedRegisters.get(argu.scope.functionNumber)) {
                 argu.addInst(new sparrowv.Move_Reg_Id(
                     new Register(reg),
@@ -116,9 +117,6 @@ public class TranslateVisitor implements ArgRetVisitor<Env,ReturnIntervals>{
     /*   IdentifieReturn lhs;
      *   int rhs; */
     public ReturnIntervals visit(Move_Id_Integer  n, Env arg) {
-        if (n.lhs.toString().equals("v233")) {
-            System.err.println("Error: Move_Id_Id with lhs v233 detected. This should not happen.");
-        }
         sparrowv.Instruction inst = new sparrowv.Move_Reg_Integer(
             new Register("t0"),
             n.rhs
@@ -339,7 +337,47 @@ public class TranslateVisitor implements ArgRetVisitor<Env,ReturnIntervals>{
         int highestArgReg = 1 ;
         for (Identifier funcArg:n.args){
             funcNum+=1;
-            if (funcNum >= 8){
+            if (funcNum < 8){
+                sparrowv.Instruction inst = new sparrowv.Move_Id_Reg(
+                        new Identifier("a"+(funcNum)+"_stack"),
+                        new Register("a"+(funcNum))
+                    );
+                    arg.addInst(inst, new Register("a"+(funcNum)));
+                highestArgReg = funcNum;
+            }
+        }
+        funcNum = 1;
+        ArrayList<Identifier> regFunctionArgs = new ArrayList<>();
+        regFunctionArgs.add(null);
+        regFunctionArgs.add(null);
+        for (Identifier funcArg:n.args){
+            funcNum+=1;
+            sparrowv.Instruction instr = null;
+            if (funcNum < 8){
+                String idSaltedString = MyUtils.getId(funcArg, arg.scope);
+                Identifier idSalted = new Identifier(idSaltedString);
+                String argReg = arg.linearScanAllocator.getAssignment().get(idSaltedString);
+                if (arg.scope.paramIntervals.containsKey(argReg) &&
+                arg.linearScanAllocator.spansCall(arg.scope.paramIntervals.get(idSaltedString)) == -1){
+                    continue; // If the argument is a parameter and does not span the call, we skip it
+                }
+                if (arg.linearScanAllocator.getAssignment().containsKey(idSaltedString) && 
+                argReg.charAt(0) == 'a' &&
+                argReg.charAt(1)-'0' < highestArgReg 
+                ){
+                    instr = new sparrowv.Move_Reg_Id(
+                        new Register("t0"),
+                        new Identifier(arg.linearScanAllocator.getAssignment().get(idSaltedString)+"_stack")
+                    ); 
+                    arg.addInst(instr, new Register("t0"));
+                } else {
+                    assignTot0(funcArg, arg);
+                }
+                arg.addInst(new sparrowv.Move_Reg_Reg(
+                    new Register("a"+(funcNum)),
+                    new Register("t0")
+                ), new Register("a"+(funcNum)));
+            } else {
                 String saltedFuncArgID = MyUtils.getId(funcArg, arg.scope);
                 if (arg.scope.parameters.contains(saltedFuncArgID) || spillMap.get(saltedFuncArgID).equals("Spill")) {
                     // If the argument is spilled, we don't need to do anyrhing, just pass it as an identifier
@@ -348,55 +386,29 @@ public class TranslateVisitor implements ArgRetVisitor<Env,ReturnIntervals>{
                     // If the argument is allocated to a register, we need to first assign the register value to a stack ID in our code
                     //, and then use that stack identifier as an argument
                     String reg = arg.linearScanAllocator.getAssignment().get(saltedFuncArgID);
-                    sparrowv.Instruction inst = new sparrowv.Move_Id_Reg(
+                    if (reg.charAt(0) == 'a'){
+                        sparrowv.Instruction inst = new sparrowv.Move_Reg_Id(
+                        new Register("t0"),
+                        new Identifier(reg+"_stack")
+                        );
+                        arg.addInst(inst, new Register("t0"));
+                        inst = new sparrowv.Move_Id_Reg(
                         new Identifier(saltedFuncArgID+"_stack"),
-                        new Register(reg)
-                    );
-                    arg.addInst(inst, new Register(arg.linearScanAllocator.getAssignment().get(saltedFuncArgID)));
+                        new Register("t0")
+                        );
+                        arg.addInst(inst, new Register(reg));
+                    } else {
+                        sparrowv.Instruction inst = new sparrowv.Move_Id_Reg(
+                            new Identifier(saltedFuncArgID+"_stack"),
+                            new Register(reg)
+                        );
+                        arg.addInst(inst, new Register(arg.linearScanAllocator.getAssignment().get(saltedFuncArgID)));
+                    } 
                     //Need to fix this to not have it be at the start of the function list
                     argumentList.add(new Identifier(saltedFuncArgID+"_stack"));
-                } 
-
-            }
-        }
-        funcNum = 1;
-        ArrayList<String> argRegs = new ArrayList<String>();
-        HashMap<String,String> moves = new HashMap<String,String>();
-        String tempVar = "t0";
-        for (Identifier funcArg:n.args){
-            funcNum+=1;
-            sparrowv.Instruction instr = null;
-            if (funcNum < 8){
-                String idSaltedString = MyUtils.getId(funcArg, arg.scope);
-                if (idSaltedString.equals("v233_15")){
-                        System.err.println("Error: Function argument " + idSaltedString + " is not spilled or allocated to a register.");
-                    }
-                Identifier idSalted = new Identifier(idSaltedString);
-                String argReg;
-                spillMap = arg.linearScanAllocator.getSpillMap();
-                if (spillMap.containsKey(idSaltedString) && spillMap.get(idSaltedString).equals("Spill")){
-                    // If the argument is spilled, we can just immediately set it to the argument register 
-                    argReg = idSaltedString+"_stack_saved";
-                } else {
-                    argReg = arg.linearScanAllocator.getAssignment().get(idSaltedString);
                 }
-                String inputArg = "a"+funcNum+"_"+arg.scope.functionNumber;
-                String inputIdStr = arg.idStrToArgReg.get(inputArg);
-                Boolean containsKey = arg.scope.paramIntervals.containsKey(inputIdStr);
-                if ( containsKey && arg.linearScanAllocator.spansCall(arg.scope.paramIntervals.get(inputIdStr)) > -1){
-                    sparrowv.Instruction inst = new sparrowv.Move_Id_Reg(
-                        new Identifier("a"+(funcNum)+"_stack"),
-                        new Register("a"+(funcNum))
-                    );
-                    argRegs.add("a"+(funcNum));
-                    arg.addInst(inst, new Register("a"+(funcNum)));
-                }
-                moves.put(argReg,"a"+(funcNum));
-            }
-        }  
-        List<sparrowv.Instruction> instructions = ArgumentShuffler.shuffle(moves, tempVar);
-        for (sparrowv.Instruction instruction: instructions) {
-            arg.addInst(instruction, new Register("t0"));
+            }  
+        
         }
         
 
@@ -434,12 +446,16 @@ public class TranslateVisitor implements ArgRetVisitor<Env,ReturnIntervals>{
         arg.addInst(inst, new Register("t0"));
 
         // restore arument registers
-        for (String argReg:argRegs){
+        funcNum = 1;
+        for (Identifier funcArg:n.args){
+            funcNum+=1;
+            if (funcNum < 8){
                 inst = new sparrowv.Move_Reg_Id(
-                    new Register(argReg),
-                    new Identifier(argReg+"_stack")
+                    new Register("a"+(funcNum)),
+                    new Identifier("a"+(funcNum)+"_stack")
                 );
-                arg.addInst(inst, new Register(argReg));
+                arg.addInst(inst, new Register("a"+(funcNum)));
+            }
         }
 
         // Restore caller saved registers

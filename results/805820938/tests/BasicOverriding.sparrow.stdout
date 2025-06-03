@@ -24,44 +24,47 @@ lbl_NullPtr_5:
 error("null pointer")
 lbl_GoodPtr_6:
 t0 = s3
-s6 = t0
-t0 = s6
+t2 = t0
+t0 = t2
 if0 t0 goto lbl_NullPtr_9
-t0 = s6
+t0 = t2
 t0 = [t0 + 0]
-s7 = t0
-t0 = s7
+t3 = t0
+t0 = t3
 t0 = [t0 + 0]
-s7 = t0
-a2 = s6
-t0 = s7
+t3 = t0
+a2_stack = a2
+t0 = t2
+a2 = t0
+t0 = t3
 t0 = call t0()
-s8 = t0
+a2 = a2_stack
+t4 = t0
 goto lbl_GoodPtr_10
 lbl_NullPtr_9:
 error("null pointer")
 lbl_GoodPtr_10:
-t0 = s8
+t0 = t4
 print(t0)
 t0 = 0
-s9 = t0
-v11_1 = s9
+s6 = t0
+v11_1 = s6
       return v11_1
 
 func Printer_print()
-s10_stack = s10
+s7_stack = s7
 t0 = 5
-s10 = t0
-v12_2 = s10
-s10 = s10_stack
+s7 = t0
+v12_2 = s7
+s7 = s7_stack
       return v12_2
 
 func LoudPrinter_print()
-s11_stack = s11
+s8_stack = s8
 t0 = 9
-s11 = t0
-v13_3 = s11
-s11 = s11_stack
+s8 = t0
+v13_3 = s8
+s8 = s8_stack
       return v13_3
 
 

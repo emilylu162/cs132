@@ -31,13 +31,6 @@ if0 t0 goto L1
 t0 = s6
 print(t0)
 c_1 = s6
-s3 = s3_stack
-s4 = s4_stack
-s5 = s5_stack
-s6 = s6_stack
-s7 = s7_stack
-s1 = s1_stack
-s2 = s2_stack
       return c_1
 
 func foobar()

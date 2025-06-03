@@ -5,49 +5,52 @@ t0 = 4
 s2 = t0
 t0 = s1
 t0 = alloc(t0)
-s3 = t0
+t2 = t0
 t0 = s2
 t0 = alloc(t0)
-s4 = t0
+s3 = t0
 t0 = @LL_Start
-s5 = t0
-t1 = s4
-t0 = s5
-[t1 + 0] = t0
+s4 = t0
 t1 = s3
 t0 = s4
 [t1 + 0] = t0
+t1 = t2
 t0 = s3
+[t1 + 0] = t0
+t0 = t2
 if0 t0 goto lbl_NullPtr_5
 goto lbl_GoodPtr_6
 lbl_NullPtr_5:
 error("null pointer")
 lbl_GoodPtr_6:
-t0 = s3
+t0 = t2
 if0 t0 goto lbl_NullPtr_9
-t0 = s3
+t0 = t2
 t0 = [t0 + 0]
-s6 = t0
-t0 = s6
+t3 = t0
+t0 = t3
 t0 = [t0 + 0]
-s6 = t0
-a2 = s3
-t0 = s6
+t3 = t0
+a2_stack = a2
+t0 = t2
+a2 = t0
+t0 = t3
 t0 = call t0()
-s7 = t0
+a2 = a2_stack
+t4 = t0
 goto lbl_GoodPtr_10
 lbl_NullPtr_9:
 error("null pointer")
 lbl_GoodPtr_10:
-t0 = s7
+t0 = t4
 print(t0)
 t0 = 0
-s8 = t0
-v11_1 = s8
+s5 = t0
+v11_1 = s5
       return v11_1
 
 func Element_Init()
-s9_stack = s9
+s6_stack = s6
 t1 = a2
 t0 = a3
 [t1 + 12] = t0
@@ -58,43 +61,43 @@ t1 = a2
 t0 = a5
 [t1 + 8] = t0
 t0 = 1
-s9 = t0
-v12_2 = s9
-s9 = s9_stack
+s6 = t0
+v12_2 = s6
+s6 = s6_stack
       return v12_2
 
 func Element_GetAge()
-s10_stack = s10
+s7_stack = s7
 t0 = a2
 t0 = [t0 + 12]
-s10 = t0
-v13_3 = s10
-s10 = s10_stack
+s7 = t0
+v13_3 = s7
+s7 = s7_stack
       return v13_3
 
 func Element_GetSalary()
-s11_stack = s11
+s8_stack = s8
 t0 = a2
 t0 = [t0 + 4]
-s11 = t0
-v14_4 = s11
-s11 = s11_stack
+s8 = t0
+v14_4 = s8
+s8 = s8_stack
       return v14_4
 
 func Element_GetMarried()
-s1_stack = s1
+s9_stack = s9
 t0 = a2
 t0 = [t0 + 8]
-s1 = t0
-v15_5 = s1
-s1 = s1_stack
+s9 = t0
+v15_5 = s9
+s9 = s9_stack
       return v15_5
 
 func Element_Equal()
 s3_stack = s3
 s4_stack = s4
-s5_stack = s5
 s11_stack = s11
+s5_stack = s5
 s10_stack = s10
 s6_stack = s6
 s7_stack = s7
@@ -103,180 +106,191 @@ s9_stack = s9
 s1_stack = s1
 s2_stack = s2
 t0 = 1
-s2 = t0
-t0 = s2
-t2 = t0
+s10 = t0
+t0 = s10
+t5 = t0
 t0 = a3
 if0 t0 goto lbl_NullPtr_19
 t0 = a3
 t0 = [t0 + 0]
-s5 = t0
-t0 = s5
+t2 = t0
+t0 = t2
 t0 = [t0 + 8]
-s5 = t0
+t2 = t0
 a2_stack = a2
-a2 = a3
-t0 = s5
-t2_stack = t2
+t0 = a3
+a2 = t0
+t0 = t2
+t5_stack = t5
 t0 = call t0()
 a2 = a2_stack
-t2 = t2_stack
-s4 = t0
+t5 = t5_stack
+t3 = t0
 goto lbl_GoodPtr_20
 lbl_NullPtr_19:
 error("null pointer")
 lbl_GoodPtr_20:
-t0 = s4
-s3 = t0
+t0 = t3
+t4 = t0
 t0 = a2
 if0 t0 goto lbl_NullPtr_25
 t0 = a2
 t0 = [t0 + 0]
-s6 = t0
-t0 = s6
+t2 = t0
+t0 = t2
 t0 = [t0 + 20]
-s6 = t0
+t2 = t0
 t0 = a2
 t0 = [t0 + 12]
-s7 = t0
+t3 = t0
 a2_stack = a2
 a3_stack = a3
-a3 = s3
-a4 = s7
-t0 = a2
+a4_stack = a4
+t0 = a2_stack
 a2 = t0
-t0 = s6
-t2_stack = t2
+t0 = t4
+a3 = t0
+t0 = t3
+a4 = t0
+t0 = t2
+t5_stack = t5
 t0 = call t0()
 a2 = a2_stack
 a3 = a3_stack
-t2 = t2_stack
-s8 = t0
+a4 = a4_stack
+t5 = t5_stack
+s11 = t0
 goto lbl_GoodPtr_26
 lbl_NullPtr_25:
 error("null pointer")
 lbl_GoodPtr_26:
 t0 = 1
-s9 = t0
-t0 = s8
-t1 = s9
+s1 = t0
+t0 = s11
+t1 = s1
 t0 = t0 < t1
-s10 = t0
-t0 = s10
+s2 = t0
+t0 = s2
 if0 t0 goto lbl_Else_21
 t0 = 0
-s11 = t0
-t0 = s11
-t2 = t0
+s4 = t0
+t0 = s4
+t5 = t0
 goto lbl_IfEnd_22
 lbl_Else_21:
 t0 = a3
 if0 t0 goto lbl_NullPtr_33
 t0 = a3
 t0 = [t0 + 0]
-s1 = t0
-t0 = s1
+t4 = t0
+t0 = t4
 t0 = [t0 + 0]
-s1 = t0
+t4 = t0
 a2_stack = a2
-a2 = a3
-t0 = s1
-t2_stack = t2
+t0 = a3
+a2 = t0
+t0 = t4
+t5_stack = t5
 t0 = call t0()
 a2 = a2_stack
-t2 = t2_stack
-s2 = t0
+t5 = t5_stack
+t2 = t0
 goto lbl_GoodPtr_34
 lbl_NullPtr_33:
 error("null pointer")
 lbl_GoodPtr_34:
-t0 = s2
-s5 = t0
+t0 = t2
+t3 = t0
 t0 = a2
 if0 t0 goto lbl_NullPtr_39
 t0 = a2
 t0 = [t0 + 0]
-s4 = t0
-t0 = s4
+t4 = t0
+t0 = t4
 t0 = [t0 + 20]
-s4 = t0
+t4 = t0
 t0 = a2
 t0 = [t0 + 4]
-s3 = t0
+t2 = t0
 a2_stack = a2
 a3_stack = a3
-a4 = s3
-a3 = s5
-t0 = a2
+a4_stack = a4
+t0 = a2_stack
 a2 = t0
-t0 = s4
-t2_stack = t2
+t0 = t3
+a3 = t0
+t0 = t2
+a4 = t0
+t0 = t4
+t5_stack = t5
 t0 = call t0()
 a2 = a2_stack
 a3 = a3_stack
-t2 = t2_stack
-s6 = t0
+a4 = a4_stack
+t5 = t5_stack
+s3 = t0
 goto lbl_GoodPtr_40
 lbl_NullPtr_39:
 error("null pointer")
 lbl_GoodPtr_40:
 t0 = 1
-s7 = t0
-t0 = s6
-t1 = s7
+s5 = t0
+t0 = s3
+t1 = s5
 t0 = t0 < t1
-s8 = t0
-t0 = s8
+s6 = t0
+t0 = s6
 if0 t0 goto lbl_Else_35
 t0 = 0
-s9 = t0
-t0 = s9
-t2 = t0
+s7 = t0
+t0 = s7
+t5 = t0
 goto lbl_IfEnd_36
 lbl_Else_35:
 t0 = a2
 t0 = [t0 + 8]
-s10 = t0
-t0 = s10
+s8 = t0
+t0 = s8
 if0 t0 goto lbl_Else_45
 t0 = a3
 if0 t0 goto lbl_NullPtr_52
 t0 = a3
 t0 = [t0 + 0]
-s11 = t0
-t0 = s11
+t3 = t0
+t0 = t3
 t0 = [t0 + 16]
-s11 = t0
+t3 = t0
 a2_stack = a2
-a2 = a3
-t0 = s11
-t2_stack = t2
+t0 = a3
+a2 = t0
+t0 = t3
+t5_stack = t5
 t0 = call t0()
 a2 = a2_stack
-t2 = t2_stack
-s1 = t0
+t5 = t5_stack
+t4 = t0
 goto lbl_GoodPtr_53
 lbl_NullPtr_52:
 error("null pointer")
 lbl_GoodPtr_53:
 t0 = 1
-s2 = t0
-t0 = s1
-t1 = s2
+s9 = t0
+t0 = t4
+t1 = s9
 t0 = t0 < t1
-s5 = t0
-t0 = s5
+s10 = t0
+t0 = s10
 if0 t0 goto lbl_Else_48
 t0 = 0
-s4 = t0
-t0 = s4
-t2 = t0
+s11 = t0
+t0 = s11
+t5 = t0
 goto lbl_IfEnd_49
 lbl_Else_48:
 t0 = 0
-s3 = t0
-t0 = s3
-s6 = t0
+s1 = t0
+t0 = s1
+s2 = t0
 lbl_IfEnd_49:
 goto lbl_IfEnd_46
 lbl_Else_45:
@@ -284,43 +298,44 @@ t0 = a3
 if0 t0 goto lbl_NullPtr_62
 t0 = a3
 t0 = [t0 + 0]
-s7 = t0
-t0 = s7
+t2 = t0
+t0 = t2
 t0 = [t0 + 16]
-s7 = t0
+t2 = t0
 a2_stack = a2
-a2 = a3
-t0 = s7
-t2_stack = t2
+t0 = a3
+a2 = t0
+t0 = t2
+t5_stack = t5
 t0 = call t0()
 a2 = a2_stack
-t2 = t2_stack
-s8 = t0
+t5 = t5_stack
+t3 = t0
 goto lbl_GoodPtr_63
 lbl_NullPtr_62:
 error("null pointer")
 lbl_GoodPtr_63:
-t0 = s8
+t0 = t3
 if0 t0 goto lbl_Else_58
 t0 = 0
-s9 = t0
-t0 = s9
-t2 = t0
+s4 = t0
+t0 = s4
+t5 = t0
 goto lbl_IfEnd_59
 lbl_Else_58:
 t0 = 0
-s10 = t0
-t0 = s10
-s6 = t0
+s3 = t0
+t0 = s3
+s2 = t0
 lbl_IfEnd_59:
 lbl_IfEnd_46:
 lbl_IfEnd_36:
 lbl_IfEnd_22:
-ret_val_6 = t2
+ret_val_6 = t5
 s3 = s3_stack
 s4 = s4_stack
-s5 = s5_stack
 s11 = s11_stack
+s5 = s5_stack
 s10 = s10_stack
 s6 = s6_stack
 s7 = s7_stack
@@ -333,8 +348,8 @@ s2 = s2_stack
 func Element_Compare()
 s3_stack = s3
 s4_stack = s4
-s11_stack = s11
 s5_stack = s5
+s11_stack = s11
 s10_stack = s10
 s6_stack = s6
 s7_stack = s7
@@ -343,58 +358,58 @@ s9_stack = s9
 s1_stack = s1
 s2_stack = s2
 t0 = 0
-s11 = t0
-t0 = s11
-s1 = t0
-t0 = 1
-s2 = t0
-t0 = a4
-t1 = s2
-t0 = t0 + t1
 s5 = t0
 t0 = s5
-s4 = t0
+s6 = t0
+t0 = 1
+s7 = t0
+t0 = a4
+t1 = s7
+t0 = t0 + t1
+s8 = t0
+t0 = s8
+s9 = t0
 t0 = a3
 t1 = a4
 t0 = t0 < t1
-s3 = t0
-t0 = s3
+s10 = t0
+t0 = s10
 if0 t0 goto lbl_Else_69
 t0 = 0
+s11 = t0
+t0 = s11
 s6 = t0
-t0 = s6
-s1 = t0
 goto lbl_IfEnd_70
 lbl_Else_69:
 t0 = a3
-t1 = s4
+t1 = s9
 t0 = t0 < t1
-s7 = t0
+s1 = t0
 t0 = 1
-s8 = t0
-t0 = s7
-t1 = s8
+s2 = t0
+t0 = s1
+t1 = s2
 t0 = t0 < t1
-s9 = t0
-t0 = s9
+s4 = t0
+t0 = s4
 if0 t0 goto lbl_Else_73
 t0 = 0
-s10 = t0
-t0 = s10
-s1 = t0
+s3 = t0
+t0 = s3
+s6 = t0
 goto lbl_IfEnd_74
 lbl_Else_73:
 t0 = 1
-s11 = t0
-t0 = s11
-s1 = t0
+s5 = t0
+t0 = s5
+s6 = t0
 lbl_IfEnd_74:
 lbl_IfEnd_70:
-retval_7 = s1
+retval_7 = s6
 s3 = s3_stack
 s4 = s4_stack
-s11 = s11_stack
 s5 = s5_stack
+s11 = s11_stack
 s10 = s10_stack
 s6 = s6_stack
 s7 = s7_stack
@@ -405,22 +420,22 @@ s2 = s2_stack
       return retval_7
 
 func List_Init()
-s5_stack = s5
-s2_stack = s2
+s7_stack = s7
+s8_stack = s8
 t0 = 1
-s2 = t0
+s7 = t0
 t1 = a2
-t0 = s2
+t0 = s7
 [t1 + 12] = t0
 t0 = 1
-s5 = t0
-v81_8 = s5
-s5 = s5_stack
-s2 = s2_stack
+s8 = t0
+v81_8 = s8
+s7 = s7_stack
+s8 = s8_stack
       return v81_8
 
 func List_InitNew()
-s3_stack = s3
+s10_stack = s10
 t1 = a2
 t0 = a5
 [t1 + 12] = t0
@@ -431,16 +446,16 @@ t1 = a2
 t0 = a4
 [t1 + 8] = t0
 t0 = 1
-s3 = t0
-v82_9 = s3
-s3 = s3_stack
+s10 = t0
+v82_9 = s10
+s10 = s10_stack
       return v82_9
 
 func List_Insert()
 s3_stack = s3
 s4_stack = s4
-s11_stack = s11
 s5_stack = s5
+s11_stack = s11
 s10_stack = s10
 s6_stack = s6
 s7_stack = s7
@@ -449,109 +464,120 @@ s9_stack = s9
 s1_stack = s1
 s2_stack = s2
 t0 = a2
-s6 = t0
+t4 = t0
 t0 = 16
-s4 = t0
+s11 = t0
 t0 = 40
-s7 = t0
-t0 = s4
-t0 = alloc(t0)
-s8 = t0
-t0 = s7
-t0 = alloc(t0)
 s9 = t0
+t0 = s11
+t0 = alloc(t0)
+s1 = t0
+t0 = s9
+t0 = alloc(t0)
+s2 = t0
 t0 = @List_Delete
-s10 = t0
-t1 = s9
-t0 = s10
+s4 = t0
+t1 = s2
+t0 = s4
 [t1 + 0] = t0
 t0 = @List_Print
-s11 = t0
-t1 = s9
-t0 = s11
+s3 = t0
+t1 = s2
+t0 = s3
 [t1 + 4] = t0
 t0 = @List_Init
-s1 = t0
-t1 = s9
-t0 = s1
+s5 = t0
+t1 = s2
+t0 = s5
 [t1 + 8] = t0
 t0 = @List_GetElem
-s2 = t0
-t1 = s9
-t0 = s2
+s6 = t0
+t1 = s2
+t0 = s6
 [t1 + 12] = t0
 t0 = @List_GetNext
-s5 = t0
-t1 = s9
-t0 = s5
+s7 = t0
+t1 = s2
+t0 = s7
 [t1 + 16] = t0
 t0 = @List_SetNext
-s3 = t0
-t1 = s9
-t0 = s3
+s8 = t0
+t1 = s2
+t0 = s8
 [t1 + 20] = t0
 t0 = @List_Search
-s4 = t0
-t1 = s9
-t0 = s4
+s10 = t0
+t1 = s2
+t0 = s10
 [t1 + 24] = t0
 t0 = @List_GetEnd
-s7 = t0
-t1 = s9
-t0 = s7
+s11 = t0
+t1 = s2
+t0 = s11
 [t1 + 28] = t0
 t0 = @List_InitNew
-s10 = t0
-t1 = s9
-t0 = s10
+s9 = t0
+t1 = s2
+t0 = s9
 [t1 + 32] = t0
 t0 = @List_Insert
-s11 = t0
-t1 = s9
-t0 = s11
+s4 = t0
+t1 = s2
+t0 = s4
 [t1 + 36] = t0
-t1 = s8
-t0 = s9
+t1 = s1
+t0 = s2
 [t1 + 0] = t0
-t0 = s8
+t0 = s1
 if0 t0 goto lbl_NullPtr_97
 goto lbl_GoodPtr_98
 lbl_NullPtr_97:
 error("null pointer")
 lbl_GoodPtr_98:
-t0 = s8
+t0 = s1
+t2 = t0
+t0 = t2
+if0 t0 goto lbl_NullPtr_101
+t0 = t2
+t0 = [t0 + 0]
 t3 = t0
 t0 = t3
-if0 t0 goto lbl_NullPtr_101
-t0 = t3
-t0 = [t0 + 0]
-s1 = t0
-t0 = s1
 t0 = [t0 + 32]
-s1 = t0
+t3 = t0
 t0 = 0
-s2 = t0
-a4 = s6
-a2 = t3
-a5 = s2
-t0 = a3
+t5 = t0
+a2_stack = a2
+a3_stack = a3
+a4_stack = a4
+a5_stack = a5
+t0 = t2
+a2 = t0
+t0 = a3_stack
 a3 = t0
-t0 = s1
-t3_stack = t3
+t0 = t4
+a4 = t0
+t0 = t5
+a5 = t0
+t0 = t3
+t2_stack = t2
 t0 = call t0()
-t3 = t3_stack
-s5 = t0
+a2 = a2_stack
+a3 = a3_stack
+a4 = a4_stack
+a5 = a5_stack
+t2 = t2_stack
+s3 = t0
 goto lbl_GoodPtr_102
 lbl_NullPtr_101:
 error("null pointer")
 lbl_GoodPtr_102:
-t0 = s5
-s3 = t0
-aux02_10 = t3
+t0 = s3
+s5 = t0
+aux02_10 = t2
 s3 = s3_stack
 s4 = s4_stack
-s11 = s11_stack
 s5 = s5_stack
+s11 = s11_stack
 s10 = s10_stack
 s6 = s6_stack
 s7 = s7_stack
@@ -562,23 +588,23 @@ s2 = s2_stack
       return aux02_10
 
 func List_SetNext()
-s4_stack = s4
+s6_stack = s6
 t1 = a2
 t0 = a3
 [t1 + 8] = t0
 t0 = 1
-s4 = t0
-v104_11 = s4
-s4 = s4_stack
+s6 = t0
+v104_11 = s6
+s6 = s6_stack
       return v104_11
 
 func List_Delete()
 s3_stack = s3
 s4_stack = s4
-s11_stack = s11
 s5_stack = s5
-s6_stack = s6
+s11_stack = s11
 s10_stack = s10
+s6_stack = s6
 s7_stack = s7
 s8_stack = s8
 s9_stack = s9
@@ -589,112 +615,119 @@ my_head_12 = t0
 t0 = 0
 s7 = t0
 t0 = s7
-t5 = t0
+t3 = t0
 t0 = 0
-s10 = t0
+s8 = t0
 t0 = 1
-s11 = t0
-t0 = s10
-t1 = s11
+s10 = t0
+t0 = s8
+t1 = s10
 t0 = t0 - t1
-s9 = t0
-t0 = s9
+s11 = t0
+t0 = s11
+t5 = t0
+t0 = a2
 t2 = t0
 t0 = a2
-t3 = t0
-t0 = a2
-s8 = t0
+s9 = t0
 t0 = a2
 t0 = [t0 + 12]
-s6 = t0
-t0 = s6
-s1 = t0
-t0 = a2
-t0 = [t0 + 4]
-s2 = t0
-t0 = s2
-s5 = t0
-lbl_While_111:
-t0 = 1
-s3 = t0
-t0 = s1
-t1 = s3
-t0 = t0 < t1
 s4 = t0
 t0 = s4
+s2 = t0
+t0 = a2
+t0 = [t0 + 4]
+s1 = t0
+t0 = s1
+s3 = t0
+lbl_While_111:
+t0 = 1
+s5 = t0
+t0 = s2
+t1 = s5
+t0 = t0 < t1
+s6 = t0
+t0 = s6
 if0 t0 goto lbl_FullAnd_114
 t0 = 1
 s7 = t0
-t0 = t5
+t0 = t3
 t1 = s7
 t0 = t0 < t1
+s8 = t0
+t0 = s8
 s10 = t0
-t0 = s10
-s11 = t0
 goto lbl_ShortAnd_115
 lbl_FullAnd_114:
 t0 = 0
-s11 = t0
+s10 = t0
 lbl_ShortAnd_115:
-t0 = s11
+t0 = s10
 if0 t0 goto lbl_WhileExit_112
 t0 = a3
 if0 t0 goto lbl_NullPtr_124
 t0 = a3
 t0 = [t0 + 0]
-s9 = t0
-t0 = s9
+s11 = t0
+t0 = s11
 t0 = [t0 + 12]
-s9 = t0
+s11 = t0
+a2_stack = a2
 a3_stack = a3
-a2 = a3
-a3 = s5
-t0 = s9
+t0 = a3
+a2 = t0
+t0 = s3
+a3 = t0
+t0 = s11
+t3_stack = t3
 t5_stack = t5
 t2_stack = t2
-t3_stack = t3
 t0 = call t0()
+a2 = a2_stack
 a3 = a3_stack
+t3 = t3_stack
 t5 = t5_stack
 t2 = t2_stack
-t3 = t3_stack
-s6 = t0
+s4 = t0
 goto lbl_GoodPtr_125
 lbl_NullPtr_124:
 error("null pointer")
 lbl_GoodPtr_125:
-t0 = s6
+t0 = s4
 if0 t0 goto lbl_Else_120
 t0 = 1
-s2 = t0
-t0 = s2
-t5 = t0
+s1 = t0
+t0 = s1
+t3 = t0
 t0 = 0
 t4 = t0
-t0 = t2
+t0 = t5
 t1 = t4
 t0 = t0 < t1
 v129_12 = t0
 t0 = v129_12
 if0 t0 goto lbl_Else_127
-t0 = t3
+t0 = t2
 if0 t0 goto lbl_NullPtr_133
-t0 = t3
+t0 = t2
 t0 = [t0 + 0]
 v131_12 = t0
 t0 = v131_12
 t0 = [t0 + 16]
 v131_12 = t0
-a2 = t3
+a2_stack = a2
+t0 = t2
+a2 = t0
 t0 = v131_12
+t3_stack = t3
 t5_stack = t5
 t2_stack = t2
-t3_stack = t3
 t4_stack = t4
 t0 = call t0()
+a2 = a2_stack
+t3 = t3_stack
 t5 = t5_stack
 t2 = t2_stack
-t3 = t3_stack
 t4 = t4_stack
 v132_12 = t0
 goto lbl_GoodPtr_134
@@ -715,51 +748,58 @@ t0 = t0 - t1
 v135_12 = t0
 t0 = v135_12
 print(t0)
-t0 = s8
+t0 = s9
 if0 t0 goto lbl_NullPtr_140
-t0 = s8
+t0 = s9
 t0 = [t0 + 0]
 v138_12 = t0
 t0 = v138_12
 t0 = [t0 + 20]
 v138_12 = t0
-t0 = t3
+t0 = t2
 if0 t0 goto lbl_NullPtr_144
-t0 = t3
+t0 = t2
 t0 = [t0 + 0]
 v142_12 = t0
 t0 = v142_12
 t0 = [t0 + 16]
 v142_12 = t0
-a2 = t3
+a2_stack = a2
+t0 = t2
+a2 = t0
 t0 = v142_12
+t3_stack = t3
 t5_stack = t5
 t2_stack = t2
-t3_stack = t3
 t4_stack = t4
 t0 = call t0()
+a2 = a2_stack
+t3 = t3_stack
 t5 = t5_stack
 t2 = t2_stack
-t3 = t3_stack
 t4 = t4_stack
 v143_12 = t0
 goto lbl_GoodPtr_145
 lbl_NullPtr_144:
 error("null pointer")
 lbl_GoodPtr_145:
+a2_stack = a2
 a3_stack = a3
-a2 = s8
-a3 = v143_12
+t0 = s9
+a2 = t0
+t0 = v143_12
+a3 = t0
 t0 = v138_12
+t3_stack = t3
 t5_stack = t5
 t2_stack = t2
-t3_stack = t3
 t4_stack = t4
 t0 = call t0()
+a2 = a2_stack
 a3 = a3_stack
+t3 = t3_stack
 t5 = t5_stack
 t2 = t2_stack
-t3 = t3_stack
 t4 = t4_stack
 v139_12 = t0
 goto lbl_GoodPtr_141
@@ -788,32 +828,35 @@ nt_12 = t0
 lbl_IfEnd_121:
 t0 = 1
 v152_12 = t0
-t0 = t5
+t0 = t3
 t1 = v152_12
 t0 = t0 < t1
 v153_12 = t0
 t0 = v153_12
 if0 t0 goto lbl_Else_150
-t0 = t3
-s8 = t0
-t0 = t3
+t0 = t2
+s9 = t0
+t0 = t2
 if0 t0 goto lbl_NullPtr_156
-t0 = t3
+t0 = t2
 t0 = [t0 + 0]
 v154_12 = t0
 t0 = v154_12
 t0 = [t0 + 16]
 v154_12 = t0
-a2 = t3
+a2_stack = a2
+t0 = t2
+a2 = t0
 t0 = v154_12
+t3_stack = t3
 t5_stack = t5
 t2_stack = t2
-t3_stack = t3
 t4_stack = t4
 t0 = call t0()
+a2 = a2_stack
+t3 = t3_stack
 t5 = t5_stack
 t2 = t2_stack
-t3 = t3_stack
 t4 = t4_stack
 v155_12 = t0
 goto lbl_GoodPtr_157
@@ -821,25 +864,28 @@ lbl_NullPtr_156:
 error("null pointer")
 lbl_GoodPtr_157:
 t0 = v155_12
-t3 = t0
-t0 = t3
+t2 = t0
+t0 = t2
 if0 t0 goto lbl_NullPtr_160
-t0 = t3
+t0 = t2
 t0 = [t0 + 0]
 v158_12 = t0
 t0 = v158_12
 t0 = [t0 + 28]
 v158_12 = t0
-a2 = t3
+a2_stack = a2
+t0 = t2
+a2 = t0
 t0 = v158_12
+t3_stack = t3
 t5_stack = t5
 t2_stack = t2
-t3_stack = t3
 t4_stack = t4
 t0 = call t0()
+a2 = a2_stack
+t3 = t3_stack
 t5 = t5_stack
 t2 = t2_stack
-t3 = t3_stack
 t4 = t4_stack
 v159_12 = t0
 goto lbl_GoodPtr_161
@@ -847,25 +893,28 @@ lbl_NullPtr_160:
 error("null pointer")
 lbl_GoodPtr_161:
 t0 = v159_12
-s1 = t0
-t0 = t3
+s2 = t0
+t0 = t2
 if0 t0 goto lbl_NullPtr_164
-t0 = t3
+t0 = t2
 t0 = [t0 + 0]
 v162_12 = t0
 t0 = v162_12
 t0 = [t0 + 12]
 v162_12 = t0
-a2 = t3
+a2_stack = a2
+t0 = t2
+a2 = t0
 t0 = v162_12
+t3_stack = t3
 t5_stack = t5
 t2_stack = t2
-t3_stack = t3
 t4_stack = t4
 t0 = call t0()
+a2 = a2_stack
+t3 = t3_stack
 t5 = t5_stack
 t2 = t2_stack
-t3 = t3_stack
 t4 = t4_stack
 v163_12 = t0
 goto lbl_GoodPtr_165
@@ -873,11 +922,11 @@ lbl_NullPtr_164:
 error("null pointer")
 lbl_GoodPtr_165:
 t0 = v163_12
-s5 = t0
+s3 = t0
 t0 = 1
 v166_12 = t0
 t0 = v166_12
-t2 = t0
+t5 = t0
 goto lbl_IfEnd_151
 lbl_Else_150:
 t0 = 0
@@ -889,10 +938,10 @@ goto lbl_While_111
 lbl_WhileExit_112:
 s3 = s3_stack
 s4 = s4_stack
-s11 = s11_stack
 s5 = s5_stack
-s6 = s6_stack
+s11 = s11_stack
 s10 = s10_stack
+s6 = s6_stack
 s7 = s7_stack
 s8 = s8_stack
 s9 = s9_stack
@@ -913,29 +962,29 @@ s9_stack = s9
 s1_stack = s1
 s2_stack = s2
 t0 = 0
-s8 = t0
-t0 = s8
+s9 = t0
+t0 = s9
 int_ret_val_13 = t0
 t0 = a2
-t2 = t0
+t5 = t0
 t0 = a2
 t0 = [t0 + 12]
-s1 = t0
-t0 = s1
-t3 = t0
+s2 = t0
+t0 = s2
+t2 = t0
 t0 = a2
 t0 = [t0 + 4]
-s5 = t0
-t0 = s5
+s3 = t0
+t0 = s3
 t4 = t0
 lbl_While_171:
 t0 = 1
-s3 = t0
-t0 = t3
-t1 = s3
+s5 = t0
+t0 = t2
+t1 = s5
 t0 = t0 < t1
-s4 = t0
-t0 = s4
+s6 = t0
+t0 = s6
 if0 t0 goto lbl_WhileExit_172
 t0 = a3
 if0 t0 goto lbl_NullPtr_179
@@ -945,105 +994,118 @@ s7 = t0
 t0 = s7
 t0 = [t0 + 12]
 s7 = t0
+a2_stack = a2
 a3_stack = a3
-a2 = a3
-a3 = t4
+t0 = a3
+a2 = t0
+t0 = t4
+a3 = t0
 t0 = s7
+t5_stack = t5
 t2_stack = t2
-t3_stack = t3
 t4_stack = t4
 t0 = call t0()
+a2 = a2_stack
 a3 = a3_stack
+t5 = t5_stack
 t2 = t2_stack
-t3 = t3_stack
 t4 = t4_stack
-s10 = t0
+s8 = t0
 goto lbl_GoodPtr_180
 lbl_NullPtr_179:
 error("null pointer")
 lbl_GoodPtr_180:
-t0 = s10
+t0 = s8
 if0 t0 goto lbl_Else_175
 t0 = 1
-s11 = t0
-t0 = s11
+s10 = t0
+t0 = s10
 int_ret_val_13 = t0
 goto lbl_IfEnd_176
 lbl_Else_175:
 t0 = 0
-s9 = t0
-t0 = s9
-s6 = t0
+s11 = t0
+t0 = s11
+s4 = t0
 lbl_IfEnd_176:
-t0 = t2
+t0 = t5
 if0 t0 goto lbl_NullPtr_185
-t0 = t2
+t0 = t5
 t0 = [t0 + 0]
-s2 = t0
-t0 = s2
+s1 = t0
+t0 = s1
 t0 = [t0 + 16]
-s2 = t0
-a2 = t2
-t0 = s2
+s1 = t0
+a2_stack = a2
+t0 = t5
+a2 = t0
+t0 = s1
+t5_stack = t5
 t2_stack = t2
-t3_stack = t3
 t4_stack = t4
 t0 = call t0()
+a2 = a2_stack
+t5 = t5_stack
 t2 = t2_stack
-t3 = t3_stack
 t4 = t4_stack
-s8 = t0
+s9 = t0
 goto lbl_GoodPtr_186
 lbl_NullPtr_185:
 error("null pointer")
 lbl_GoodPtr_186:
-t0 = s8
-t2 = t0
-t0 = t2
+t0 = s9
+t5 = t0
+t0 = t5
 print(t0)
-t0 = t2
+t0 = t5
 if0 t0 goto lbl_NullPtr_189
-t0 = t2
+t0 = t5
 t0 = [t0 + 0]
-s1 = t0
-t0 = s1
+s2 = t0
+t0 = s2
 t0 = [t0 + 28]
-s1 = t0
-a2 = t2
-t0 = s1
+s2 = t0
+a2_stack = a2
+t0 = t5
+a2 = t0
+t0 = s2
+t5_stack = t5
 t2_stack = t2
-t3_stack = t3
 t4_stack = t4
 t0 = call t0()
+a2 = a2_stack
+t5 = t5_stack
 t2 = t2_stack
-t3 = t3_stack
 t4 = t4_stack
-s5 = t0
+s3 = t0
 goto lbl_GoodPtr_190
 lbl_NullPtr_189:
 error("null pointer")
 lbl_GoodPtr_190:
-t0 = s5
-t3 = t0
-t0 = t2
+t0 = s3
+t2 = t0
+t0 = t5
 if0 t0 goto lbl_NullPtr_193
-t0 = t2
+t0 = t5
 t0 = [t0 + 0]
-t5 = t0
-t0 = t5
+t3 = t0
+t0 = t3
 t0 = [t0 + 12]
-t5 = t0
-a2 = t2
+t3 = t0
+a2_stack = a2
 t0 = t5
-t2_stack = t2
-t3_stack = t3
-t4_stack = t4
+a2 = t0
+t0 = t3
 t5_stack = t5
+t2_stack = t2
+t4_stack = t4
+t3_stack = t3
 t0 = call t0()
-t2 = t2_stack
-t3 = t3_stack
-t4 = t4_stack
+a2 = a2_stack
 t5 = t5_stack
+t2 = t2_stack
+t4 = t4_stack
+t3 = t3_stack
 v192_13 = t0
 goto lbl_GoodPtr_194
 lbl_NullPtr_193:
@@ -1067,21 +1129,21 @@ s2 = s2_stack
       return int_ret_val_13
 
 func List_GetEnd()
-s3_stack = s3
+s5_stack = s5
 t0 = a2
 t0 = [t0 + 12]
-s3 = t0
-v195_14 = s3
-s3 = s3_stack
+s5 = t0
+v195_14 = s5
+s5 = s5_stack
       return v195_14
 
 func List_GetElem()
-s4_stack = s4
+s6_stack = s6
 t0 = a2
 t0 = [t0 + 4]
-s4 = t0
-v196_15 = s4
-s4 = s4_stack
+s6 = t0
+v196_15 = s6
+s6 = s6_stack
       return v196_15
 
 func List_GetNext()
@@ -1106,123 +1168,135 @@ s9_stack = s9
 s1_stack = s1
 s2_stack = s2
 t0 = a2
-t2 = t0
+t5 = t0
 t0 = a2
 t0 = [t0 + 12]
-s10 = t0
-t0 = s10
-t3 = t0
+s8 = t0
+t0 = s8
+t2 = t0
 t0 = a2
 t0 = [t0 + 4]
-s11 = t0
-t0 = s11
+s10 = t0
+t0 = s10
 t4 = t0
 lbl_While_200:
 t0 = 1
-t5 = t0
-t0 = t3
-t1 = t5
+t3 = t0
+t0 = t2
+t1 = t3
 t0 = t0 < t1
-s9 = t0
-t0 = s9
+s11 = t0
+t0 = s11
 if0 t0 goto lbl_WhileExit_201
 t0 = t4
 if0 t0 goto lbl_NullPtr_206
 t0 = t4
 t0 = [t0 + 0]
-s6 = t0
-t0 = s6
+s4 = t0
+t0 = s4
 t0 = [t0 + 8]
-s6 = t0
-a2 = t4
-t0 = s6
-t2_stack = t2
-t3_stack = t3
-t4_stack = t4
+s4 = t0
+a2_stack = a2
+t0 = t4
+a2 = t0
+t0 = s4
 t5_stack = t5
+t2_stack = t2
+t4_stack = t4
+t3_stack = t3
 t0 = call t0()
-t2 = t2_stack
-t3 = t3_stack
-t4 = t4_stack
+a2 = a2_stack
 t5 = t5_stack
-s2 = t0
+t2 = t2_stack
+t4 = t4_stack
+t3 = t3_stack
+s1 = t0
 goto lbl_GoodPtr_207
 lbl_NullPtr_206:
 error("null pointer")
 lbl_GoodPtr_207:
-t0 = s2
+t0 = s1
 print(t0)
-t0 = t2
+t0 = t5
 if0 t0 goto lbl_NullPtr_210
-t0 = t2
+t0 = t5
 t0 = [t0 + 0]
-s8 = t0
-t0 = s8
+s9 = t0
+t0 = s9
 t0 = [t0 + 16]
-s8 = t0
-a2 = t2
-t0 = s8
-t2_stack = t2
-t3_stack = t3
-t4_stack = t4
+s9 = t0
+a2_stack = a2
+t0 = t5
+a2 = t0
+t0 = s9
 t5_stack = t5
+t2_stack = t2
+t4_stack = t4
+t3_stack = t3
 t0 = call t0()
-t2 = t2_stack
-t3 = t3_stack
-t4 = t4_stack
+a2 = a2_stack
 t5 = t5_stack
-s1 = t0
+t2 = t2_stack
+t4 = t4_stack
+t3 = t3_stack
+s2 = t0
 goto lbl_GoodPtr_211
 lbl_NullPtr_210:
 error("null pointer")
 lbl_GoodPtr_211:
-t0 = s1
-t2 = t0
-t0 = t2
+t0 = s2
+t5 = t0
+t0 = t5
 if0 t0 goto lbl_NullPtr_214
-t0 = t2
+t0 = t5
 t0 = [t0 + 0]
-s5 = t0
-t0 = s5
-t0 = [t0 + 28]
-s5 = t0
-a2 = t2
-t0 = s5
-t2_stack = t2
-t3_stack = t3
-t4_stack = t4
-t5_stack = t5
-t0 = call t0()
-t2 = t2_stack
-t3 = t3_stack
-t4 = t4_stack
-t5 = t5_stack
 s3 = t0
+t0 = s3
+t0 = [t0 + 28]
+s3 = t0
+a2_stack = a2
+t0 = t5
+a2 = t0
+t0 = s3
+t5_stack = t5
+t2_stack = t2
+t4_stack = t4
+t3_stack = t3
+t0 = call t0()
+a2 = a2_stack
+t5 = t5_stack
+t2 = t2_stack
+t4 = t4_stack
+t3 = t3_stack
+s5 = t0
 goto lbl_GoodPtr_215
 lbl_NullPtr_214:
 error("null pointer")
 lbl_GoodPtr_215:
-t0 = s3
-t3 = t0
-t0 = t2
+t0 = s5
+t2 = t0
+t0 = t5
 if0 t0 goto lbl_NullPtr_218
-t0 = t2
+t0 = t5
 t0 = [t0 + 0]
-s4 = t0
-t0 = s4
+s6 = t0
+t0 = s6
 t0 = [t0 + 12]
-s4 = t0
-a2 = t2
-t0 = s4
-t2_stack = t2
-t3_stack = t3
-t4_stack = t4
+s6 = t0
+a2_stack = a2
+t0 = t5
+a2 = t0
+t0 = s6
 t5_stack = t5
+t2_stack = t2
+t4_stack = t4
+t3_stack = t3
 t0 = call t0()
-t2 = t2_stack
-t3 = t3_stack
-t4 = t4_stack
+a2 = a2_stack
 t5 = t5_stack
+t2 = t2_stack
+t4 = t4_stack
+t3 = t3_stack
 s7 = t0
 goto lbl_GoodPtr_219
 lbl_NullPtr_218:
@@ -1233,8 +1307,8 @@ t4 = t0
 goto lbl_While_200
 lbl_WhileExit_201:
 t0 = 1
-s10 = t0
-v220_17 = s10
+s8 = t0
+v220_17 = s8
 s3 = s3_stack
 s4 = s4_stack
 s5 = s5_stack
@@ -1251,8 +1325,8 @@ s2 = s2_stack
 func LL_Start()
 s3_stack = s3
 s4_stack = s4
-s5_stack = s5
 s11_stack = s11
+s5_stack = s5
 s6_stack = s6
 s10_stack = s10
 s7_stack = s7
@@ -1261,211 +1335,232 @@ s9_stack = s9
 s1_stack = s1
 s2_stack = s2
 t0 = 16
-s11 = t0
+s10 = t0
 t0 = 40
-s9 = t0
+s11 = t0
+t0 = s10
+t0 = alloc(t0)
+s4 = t0
 t0 = s11
 t0 = alloc(t0)
-s6 = t0
-t0 = s9
-t0 = alloc(t0)
-s2 = t0
+s1 = t0
 t0 = @List_Delete
-s8 = t0
-t1 = s2
-t0 = s8
+s9 = t0
+t1 = s1
+t0 = s9
 [t1 + 0] = t0
 t0 = @List_Print
-s1 = t0
-t1 = s2
-t0 = s1
+s2 = t0
+t1 = s1
+t0 = s2
 [t1 + 4] = t0
 t0 = @List_Init
-s5 = t0
-t1 = s2
-t0 = s5
+s3 = t0
+t1 = s1
+t0 = s3
 [t1 + 8] = t0
 t0 = @List_GetElem
-s3 = t0
-t1 = s2
-t0 = s3
+s5 = t0
+t1 = s1
+t0 = s5
 [t1 + 12] = t0
 t0 = @List_GetNext
-s4 = t0
-t1 = s2
-t0 = s4
+s6 = t0
+t1 = s1
+t0 = s6
 [t1 + 16] = t0
 t0 = @List_SetNext
 s7 = t0
-t1 = s2
+t1 = s1
 t0 = s7
 [t1 + 20] = t0
 t0 = @List_Search
-s10 = t0
-t1 = s2
-t0 = s10
+s8 = t0
+t1 = s1
+t0 = s8
 [t1 + 24] = t0
 t0 = @List_GetEnd
-s11 = t0
-t1 = s2
-t0 = s11
+s10 = t0
+t1 = s1
+t0 = s10
 [t1 + 28] = t0
 t0 = @List_InitNew
-s9 = t0
-t1 = s2
-t0 = s9
+s11 = t0
+t1 = s1
+t0 = s11
 [t1 + 32] = t0
 t0 = @List_Insert
-s8 = t0
-t1 = s2
-t0 = s8
+s9 = t0
+t1 = s1
+t0 = s9
 [t1 + 36] = t0
-t1 = s6
-t0 = s2
+t1 = s4
+t0 = s1
 [t1 + 0] = t0
-t0 = s6
+t0 = s4
 if0 t0 goto lbl_NullPtr_235
 goto lbl_GoodPtr_236
 lbl_NullPtr_235:
 error("null pointer")
 lbl_GoodPtr_236:
-t0 = s6
+t0 = s4
+t5 = t0
+t0 = t5
+if0 t0 goto lbl_NullPtr_239
+t0 = t5
+t0 = [t0 + 0]
 t2 = t0
 t0 = t2
-if0 t0 goto lbl_NullPtr_239
-t0 = t2
-t0 = [t0 + 0]
-s1 = t0
-t0 = s1
 t0 = [t0 + 8]
-s1 = t0
-a2 = t2
-t0 = s1
-t2_stack = t2
+t2 = t0
+a2_stack = a2
+t0 = t5
+a2 = t0
+t0 = t2
+t5_stack = t5
 t0 = call t0()
-t2 = t2_stack
-s5 = t0
+a2 = a2_stack
+t5 = t5_stack
+t4 = t0
 goto lbl_GoodPtr_240
 lbl_NullPtr_239:
 error("null pointer")
 lbl_GoodPtr_240:
-t0 = s5
-s3 = t0
-t0 = t2
+t0 = t4
+s2 = t0
+t0 = t5
 t3 = t0
 t0 = t3
 if0 t0 goto lbl_NullPtr_243
 t0 = t3
 t0 = [t0 + 0]
-s4 = t0
-t0 = s4
+t2 = t0
+t0 = t2
 t0 = [t0 + 8]
-s4 = t0
-a2 = t3
-t0 = s4
+t2 = t0
+a2_stack = a2
+t0 = t3
+a2 = t0
+t0 = t2
 t3_stack = t3
 t0 = call t0()
+a2 = a2_stack
 t3 = t3_stack
-s7 = t0
+t4 = t0
 goto lbl_GoodPtr_244
 lbl_NullPtr_243:
 error("null pointer")
 lbl_GoodPtr_244:
-t0 = s7
-s3 = t0
+t0 = t4
+s2 = t0
 t0 = t3
 if0 t0 goto lbl_NullPtr_247
 t0 = t3
 t0 = [t0 + 0]
-s10 = t0
-t0 = s10
+t5 = t0
+t0 = t5
 t0 = [t0 + 4]
-s10 = t0
-a2 = t3
-t0 = s10
+t5 = t0
+a2_stack = a2
+t0 = t3
+a2 = t0
+t0 = t5
 t3_stack = t3
 t0 = call t0()
+a2 = a2_stack
 t3 = t3_stack
-s11 = t0
+t2 = t0
 goto lbl_GoodPtr_248
 lbl_NullPtr_247:
 error("null pointer")
 lbl_GoodPtr_248:
-t0 = s11
-s3 = t0
-t0 = 16
-s9 = t0
-t0 = 24
-s8 = t0
-t0 = s9
-t0 = alloc(t0)
+t0 = t2
 s2 = t0
-t0 = s8
+t0 = 16
+s3 = t0
+t0 = 24
+s5 = t0
+t0 = s3
 t0 = alloc(t0)
 s6 = t0
+t0 = s5
+t0 = alloc(t0)
+s7 = t0
 t0 = @Element_GetSalary
-s1 = t0
-t1 = s6
-t0 = s1
+s8 = t0
+t1 = s7
+t0 = s8
 [t1 + 0] = t0
 t0 = @Element_Init
-s5 = t0
-t1 = s6
-t0 = s5
+s10 = t0
+t1 = s7
+t0 = s10
 [t1 + 4] = t0
 t0 = @Element_GetAge
-s3 = t0
-t1 = s6
-t0 = s3
+s11 = t0
+t1 = s7
+t0 = s11
 [t1 + 8] = t0
 t0 = @Element_Equal
-s4 = t0
-t1 = s6
-t0 = s4
+s9 = t0
+t1 = s7
+t0 = s9
 [t1 + 12] = t0
 t0 = @Element_GetMarried
-s7 = t0
-t1 = s6
-t0 = s7
+s1 = t0
+t1 = s7
+t0 = s1
 [t1 + 16] = t0
 t0 = @Element_Compare
-s10 = t0
-t1 = s6
-t0 = s10
+s4 = t0
+t1 = s7
+t0 = s4
 [t1 + 20] = t0
-t1 = s2
-t0 = s6
+t1 = s6
+t0 = s7
 [t1 + 0] = t0
-t0 = s2
+t0 = s6
 if0 t0 goto lbl_NullPtr_259
 goto lbl_GoodPtr_260
 lbl_NullPtr_259:
 error("null pointer")
 lbl_GoodPtr_260:
-t0 = s2
+t0 = s6
 t4 = t0
 t0 = t4
 if0 t0 goto lbl_NullPtr_263
 t0 = t4
 t0 = [t0 + 0]
-s11 = t0
-t0 = s11
+t5 = t0
+t0 = t5
 t0 = [t0 + 4]
-s11 = t0
+t5 = t0
 t0 = 25
-s9 = t0
+t2 = t0
 t0 = 37000
-s8 = t0
+s2 = t0
 t0 = 0
-s1 = t0
-a2 = t4
-a4 = s8
-a3 = s9
-a5 = s1
-t0 = s11
+s3 = t0
+a2_stack = a2
+a3_stack = a3
+a4_stack = a4
+a5_stack = a5
+t0 = t4
+a2 = t0
+t0 = t2
+a3 = t0
+t0 = s2
+a4 = t0
+t0 = s3
+a5 = t0
+t0 = t5
 t3_stack = t3
 t4_stack = t4
 t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+a4 = a4_stack
+a5 = a5_stack
 t3 = t3_stack
 t4 = t4_stack
 s5 = t0
@@ -1474,98 +1569,107 @@ lbl_NullPtr_263:
 error("null pointer")
 lbl_GoodPtr_264:
 t0 = s5
-s3 = t0
+s2 = t0
 t0 = t3
 if0 t0 goto lbl_NullPtr_270
 t0 = t3
 t0 = [t0 + 0]
-s3 = t0
-t0 = s3
+t5 = t0
+t0 = t5
 t0 = [t0 + 36]
-s3 = t0
-a3 = t4
-a2 = t3
-t0 = s3
+t5 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t3
+a2 = t0
+t0 = t4
+a3 = t0
+t0 = t5
 t3_stack = t3
 t4_stack = t4
 t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
 t3 = t3_stack
 t4 = t4_stack
-s4 = t0
+t2 = t0
 goto lbl_GoodPtr_271
 lbl_NullPtr_270:
 error("null pointer")
 lbl_GoodPtr_271:
-t0 = s4
+t0 = t2
 t3 = t0
 t0 = t3
 if0 t0 goto lbl_NullPtr_274
 t0 = t3
 t0 = [t0 + 0]
-s7 = t0
-t0 = s7
+t5 = t0
+t0 = t5
 t0 = [t0 + 4]
-s7 = t0
-a2 = t3
-t0 = s7
+t5 = t0
+a2_stack = a2
+t0 = t3
+a2 = t0
+t0 = t5
 t3_stack = t3
 t4_stack = t4
 t0 = call t0()
+a2 = a2_stack
 t3 = t3_stack
 t4 = t4_stack
-s10 = t0
+t2 = t0
 goto lbl_GoodPtr_275
 lbl_NullPtr_274:
 error("null pointer")
 lbl_GoodPtr_275:
-t0 = s10
-s3 = t0
+t0 = t2
+s2 = t0
 t0 = 10000000
-s6 = t0
-t0 = s6
+s8 = t0
+t0 = s8
 print(t0)
 t0 = 16
-s2 = t0
+s10 = t0
 t0 = 24
 s11 = t0
-t0 = s2
+t0 = s10
 t0 = alloc(t0)
 s9 = t0
 t0 = s11
 t0 = alloc(t0)
-s8 = t0
-t0 = @Element_GetSalary
 s1 = t0
-t1 = s8
-t0 = s1
+t0 = @Element_GetSalary
+s4 = t0
+t1 = s1
+t0 = s4
 [t1 + 0] = t0
 t0 = @Element_Init
-s5 = t0
-t1 = s8
-t0 = s5
+s7 = t0
+t1 = s1
+t0 = s7
 [t1 + 4] = t0
 t0 = @Element_GetAge
-s3 = t0
-t1 = s8
-t0 = s3
+s6 = t0
+t1 = s1
+t0 = s6
 [t1 + 8] = t0
 t0 = @Element_Equal
-s4 = t0
-t1 = s8
-t0 = s4
+s2 = t0
+t1 = s1
+t0 = s2
 [t1 + 12] = t0
 t0 = @Element_GetMarried
-s7 = t0
-t1 = s8
-t0 = s7
+s3 = t0
+t1 = s1
+t0 = s3
 [t1 + 16] = t0
 t0 = @Element_Compare
-s10 = t0
-t1 = s8
-t0 = s10
+s5 = t0
+t1 = s1
+t0 = s5
 [t1 + 20] = t0
 t1 = s9
-t0 = s8
+t0 = s1
 [t1 + 0] = t0
 t0 = s9
 if0 t0 goto lbl_NullPtr_287
@@ -1579,50 +1683,68 @@ t0 = t4
 if0 t0 goto lbl_NullPtr_291
 t0 = t4
 t0 = [t0 + 0]
-s6 = t0
-t0 = s6
+t5 = t0
+t0 = t5
 t0 = [t0 + 4]
-s6 = t0
+t5 = t0
 t0 = 39
-s2 = t0
+t2 = t0
 t0 = 42000
-s11 = t0
+s8 = t0
 t0 = 1
-s1 = t0
-a2 = t4
-a4 = s11
-a5 = s1
-a3 = s2
-t0 = s6
+s10 = t0
+a2_stack = a2
+a3_stack = a3
+a4_stack = a4
+a5_stack = a5
+t0 = t4
+a2 = t0
+t0 = t2
+a3 = t0
+t0 = s8
+a4 = t0
+t0 = s10
+a5 = t0
+t0 = t5
 t3_stack = t3
 t4_stack = t4
 t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+a4 = a4_stack
+a5 = a5_stack
 t3 = t3_stack
 t4 = t4_stack
-s5 = t0
+s11 = t0
 goto lbl_GoodPtr_292
 lbl_NullPtr_291:
 error("null pointer")
 lbl_GoodPtr_292:
-t0 = s5
-s3 = t0
+t0 = s11
+s2 = t0
 t0 = t4
 t5 = t0
 t0 = t3
 if0 t0 goto lbl_NullPtr_298
 t0 = t3
 t0 = [t0 + 0]
-s3 = t0
-t0 = s3
+t2 = t0
+t0 = t2
 t0 = [t0 + 36]
-s3 = t0
-a3 = t4
-a2 = t3
-t0 = s3
+t2 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t3
+a2 = t0
+t0 = t4
+a3 = t0
+t0 = t2
 t3_stack = t3
 t4_stack = t4
 t5_stack = t5
 t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
 t3 = t3_stack
 t4 = t4_stack
 t5 = t5_stack
@@ -1637,153 +1759,177 @@ t0 = t3
 if0 t0 goto lbl_NullPtr_302
 t0 = t3
 t0 = [t0 + 0]
-s7 = t0
-t0 = s7
+t2 = t0
+t0 = t2
 t0 = [t0 + 4]
-s7 = t0
-a2 = t3
-t0 = s7
+t2 = t0
+a2_stack = a2
+t0 = t3
+a2 = t0
+t0 = t2
 t3_stack = t3
 t4_stack = t4
 t5_stack = t5
 t0 = call t0()
+a2 = a2_stack
 t3 = t3_stack
 t4 = t4_stack
 t5 = t5_stack
-s10 = t0
+s7 = t0
 goto lbl_GoodPtr_303
 lbl_NullPtr_302:
 error("null pointer")
 lbl_GoodPtr_303:
-t0 = s10
-s3 = t0
+t0 = s7
+s2 = t0
 t0 = 10000000
-s8 = t0
-t0 = s8
+s6 = t0
+t0 = s6
 print(t0)
 t0 = 16
-s9 = t0
-t0 = 24
-s6 = t0
-t0 = s9
-t0 = alloc(t0)
 s2 = t0
-t0 = s6
+t0 = 24
+s3 = t0
+t0 = s2
 t0 = alloc(t0)
-s11 = t0
-t0 = @Element_GetSalary
+s5 = t0
+t0 = s3
+t0 = alloc(t0)
 s1 = t0
-t1 = s11
-t0 = s1
+t0 = @Element_GetSalary
+s9 = t0
+t1 = s1
+t0 = s9
 [t1 + 0] = t0
 t0 = @Element_Init
-s5 = t0
-t1 = s11
-t0 = s5
+s8 = t0
+t1 = s1
+t0 = s8
 [t1 + 4] = t0
 t0 = @Element_GetAge
-s3 = t0
-t1 = s11
-t0 = s3
+s10 = t0
+t1 = s1
+t0 = s10
 [t1 + 8] = t0
 t0 = @Element_Equal
-s4 = t0
-t1 = s11
-t0 = s4
+s11 = t0
+t1 = s1
+t0 = s11
 [t1 + 12] = t0
 t0 = @Element_GetMarried
-s7 = t0
-t1 = s11
-t0 = s7
+s4 = t0
+t1 = s1
+t0 = s4
 [t1 + 16] = t0
 t0 = @Element_Compare
-s10 = t0
-t1 = s11
-t0 = s10
+s7 = t0
+t1 = s1
+t0 = s7
 [t1 + 20] = t0
-t1 = s2
-t0 = s11
+t1 = s5
+t0 = s1
 [t1 + 0] = t0
-t0 = s2
+t0 = s5
 if0 t0 goto lbl_NullPtr_315
 goto lbl_GoodPtr_316
 lbl_NullPtr_315:
 error("null pointer")
 lbl_GoodPtr_316:
-t0 = s2
+t0 = s5
 t4 = t0
 t0 = t4
 if0 t0 goto lbl_NullPtr_319
 t0 = t4
 t0 = [t0 + 0]
-s8 = t0
-t0 = s8
+t2 = t0
+t0 = t2
 t0 = [t0 + 4]
-s8 = t0
+t2 = t0
 t0 = 22
-s9 = t0
-t0 = 34000
 s6 = t0
+t0 = 34000
+s2 = t0
 t0 = 0
-s1 = t0
-a2 = t4
-a4 = s6
-a3 = s9
-a5 = s1
-t0 = s8
+s3 = t0
+a2_stack = a2
+a3_stack = a3
+a4_stack = a4
+a5_stack = a5
+t0 = t4
+a2 = t0
+t0 = s6
+a3 = t0
+t0 = s2
+a4 = t0
+t0 = s3
+a5 = t0
+t0 = t2
 t3_stack = t3
 t4_stack = t4
 t5_stack = t5
 t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+a4 = a4_stack
+a5 = a5_stack
 t3 = t3_stack
 t4 = t4_stack
 t5 = t5_stack
-s5 = t0
+s9 = t0
 goto lbl_GoodPtr_320
 lbl_NullPtr_319:
 error("null pointer")
 lbl_GoodPtr_320:
-t0 = s5
-s3 = t0
+t0 = s9
+s2 = t0
 t0 = t3
 if0 t0 goto lbl_NullPtr_326
 t0 = t3
 t0 = [t0 + 0]
-s3 = t0
-t0 = s3
+t2 = t0
+t0 = t2
 t0 = [t0 + 36]
-s3 = t0
-a3 = t4
-a2 = t3
-t0 = s3
+t2 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t3
+a2 = t0
+t0 = t4
+a3 = t0
+t0 = t2
 t3_stack = t3
 t4_stack = t4
 t5_stack = t5
 t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
 t3 = t3_stack
 t4 = t4_stack
 t5 = t5_stack
-s4 = t0
+s8 = t0
 goto lbl_GoodPtr_327
 lbl_NullPtr_326:
 error("null pointer")
 lbl_GoodPtr_327:
-t0 = s4
+t0 = s8
 t3 = t0
 t0 = t3
 if0 t0 goto lbl_NullPtr_330
 t0 = t3
 t0 = [t0 + 0]
-s7 = t0
-t0 = s7
+t2 = t0
+t0 = t2
 t0 = [t0 + 4]
-s7 = t0
-a2 = t3
-t0 = s7
+t2 = t0
+a2_stack = a2
+t0 = t3
+a2 = t0
+t0 = t2
 t3_stack = t3
 t4_stack = t4
 t5_stack = t5
 t0 = call t0()
+a2 = a2_stack
 t3 = t3_stack
 t4 = t4_stack
 t5 = t5_stack
@@ -1793,57 +1939,57 @@ lbl_NullPtr_330:
 error("null pointer")
 lbl_GoodPtr_331:
 t0 = s10
-s3 = t0
+s2 = t0
 t0 = 16
 s11 = t0
 t0 = 24
-s2 = t0
+s4 = t0
 t0 = s11
 t0 = alloc(t0)
-s8 = t0
-t0 = s2
+s7 = t0
+t0 = s4
 t0 = alloc(t0)
-s9 = t0
+s1 = t0
 t0 = @Element_GetSalary
-s6 = t0
-t1 = s9
-t0 = s6
+s5 = t0
+t1 = s1
+t0 = s5
 [t1 + 0] = t0
 t0 = @Element_Init
-s1 = t0
-t1 = s9
-t0 = s1
+s6 = t0
+t1 = s1
+t0 = s6
 [t1 + 4] = t0
 t0 = @Element_GetAge
-s5 = t0
-t1 = s9
-t0 = s5
+s2 = t0
+t1 = s1
+t0 = s2
 [t1 + 8] = t0
 t0 = @Element_Equal
 s3 = t0
-t1 = s9
+t1 = s1
 t0 = s3
 [t1 + 12] = t0
 t0 = @Element_GetMarried
-s4 = t0
-t1 = s9
-t0 = s4
+s9 = t0
+t1 = s1
+t0 = s9
 [t1 + 16] = t0
 t0 = @Element_Compare
-s7 = t0
-t1 = s9
-t0 = s7
-[t1 + 20] = t0
-t1 = s8
-t0 = s9
-[t1 + 0] = t0
+s8 = t0
+t1 = s1
 t0 = s8
+[t1 + 20] = t0
+t1 = s7
+t0 = s1
+[t1 + 0] = t0
+t0 = s7
 if0 t0 goto lbl_NullPtr_342
 goto lbl_GoodPtr_343
 lbl_NullPtr_342:
 error("null pointer")
 lbl_GoodPtr_343:
-t0 = s8
+t0 = s7
 t2 = t0
 t0 = t2
 if0 t0 goto lbl_NullPtr_346
@@ -1856,46 +2002,64 @@ s10 = t0
 t0 = 27
 s11 = t0
 t0 = 34000
-s2 = t0
+s4 = t0
 t0 = 0
-s6 = t0
-a3 = s11
-a5 = s6
-a2 = t2
-a4 = s2
+s5 = t0
+a2_stack = a2
+a3_stack = a3
+a4_stack = a4
+a5_stack = a5
+t0 = t2
+a2 = t0
+t0 = s11
+a3 = t0
+t0 = s4
+a4 = t0
+t0 = s5
+a5 = t0
 t0 = s10
 t3_stack = t3
 t4_stack = t4
 t5_stack = t5
 t2_stack = t2
 t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+a4 = a4_stack
+a5 = a5_stack
 t3 = t3_stack
 t4 = t4_stack
 t5 = t5_stack
 t2 = t2_stack
-s1 = t0
+s6 = t0
 goto lbl_GoodPtr_347
 lbl_NullPtr_346:
 error("null pointer")
 lbl_GoodPtr_347:
-t0 = s1
-s3 = t0
+t0 = s6
+s2 = t0
 t0 = t3
 if0 t0 goto lbl_NullPtr_353
 t0 = t3
 t0 = [t0 + 0]
-s5 = t0
-t0 = s5
+s2 = t0
+t0 = s2
 t0 = [t0 + 24]
-s5 = t0
-a3 = t5
-a2 = t3
-t0 = s5
+s2 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t3
+a2 = t0
+t0 = t5
+a3 = t0
+t0 = s2
 t3_stack = t3
 t4_stack = t4
 t5_stack = t5
 t2_stack = t2
 t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
 t3 = t3_stack
 t4 = t4_stack
 t5 = t5_stack
@@ -1911,73 +2075,79 @@ t0 = t3
 if0 t0 goto lbl_NullPtr_357
 t0 = t3
 t0 = [t0 + 0]
-s4 = t0
-t0 = s4
+s9 = t0
+t0 = s9
 t0 = [t0 + 24]
-s4 = t0
-a3 = t2
-a2 = t3
-t0 = s4
+s9 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t3
+a2 = t0
+t0 = t2
+a3 = t0
+t0 = s9
 t3_stack = t3
 t4_stack = t4
 t5_stack = t5
 t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
 t3 = t3_stack
 t4 = t4_stack
 t5 = t5_stack
-s7 = t0
+s8 = t0
 goto lbl_GoodPtr_358
 lbl_NullPtr_357:
 error("null pointer")
 lbl_GoodPtr_358:
-t0 = s7
+t0 = s8
 print(t0)
 t0 = 10000000
-s9 = t0
-t0 = s9
+s1 = t0
+t0 = s1
 print(t0)
 t0 = 16
-s8 = t0
+s7 = t0
 t0 = 24
 s10 = t0
-t0 = s8
+t0 = s7
 t0 = alloc(t0)
 s11 = t0
 t0 = s10
 t0 = alloc(t0)
-s2 = t0
+s4 = t0
 t0 = @Element_GetSalary
-s6 = t0
-t1 = s2
-t0 = s6
+s5 = t0
+t1 = s4
+t0 = s5
 [t1 + 0] = t0
 t0 = @Element_Init
-s1 = t0
-t1 = s2
-t0 = s1
+s6 = t0
+t1 = s4
+t0 = s6
 [t1 + 4] = t0
 t0 = @Element_GetAge
-s5 = t0
-t1 = s2
-t0 = s5
+s2 = t0
+t1 = s4
+t0 = s2
 [t1 + 8] = t0
 t0 = @Element_Equal
 s3 = t0
-t1 = s2
+t1 = s4
 t0 = s3
 [t1 + 12] = t0
 t0 = @Element_GetMarried
-s4 = t0
-t1 = s2
-t0 = s4
+s9 = t0
+t1 = s4
+t0 = s9
 [t1 + 16] = t0
 t0 = @Element_Compare
-s7 = t0
-t1 = s2
-t0 = s7
+s8 = t0
+t1 = s4
+t0 = s8
 [t1 + 20] = t0
 t1 = s11
-t0 = s2
+t0 = s4
 [t1 + 0] = t0
 t0 = s11
 if0 t0 goto lbl_NullPtr_370
@@ -1991,102 +2161,129 @@ t0 = t4
 if0 t0 goto lbl_NullPtr_374
 t0 = t4
 t0 = [t0 + 0]
-s9 = t0
-t0 = s9
+t2 = t0
+t0 = t2
 t0 = [t0 + 4]
-s9 = t0
+t2 = t0
 t0 = 28
-s8 = t0
+s1 = t0
 t0 = 35000
-s10 = t0
+s7 = t0
 t0 = 0
-s6 = t0
-a2 = t4
-a4 = s10
-a5 = s6
-a3 = s8
-t0 = s9
+s10 = t0
+a2_stack = a2
+a3_stack = a3
+a4_stack = a4
+a5_stack = a5
+t0 = t4
+a2 = t0
+t0 = s1
+a3 = t0
+t0 = s7
+a4 = t0
+t0 = s10
+a5 = t0
+t0 = t2
 t3_stack = t3
 t4_stack = t4
 t5_stack = t5
 t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
+a4 = a4_stack
+a5 = a5_stack
 t3 = t3_stack
 t4 = t4_stack
 t5 = t5_stack
-s1 = t0
+s5 = t0
 goto lbl_GoodPtr_375
 lbl_NullPtr_374:
 error("null pointer")
 lbl_GoodPtr_375:
-t0 = s1
-s3 = t0
+t0 = s5
+s2 = t0
 t0 = t3
 if0 t0 goto lbl_NullPtr_381
 t0 = t3
 t0 = [t0 + 0]
-s5 = t0
-t0 = s5
+t2 = t0
+t0 = t2
 t0 = [t0 + 36]
-s5 = t0
-a3 = t4
-a2 = t3
-t0 = s5
+t2 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t3
+a2 = t0
+t0 = t4
+a3 = t0
+t0 = t2
 t3_stack = t3
 t4_stack = t4
 t5_stack = t5
 t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
 t3 = t3_stack
 t4 = t4_stack
 t5 = t5_stack
-s3 = t0
+s6 = t0
 goto lbl_GoodPtr_382
 lbl_NullPtr_381:
 error("null pointer")
 lbl_GoodPtr_382:
-t0 = s3
+t0 = s6
 t3 = t0
 t0 = t3
 if0 t0 goto lbl_NullPtr_385
 t0 = t3
 t0 = [t0 + 0]
-s4 = t0
-t0 = s4
+t2 = t0
+t0 = t2
 t0 = [t0 + 4]
-s4 = t0
-a2 = t3
-t0 = s4
+t2 = t0
+a2_stack = a2
+t0 = t3
+a2 = t0
+t0 = t2
 t3_stack = t3
 t4_stack = t4
 t5_stack = t5
 t0 = call t0()
+a2 = a2_stack
 t3 = t3_stack
 t4 = t4_stack
 t5 = t5_stack
-s7 = t0
+s2 = t0
 goto lbl_GoodPtr_386
 lbl_NullPtr_385:
 error("null pointer")
 lbl_GoodPtr_386:
-t0 = s7
-s3 = t0
-t0 = 2220000
-s2 = t0
 t0 = s2
+s2 = t0
+t0 = 2220000
+s3 = t0
+t0 = s3
 print(t0)
 t0 = t3
 if0 t0 goto lbl_NullPtr_390
 t0 = t3
 t0 = [t0 + 0]
-s11 = t0
-t0 = s11
+t2 = t0
+t0 = t2
 t0 = [t0 + 0]
-s11 = t0
-a3 = t5
-a2 = t3
-t0 = s11
+t2 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t3
+a2 = t0
+t0 = t5
+a3 = t0
+t0 = t2
 t3_stack = t3
 t4_stack = t4
 t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
 t3 = t3_stack
 t4 = t4_stack
 s9 = t0
@@ -2100,78 +2297,90 @@ t0 = t3
 if0 t0 goto lbl_NullPtr_394
 t0 = t3
 t0 = [t0 + 0]
-s8 = t0
-t0 = s8
+t5 = t0
+t0 = t5
 t0 = [t0 + 4]
-s8 = t0
-a2 = t3
-t0 = s8
+t5 = t0
+a2_stack = a2
+t0 = t3
+a2 = t0
+t0 = t5
 t3_stack = t3
 t4_stack = t4
 t0 = call t0()
+a2 = a2_stack
 t3 = t3_stack
 t4 = t4_stack
-s10 = t0
+t2 = t0
 goto lbl_GoodPtr_395
 lbl_NullPtr_394:
 error("null pointer")
 lbl_GoodPtr_395:
-t0 = s10
-s3 = t0
+t0 = t2
+s2 = t0
 t0 = 33300000
-s6 = t0
-t0 = s6
+s8 = t0
+t0 = s8
 print(t0)
 t0 = t3
 if0 t0 goto lbl_NullPtr_399
 t0 = t3
 t0 = [t0 + 0]
-s1 = t0
-t0 = s1
+t5 = t0
+t0 = t5
 t0 = [t0 + 0]
-s1 = t0
-a3 = t4
-a2 = t3
-t0 = s1
+t5 = t0
+a2_stack = a2
+a3_stack = a3
+t0 = t3
+a2 = t0
+t0 = t4
+a3 = t0
+t0 = t5
 t3_stack = t3
 t0 = call t0()
+a2 = a2_stack
+a3 = a3_stack
 t3 = t3_stack
-s5 = t0
+t2 = t0
 goto lbl_GoodPtr_400
 lbl_NullPtr_399:
 error("null pointer")
 lbl_GoodPtr_400:
-t0 = s5
+t0 = t2
 t3 = t0
 t0 = t3
 if0 t0 goto lbl_NullPtr_403
 t0 = t3
 t0 = [t0 + 0]
-s3 = t0
-t0 = s3
+t4 = t0
+t0 = t4
 t0 = [t0 + 4]
-s3 = t0
-a2 = t3
-t0 = s3
+t4 = t0
+a2_stack = a2
+t0 = t3
+a2 = t0
+t0 = t4
 t0 = call t0()
-s4 = t0
+a2 = a2_stack
+t5 = t0
 goto lbl_GoodPtr_404
 lbl_NullPtr_403:
 error("null pointer")
 lbl_GoodPtr_404:
-t0 = s4
-s3 = t0
+t0 = t5
+s2 = t0
 t0 = 44440000
-s7 = t0
-t0 = s7
+s4 = t0
+t0 = s4
 print(t0)
 t0 = 0
-s2 = t0
-v406_18 = s2
+s11 = t0
+v406_18 = s11
 s3 = s3_stack
 s4 = s4_stack
-s5 = s5_stack
 s11 = s11_stack
+s5 = s5_stack
 s6 = s6_stack
 s10 = s10_stack
 s7 = s7_stack

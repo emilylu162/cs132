@@ -24,90 +24,96 @@ lbl_NullPtr_5:
 error("null pointer")
 lbl_GoodPtr_6:
 t0 = s3
+t2 = t0
+t0 = 4
 s6 = t0
 t0 = 4
 s7 = t0
-t0 = 4
+t0 = s6
+t0 = alloc(t0)
 s8 = t0
 t0 = s7
 t0 = alloc(t0)
 s9 = t0
-t0 = s8
-t0 = alloc(t0)
-s10 = t0
 t0 = @B_f
-s11 = t0
-t1 = s10
-t0 = s11
-[t1 + 0] = t0
+s10 = t0
 t1 = s9
 t0 = s10
 [t1 + 0] = t0
+t1 = s8
 t0 = s9
+[t1 + 0] = t0
+t0 = s8
 if0 t0 goto lbl_NullPtr_12
 goto lbl_GoodPtr_13
 lbl_NullPtr_12:
 error("null pointer")
 lbl_GoodPtr_13:
-t0 = s9
-t2 = t0
-t0 = s6
+t0 = s8
+t3 = t0
+t0 = t2
 if0 t0 goto lbl_NullPtr_16
-t0 = s6
+t0 = t2
 t0 = [t0 + 0]
-s1 = t0
-t0 = s1
+t4 = t0
+t0 = t4
 t0 = [t0 + 0]
-s1 = t0
-a2 = s6
-t0 = s1
-t2_stack = t2
+t4 = t0
+a2_stack = a2
+t0 = t2
+a2 = t0
+t0 = t4
+t3_stack = t3
 t0 = call t0()
-t2 = t2_stack
-s2 = t0
+a2 = a2_stack
+t3 = t3_stack
+t5 = t0
 goto lbl_GoodPtr_17
 lbl_NullPtr_16:
 error("null pointer")
 lbl_GoodPtr_17:
-t0 = s2
+t0 = t5
 print(t0)
-t0 = t2
+t0 = t3
 if0 t0 goto lbl_NullPtr_20
+t0 = t3
+t0 = [t0 + 0]
+t2 = t0
 t0 = t2
 t0 = [t0 + 0]
-s5 = t0
-t0 = s5
-t0 = [t0 + 0]
-s5 = t0
-a2 = t2
-t0 = s5
+t2 = t0
+a2_stack = a2
+t0 = t3
+a2 = t0
+t0 = t2
 t0 = call t0()
-s4 = t0
+a2 = a2_stack
+t4 = t0
 goto lbl_GoodPtr_21
 lbl_NullPtr_20:
 error("null pointer")
 lbl_GoodPtr_21:
-t0 = s4
+t0 = t4
 print(t0)
 t0 = 0
-s3 = t0
-v22_1 = s3
+s11 = t0
+v22_1 = s11
       return v22_1
 
 func A_f()
-s7_stack = s7
+s1_stack = s1
 t0 = 1
-s7 = t0
-v23_2 = s7
-s7 = s7_stack
+s1 = t0
+v23_2 = s1
+s1 = s1_stack
       return v23_2
 
 func B_f()
-s8_stack = s8
+s2_stack = s2
 t0 = 2
-s8 = t0
-v24_3 = s8
-s8 = s8_stack
+s2 = t0
+v24_3 = s2
+s2 = s2_stack
       return v24_3
 
 

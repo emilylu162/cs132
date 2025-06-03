@@ -1,12 +1,4 @@
 func bar()
-s3_stack = s3
-s4_stack = s4
-s5_stack = s5
-s6_stack = s6
-s7_stack = s7
-s8_stack = s8
-s1_stack = s1
-s2_stack = s2
 t0 = 5
 s1 = t0
 t0 = 3
@@ -48,14 +40,6 @@ t1 = s5
 t0 = t0 + t1
 s8 = t0
 f_1 = s8
-s3 = s3_stack
-s4 = s4_stack
-s5 = s5_stack
-s6 = s6_stack
-s7 = s7_stack
-s8 = s8_stack
-s1 = s1_stack
-s2 = s2_stack
       return f_1
 
 

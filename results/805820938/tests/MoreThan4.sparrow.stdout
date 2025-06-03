@@ -1,0 +1,171 @@
+func main()
+t0 = 4
+s1 = t0
+t0 = 8
+s2 = t0
+t0 = s1
+t0 = alloc(t0)
+t2 = t0
+t0 = s2
+t0 = alloc(t0)
+s3 = t0
+t0 = @MT4_Start
+s4 = t0
+t1 = s3
+t0 = s4
+[t1 + 0] = t0
+t0 = @MT4_Change
+s5 = t0
+t1 = s3
+t0 = s5
+[t1 + 4] = t0
+t1 = t2
+t0 = s3
+[t1 + 0] = t0
+t0 = t2
+if0 t0 goto lbl_NullPtr_6
+goto lbl_GoodPtr_7
+lbl_NullPtr_6:
+error("null pointer")
+lbl_GoodPtr_7:
+t0 = t2
+if0 t0 goto lbl_NullPtr_10
+t0 = t2
+t0 = [t0 + 0]
+t3 = t0
+t0 = t3
+t0 = [t0 + 0]
+t3 = t0
+t0 = 1
+t4 = t0
+t0 = 2
+t5 = t0
+t0 = 3
+s6 = t0
+t0 = 4
+s7 = t0
+t0 = 5
+s8 = t0
+t0 = 6
+s9 = t0
+a2_stack = a2
+a3_stack = a3
+a4_stack = a4
+a5_stack = a5
+a6_stack = a6
+a7_stack = a7
+t0 = t2
+a2 = t0
+t0 = t4
+a3 = t0
+t0 = t5
+a4 = t0
+t0 = s6
+a5 = t0
+t0 = s7
+a6 = t0
+t0 = s8
+a7 = t0
+v17_1_stack = s9
+t0 = t3
+t0 = call t0(v17_1_stack)
+a2 = a2_stack
+a3 = a3_stack
+a4 = a4_stack
+a5 = a5_stack
+a6 = a6_stack
+a7 = a7_stack
+s10 = t0
+goto lbl_GoodPtr_11
+lbl_NullPtr_10:
+error("null pointer")
+lbl_GoodPtr_11:
+t0 = s10
+print(t0)
+t0 = 0
+s11 = t0
+v18_1 = s11
+      return v18_1
+
+func MT4_Start(p6_2)
+s1_stack = s1
+t0 = a3
+print(t0)
+t0 = a4
+print(t0)
+t0 = a5
+print(t0)
+t0 = a6
+print(t0)
+t0 = a7
+print(t0)
+t0 = p6_2
+print(t0)
+t0 = a2
+if0 t0 goto lbl_NullPtr_21
+t0 = a2
+t0 = [t0 + 0]
+t2 = t0
+t0 = t2
+t0 = [t0 + 4]
+t2 = t0
+a2_stack = a2
+a3_stack = a3
+a4_stack = a4
+a5_stack = a5
+a6_stack = a6
+a7_stack = a7
+t0 = a2_stack
+a2 = t0
+t0 = p6_2
+a3 = t0
+t0 = a7
+a4 = t0
+t0 = a6_stack
+a5 = t0
+t0 = a5_stack
+a6 = t0
+t0 = a4_stack
+a7 = t0
+t0 = a3_stack
+p1_2_stack = t0
+t0 = t2
+t0 = call t0(p1_2_stack)
+a2 = a2_stack
+a3 = a3_stack
+a4 = a4_stack
+a5 = a5_stack
+a6 = a6_stack
+a7 = a7_stack
+t3 = t0
+goto lbl_GoodPtr_22
+lbl_NullPtr_21:
+error("null pointer")
+lbl_GoodPtr_22:
+t0 = t3
+s1 = t0
+aux_2 = s1
+s1 = s1_stack
+      return aux_2
+
+func MT4_Change(p6_3)
+s2_stack = s2
+t0 = a3
+print(t0)
+t0 = a4
+print(t0)
+t0 = a5
+print(t0)
+t0 = a6
+print(t0)
+t0 = a7
+print(t0)
+t0 = p6_3
+print(t0)
+t0 = 0
+s2 = t0
+v23_3 = s2
+s2 = s2_stack
+      return v23_3
+
+
